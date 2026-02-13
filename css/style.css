@@ -12,15 +12,46 @@
     box-sizing: border-box;
 }
 
+/* Custom Scrollbar */
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+    border-left: 1px solid var(--terminal-border);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--terminal-border);
+    border-radius: 6px;
+    box-shadow: 0 0 10px var(--terminal-glow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--terminal-text);
+    box-shadow: 0 0 20px var(--terminal-glow),
+                0 0 40px var(--terminal-glow);
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--terminal-border) #0a0a0a;
+}
+
 body {
     font-family: 'Courier New', monospace;
     background: #000;
     color: var(--terminal-text);
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
 }
 
 #matrix-canvas {
@@ -37,6 +68,7 @@ body {
     z-index: 1;
     width: 90%;
     max-width: 800px;
+    margin: 20px auto;
     animation: fadeIn 1s ease-in;
 }
 
@@ -88,7 +120,6 @@ body {
 
 .terminal-body {
     padding: 20px;
-    min-height: 400px;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -221,6 +252,8 @@ body {
     gap: 30px;
     justify-content: center;
     margin-top: 40px;
+    position: relative;
+    min-height: 80px;
 }
 
 .response-btn {
@@ -379,6 +412,15 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        padding: 10px 0;
+    }
+
+    .container {
+        width: 95%;
+        margin: 10px auto;
+    }
+
     .valentine-message h1 {
         font-size: 1.8rem;
     }
@@ -386,14 +428,38 @@ body {
     .button-container {
         flex-direction: column;
         gap: 15px;
+        position: relative;
+        min-height: 200px;
     }
 
     .response-btn {
         width: 100%;
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
     }
 
     .terminal-body {
         font-size: 14px;
         padding: 15px;
+    }
+
+    .heart {
+        width: 80px;
+        height: 80px;
+    }
+
+    .heart::before,
+    .heart::after {
+        width: 42px;
+        height: 64px;
+    }
+
+    .heart::before {
+        left: 40px;
+    }
+
+    .response-text {
+        font-size: 1.2rem;
     }
 }
