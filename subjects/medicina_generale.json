@@ -1,0 +1,965 @@
+{
+  "materia": "Medicina Generale",
+  "argomenti": [
+    {
+      "argomento": "Cardiologia",
+      "domande": [
+        {
+          "testo": "La fibrocellula muscolare cardiaca è in grado di eseguire una contrazione graduata, la quantità di forza è:",
+          "opzioni": [
+            "Proporzionale al numero di ponti trasversali attivi ed alla concentrazione di calcio",
+            "Proporzionale solo alla concentrazione di calcio",
+            "Proporzionale solo al numero di ponti trasversali attivi",
+            "Proporzionale al numero di ponti trasversali attivi ed alla concentrazione del K+"
+          ],
+          "risposta_corretta": "Proporzionale al numero di ponti trasversali attivi ed alla concentrazione di calcio"
+        },
+        {
+          "testo": "Il muscolo cardiaco ha una ben definita relazione tensione (forza)/lunghezza; esiste una lunghezza ottimale alla la forza di contrazione è massima?",
+          "opzioni": [
+            "No",
+            "Sì",
+            "Dipende dall'età",
+            "È proporzionale alla concentrazione di K+"
+          ],
+          "risposta_corretta": "Sì"
+        },
+        {
+          "testo": "Relativamente al lavoro cardiaco/cavità ventricolari; il Ventricolo Sinistro:",
+          "opzioni": [
+            "Possiede una muscolatura circolare + spirale",
+            "Possiede una sola muscolatura circolare",
+            "Possiede una sola muscolatura spirale",
+            "Riduce contraendosi solo il diametro trasversale"
+          ],
+          "risposta_corretta": "Possiede una muscolatura circolare + spirale"
+        },
+        {
+          "testo": "Legge di Frank-Starling, la lunghezza delle fibre muscolari ventricolari è determinata da:",
+          "opzioni": [
+            "Pressione arteriosa",
+            "Volume ventricolare telediastolico",
+            "Anatomia del paziente",
+            "Volume ventricolare telesistolico"
+          ],
+          "risposta_corretta": "Volume ventricolare telediastolico"
+        },
+        {
+          "testo": "La cardiopatia dilatativa colpisce prevalentemente:",
+          "opzioni": [
+            "Il ventricolo destro",
+            "Il ventricolo sinistro",
+            "Tutte le cavità cardiache",
+            "Solo gli atri"
+          ],
+          "risposta_corretta": "Il ventricolo sinistro"
+        },
+        {
+          "testo": "Il dolore anginoso è:",
+          "opzioni": [
+            "Tipicamente trafittivo",
+            "Può irradiarsi all'arcata superiore dentaria",
+            "Tipicamente oppressivo",
+            "Può essere indicato con un solo dito sul torace"
+          ],
+          "risposta_corretta": "Tipicamente oppressivo"
+        },
+        {
+          "testo": "L'ortopnea è una condizione in cui il paziente respira meglio:",
+          "opzioni": [
+            "Durante la notte",
+            "Da seduto",
+            "Da sdraiato",
+            "A digiuno"
+          ],
+          "risposta_corretta": "Da seduto"
+        },
+        {
+          "testo": "La nicturia è una condizione in cui:",
+          "opzioni": [
+            "Numero delle minzioni è aumentato ma il volume delle urine è modesto",
+            "Il volume delle urine è maggiore di giorno",
+            "Il numero delle minzioni è maggiore di notte",
+            "Il volume delle urine è maggiore di notte"
+          ],
+          "risposta_corretta": "Il volume delle urine è maggiore di notte"
+        },
+        {
+          "testo": "La presenza di edemi declivi non può essere dovuta a:",
+          "opzioni": [
+            "Insufficienza cardiaca",
+            "Insufficienza venosa",
+            "Insufficienza epatica",
+            "Ipertensione arteriosa"
+          ],
+          "risposta_corretta": "Ipertensione arteriosa"
+        },
+        {
+          "testo": "La sincope è:",
+          "opzioni": [
+            "Una perdita di coscienza transitoria dovuta a intossicazione",
+            "Una perdita di coscienza transitoria dovuta a ictus sistemico",
+            "Una perdita di coscienza transitoria dovuta a una diminuzione dell'afflusso di sangue al cervello",
+            "Una perdita di coscienza transitoria dovuta a privazione di sonno"
+          ],
+          "risposta_corretta": "Una perdita di coscienza transitoria dovuta a una diminuzione dell'afflusso di sangue al cervello"
+        },
+        {
+          "testo": "Nell'insufficienza cardiaca la dispnea non può essere:",
+          "opzioni": [
+            "Parossistica notturna",
+            "Accentuata dallo sforzo",
+            "Associata alla necessità di aggiungere cuscini nel letto",
+            "Associata alla necessità di stare completamente sdraiati"
+          ],
+          "risposta_corretta": "Associata alla necessità di stare completamente sdraiati"
+        },
+        {
+          "testo": "La malattia coronaria non può esordire con:",
+          "opzioni": [
+            "Morte improvvisa",
+            "Infarto miocardico acuto",
+            "Angina pectoris",
+            "Palpitazioni"
+          ],
+          "risposta_corretta": "Palpitazioni"
+        },
+        {
+          "testo": "Quale di questi è un fattore di rischio dell'aterosclerosi:",
+          "opzioni": [
+            "Sesso femminile",
+            "Ipercolesterolemia",
+            "Attività fisica regolare",
+            "Ipotensione"
+          ],
+          "risposta_corretta": "Ipercolesterolemia"
+        },
+        {
+          "testo": "Quale dei seguenti fattori fa parte della triade di Virchow (patogenesi di trombo)?",
+          "opzioni": [
+            "Alterazioni del flusso sanguigno",
+            "Danno endoteliale",
+            "Ipercoagulabilità",
+            "Tutte le precedenti"
+          ],
+          "risposta_corretta": "Tutte le precedenti"
+        },
+        {
+          "testo": "L'aumento della pressione arteriosa determina:",
+          "opzioni": [
+            "Riduzione del consumo di ossigeno",
+            "Aumento del consumo di ossigeno",
+            "Aumento della perfusione cardiaca",
+            "Nessuna delle precedenti"
+          ],
+          "risposta_corretta": "Aumento del consumo di ossigeno"
+        },
+        {
+          "testo": "Nell'insufficienza aortica si ha:",
+          "opzioni": [
+            "Un flusso retrogrado di sangue dall'aorta al ventricolo sinistro",
+            "Un flusso diastolico di sangue dall'aorta al ventricolo sinistro",
+            "Un flusso sistolico dall'aorta al ventricolo sinistro",
+            "Nessuna delle precedenti"
+          ],
+          "risposta_corretta": "Un flusso diastolico di sangue dall'aorta al ventricolo sinistro"
+        },
+        {
+          "testo": "Nel sovraccarico di pressione del ventricolo sinistro (es. ipertensione arteriosa sistemica, stenosi aortica), il meccanismo di compenso principale è:",
+          "opzioni": [
+            "Dilatazione ventricolare sinistra",
+            "L'ipertrofia ventricolare sinistra concentrica",
+            "L'ipertrofia ventricolare sinistra eccentrica",
+            "Espansione del volume diastolico"
+          ],
+          "risposta_corretta": "L'ipertrofia ventricolare sinistra concentrica"
+        },
+        {
+          "testo": "Il dolore anginoso può localizzarsi:",
+          "opzioni": [
+            "Al petto",
+            "Al braccio sinistro",
+            "Alla mandibola",
+            "Tutte le precedenti"
+          ],
+          "risposta_corretta": "Tutte le precedenti"
+        },
+        {
+          "testo": "L'aumento della contrattilità miocardica, della frequenza cardiaca e della pressione arteriosa determinano:",
+          "opzioni": [
+            "Diminuzione del consumo di ossigeno",
+            "Aumento del consumo di ossigeno",
+            "Mantenimento del consumo di ossigeno",
+            "Riduzione della perfusione miocardica"
+          ],
+          "risposta_corretta": "Aumento del consumo di ossigeno"
+        },
+        {
+          "testo": "Fattori di rischio cardiovascolare non modificabili sono:",
+          "opzioni": [
+            "Sesso maschile, età, familiarità",
+            "Fumo, colesterolo alto, ipertensione",
+            "Obesità, sedentarietà, diabete",
+            "Tutti i fattori sopra elencati"
+          ],
+          "risposta_corretta": "Sesso maschile, età, familiarità"
+        },
+        {
+          "testo": "Nella stenosi aortica:",
+          "opzioni": [
+            "Si ha un flusso retrogrado di sangue nell'aorta",
+            "Si ha una ostruzione all'efflusso ventricolare sinistro",
+            "Si ha una dilatazione del ventricolo destro",
+            "Si ha un aumento della perfusione coronarica"
+          ],
+          "risposta_corretta": "Si ha una ostruzione all'efflusso ventricolare sinistro"
+        },
+        {
+          "testo": "Il diabete di tipo II rappresenta un fattore di rischio per:",
+          "opzioni": [
+            "Malattia coronarica",
+            "Insufficienza renale",
+            "Stroke",
+            "Tutti i precedenti"
+          ],
+          "risposta_corretta": "Tutti i precedenti"
+        },
+        {
+          "testo": "Quali tra queste modificazioni dell'onda T all'ECG è suggestiva di ischemia miocardica?",
+          "opzioni": [
+            "Inversione dell'onda T",
+            "Elevazione dell'onda T",
+            "Ondulazioni dell'onda T",
+            "Tutte queste"
+          ],
+          "risposta_corretta": "Tutte queste"
+        },
+        {
+          "testo": "Quale tra queste terapie è controindicata nell'angina instabile?",
+          "opzioni": [
+            "Beta-bloccanti",
+            "Trombolitici",
+            "Nitroderivati",
+            "Aspirina"
+          ],
+          "risposta_corretta": "Trombolitici"
+        },
+        {
+          "testo": "Le fibre di Purkinje sono:",
+          "opzioni": [
+            "Fibre muscolari lisce",
+            "Le fibre interposte tra le branche e i miociti ventricolari",
+            "Fibre nervose",
+            "Fibre muscolari cardiache normali"
+          ],
+          "risposta_corretta": "Le fibre interposte tra le branche e i miociti ventricolari"
+        },
+        {
+          "testo": "Che cosa si intende per aterosclerosi?",
+          "opzioni": [
+            "Un'ostruzione delle vene",
+            "Un accumulo di placca nelle arterie medie e grandi",
+            "Un'alterazione del flusso venoso",
+            "Una malattia della tonaca media delle arterie"
+          ],
+          "risposta_corretta": "Un accumulo di placca nelle arterie medie e grandi"
+        },
+        {
+          "testo": "Il termine \"shock\" si riferisce a:",
+          "opzioni": [
+            "Un aumento della pressione arteriosa",
+            "Un insufficiente flusso sanguigno ai tessuti",
+            "Un'accelerazione della frequenza cardiaca",
+            "Un'infezione batterica generalizzata"
+          ],
+          "risposta_corretta": "Un insufficiente flusso sanguigno ai tessuti"
+        },
+        {
+          "testo": "L'infarto miocardico acuto è generalmente causato da:",
+          "opzioni": [
+            "Embolia polmonare",
+            "Dissecazione aortica",
+            "Occlusione di una coronaria da un trombo",
+            "Aritmia ventricolare"
+          ],
+          "risposta_corretta": "Occlusione di una coronaria da un trombo"
+        },
+        {
+          "testo": "Nella malattia arteriosa periferica (PAD), i sintomi più comuni includono:",
+          "opzioni": [
+            "Dolore toracico e dispnea",
+            "Dolore agli arti inferiori durante la deambulazione (claudicatio)",
+            "Ictus e ischemia cerebrale",
+            "Dolore addominale"
+          ],
+          "risposta_corretta": "Dolore agli arti inferiori durante la deambulazione (claudicatio)"
+        }
+      ]
+    },
+    {
+      "argomento": "Pneumologia",
+      "domande": [
+        {
+          "testo": "Dal punto di vista respiratorio il pH dipende essenzialmente da:",
+          "opzioni": [
+            "introito di acidi alimentari",
+            "pressione parziale di O2",
+            "pressione parziale di CO2",
+            "portata cardiaca"
+          ],
+          "risposta_corretta": "pressione parziale di CO2"
+        },
+        {
+          "testo": "Nelle malattie neuromuscolari (es. SLA, distrofia di Duchenne) qual è la parte dell'apparato respiratorio più compromessa?",
+          "opzioni": [
+            "piccolo circolo",
+            "movimento gabbia toracica",
+            "muscoli espiratori accessori",
+            "controllo centrale della ventilazione"
+          ],
+          "risposta_corretta": "movimento gabbia toracica"
+        },
+        {
+          "testo": "Il VEMS o FEV1 è:",
+          "opzioni": [
+            "L'aria che ventiliamo ad ogni respiro",
+            "L'aria che resta nel polmone alla fine di una capacità vitale",
+            "L'aria che riusciamo ad espirare in un secondo con una espirazione forzata massimale",
+            "Il picco di flusso espiratorio massimo"
+          ],
+          "risposta_corretta": "L'aria che riusciamo ad espirare in un secondo con una espirazione forzata massimale"
+        },
+        {
+          "testo": "L'insufficienza respiratoria si definisce come:",
+          "opzioni": [
+            "presenza di cianosi",
+            "presenza evidente di dispnea",
+            "pressione arteriosa (PaO2) < 60 mmHg",
+            "pressione arteriosa (PaCO2 > 45 mmHg)"
+          ],
+          "risposta_corretta": "pressione arteriosa (PaO2) < 60 mmHg"
+        },
+        {
+          "testo": "Qual è il principale muscolo inspiratorio?",
+          "opzioni": [
+            "trasverso dell'addome",
+            "scaleno",
+            "diaframma",
+            "sternocleidomastoideo"
+          ],
+          "risposta_corretta": "diaframma"
+        },
+        {
+          "testo": "Per clearance mucociliare si intende",
+          "opzioni": [
+            "L'iperproduzione di muco",
+            "il trasporto verso l'alto del muco a causa del movimento ciliare",
+            "il movimento ciliare",
+            "il rivestimento anatomico di tutto l'albero respiratorio"
+          ],
+          "risposta_corretta": "il trasporto verso l'alto del muco a causa del movimento ciliare"
+        },
+        {
+          "testo": "Quanti sono i lobi polmonari?",
+          "opzioni": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "risposta_corretta": "5"
+        },
+        {
+          "testo": "Come si chiama il processo di spostamento dell'aria dalla bocca all'alveolo e viceversa?",
+          "opzioni": [
+            "Perfusione",
+            "Ventilazione",
+            "Diffusione",
+            "Osmosi"
+          ],
+          "risposta_corretta": "Ventilazione"
+        },
+        {
+          "testo": "Cosa misura l'emogasanalisi arteriosa?",
+          "opzioni": [
+            "Solo ossigeno",
+            "Ossigeno, anidride carbonica e pH",
+            "Solo anidride carbonica",
+            "CO2 e saturazione dell'ossigeno"
+          ],
+          "risposta_corretta": "Ossigeno, anidride carbonica e pH"
+        },
+        {
+          "testo": "Dove cominciano le piccole vie aeree?",
+          "opzioni": [
+            "A partire dalla seconda biforcazione",
+            "A partire dalla sesta biforcazione",
+            "A partire dalla decima biforcazione",
+            "A partire dalla dodicesima biforcazione"
+          ],
+          "risposta_corretta": "A partire dalla sesta biforcazione"
+        },
+        {
+          "testo": "La diffusione è:",
+          "opzioni": [
+            "Il passaggio di O2 e CO2 attraverso la barriera alveolo-capillare",
+            "Il passaggio di O2 attraverso la membrana polmonare",
+            "Il movimento di aria nei bronchi",
+            "La contrazione dei muscoli respiratori"
+          ],
+          "risposta_corretta": "Il passaggio di O2 e CO2 attraverso la barriera alveolo-capillare"
+        },
+        {
+          "testo": "La capacità vitale è:",
+          "opzioni": [
+            "La massima quantità d'aria che i polmoni possono contenere",
+            "La massima quantità d'aria mobilizzabile dai polmoni",
+            "La somma del volume residuo e della capacità inspiratoria",
+            "Il volume di aria che rimane nei polmoni dopo un'espirazione forzata"
+          ],
+          "risposta_corretta": "La massima quantità d'aria mobilizzabile dai polmoni"
+        },
+        {
+          "testo": "La CO2 è considerata patologicamente elevata ai valori di:",
+          "opzioni": [
+            "35 mmHg",
+            "40 mmHg",
+            "45 mmHg",
+            "50 mmHg"
+          ],
+          "risposta_corretta": "45 mmHg"
+        },
+        {
+          "testo": "Quale dei seguenti test viene usato per misurare la capacità di diffusione polmonare?",
+          "opzioni": [
+            "Spirometria",
+            "Test di funzionalità polmonare a lunga durata",
+            "Test di diffusione del monossido di carbonio (DLCO)",
+            "Emogasanalisi arteriosa"
+          ],
+          "risposta_corretta": "Test di diffusione del monossido di carbonio (DLCO)"
+        },
+        {
+          "testo": "La principale causa di ipossiemia nell'insufficienza respiratoria acuta è:",
+          "opzioni": [
+            "Disturbi ventilatori",
+            "Alterazioni cardiache",
+            "Aumento della diffusione di CO2",
+            "Aumento dell'attività muscolare"
+          ],
+          "risposta_corretta": "Disturbi ventilatori"
+        },
+        {
+          "testo": "Qual è la funzione principale del surfactante polmonare?",
+          "opzioni": [
+            "Aiutare nella ventilazione dei polmoni",
+            "Ridurre la tensione superficiale e prevenire il collasso degli alveoli",
+            "Promuovere la diffusione dell'ossigeno e dell'anidride carbonica",
+            "Stimolare la respirazione attraverso il nervo frenico"
+          ],
+          "risposta_corretta": "Ridurre la tensione superficiale e prevenire il collasso degli alveoli"
+        },
+        {
+          "testo": "L'asma bronchiale è caratterizzata da:",
+          "opzioni": [
+            "Una broncocostrizione reversibile",
+            "Una perdita permanente di elasticità polmonare",
+            "Una riduzione permanente della capacità vitale",
+            "Un ispessimento cronico delle pareti bronchiali"
+          ],
+          "risposta_corretta": "Una broncocostrizione reversibile"
+        },
+        {
+          "testo": "La malattia respiratoria geneticamente trasmessa più frequente è?",
+          "opzioni": [
+            "Fibrosi Cistica",
+            "Sindrome di Marfan",
+            "Asma bronchiale",
+            "Enfisema ereditario"
+          ],
+          "risposta_corretta": "Fibrosi Cistica"
+        },
+        {
+          "testo": "Quale di queste malattie produce un'alterazione irreversibile del mantice respiratorio?",
+          "opzioni": [
+            "SLA",
+            "Asma",
+            "Bronchite acuta",
+            "Polmonite"
+          ],
+          "risposta_corretta": "SLA"
+        }
+      ]
+    },
+    {
+      "argomento": "Gastroenterologia",
+      "domande": [
+        {
+          "testo": "Quale tra i seguenti sintomi è considerato più specifico di esofagite eosinofila?",
+          "opzioni": [
+            "pirosi retrosternale",
+            "impatto del bolo",
+            "rigurgito",
+            "disfagia"
+          ],
+          "risposta_corretta": "disfagia"
+        },
+        {
+          "testo": "La gastrite cronica atrofica autoimmune coinvolge la mucosa di...",
+          "opzioni": [
+            "corpo e fondo gastrico",
+            "antro gastrico",
+            "tutto lo stomaco",
+            "stomaco e duodeno"
+          ],
+          "risposta_corretta": "corpo e fondo gastrico"
+        },
+        {
+          "testo": "La diagnosi di Sindrome dell'Intestino Irritabile si fonda sui criteri di...",
+          "opzioni": [
+            "Tokyo",
+            "Roma",
+            "Montreal",
+            "Praga"
+          ],
+          "risposta_corretta": "Roma"
+        },
+        {
+          "testo": "Quale tra le seguenti infezioni virali presenta il maggior tasso di cronicizzazione?",
+          "opzioni": [
+            "HAV",
+            "HBV",
+            "HCV",
+            "HDV"
+          ],
+          "risposta_corretta": "HCV"
+        },
+        {
+          "testo": "Quale fattore è più importante nella patogenesi del reflusso gastroesofageo?",
+          "opzioni": [
+            "Dieta ricca di grassi",
+            "Rilasciamenti transitori inappropriati dello sfintere esofageo inferiore",
+            "Stile di vita sedentario",
+            "Consumo eccessivo di alcool"
+          ],
+          "risposta_corretta": "Rilasciamenti transitori inappropriati dello sfintere esofageo inferiore"
+        },
+        {
+          "testo": "Qual è la principale causa farmacologica di ulcera peptica?",
+          "opzioni": [
+            "Antibiotici",
+            "FANS",
+            "Antidepressivi",
+            "IPP"
+          ],
+          "risposta_corretta": "FANS"
+        },
+        {
+          "testo": "Qual è il ritmo del dolore nell'ulcera peptica?",
+          "opzioni": [
+            "Dolore costante indipendente dal pasto",
+            "Pasto calma - dolore",
+            "Dolore notturno persistente",
+            "Assenza di dolore"
+          ],
+          "risposta_corretta": "Pasto calma - dolore"
+        },
+        {
+          "testo": "La gastrite cronica è clinicamente:",
+          "opzioni": [
+            "Molto dolorosa",
+            "Paucisintomatica o del tutto asintomatica",
+            "Accompagnata sempre da vomito",
+            "Caratterizzata da febbre"
+          ],
+          "risposta_corretta": "Paucisintomatica o del tutto asintomatica"
+        },
+        {
+          "testo": "Qual è il sintomo più caratteristico della colite ulcerosa?",
+          "opzioni": [
+            "Diarrea muco-ematica",
+            "Dolore addominale acuto",
+            "Vomito",
+            "Flatulenza"
+          ],
+          "risposta_corretta": "Diarrea muco-ematica"
+        },
+        {
+          "testo": "Qual è una complicanza neoplastica della celiachia?",
+          "opzioni": [
+            "Adenocarcinoma gastrico",
+            "Linfoma intestinale a cellule T",
+            "Polipi intestinali",
+            "Carcinoma colorettale"
+          ],
+          "risposta_corretta": "Linfoma intestinale a cellule T"
+        },
+        {
+          "testo": "A quali antigeni HLA è associata la celiachia?",
+          "opzioni": [
+            "HLA DR3 e DR4",
+            "HLA DQ2 e DQ8",
+            "HLA A2 e B27",
+            "Nessuno"
+          ],
+          "risposta_corretta": "HLA DQ2 e DQ8"
+        },
+        {
+          "testo": "Qual è il termine medico per vomito di sangue?",
+          "opzioni": [
+            "Ematemesi",
+            "Melena",
+            "Ascite",
+            "Esofagite"
+          ],
+          "risposta_corretta": "Ematemesi"
+        },
+        {
+          "testo": "Quale malattia causa la mancata apertura dello sfintere esofageo inferiore?",
+          "opzioni": [
+            "Reflusso gastroesofageo",
+            "Acalasia",
+            "Ernia iatale",
+            "Esofagite"
+          ],
+          "risposta_corretta": "Acalasia"
+        },
+        {
+          "testo": "Qual è la principale causa di cirrosi epatica nel mondo?",
+          "opzioni": [
+            "HBV",
+            "HCV",
+            "Alcolismo",
+            "Steatosi epatica non alcolica"
+          ],
+          "risposta_corretta": "HCV"
+        },
+        {
+          "testo": "Quale esame è considerato il gold standard per la diagnosi di celiachia?",
+          "opzioni": [
+            "Test sierologico (anticorpi anti-transglutaminasi IgA)",
+            "Biopsia duodenale",
+            "Test genetico per HLA",
+            "Esame coproparassitologico"
+          ],
+          "risposta_corretta": "Biopsia duodenale"
+        },
+        {
+          "testo": "La sindrome di Zollinger-Ellison è causata da:",
+          "opzioni": [
+            "Insufficienza pancreatica",
+            "Tumore secernente gastrina",
+            "Carenza di vitamina B12",
+            "Iperproduzione di bile"
+          ],
+          "risposta_corretta": "Tumore secernente gastrina"
+        }
+      ]
+    },
+    {
+      "argomento": "Nefrologia e Urologia",
+      "domande": [
+        {
+          "testo": "Alcune delle indicazioni alla biopsia renale sono:",
+          "opzioni": [
+            "Proteinuria",
+            "Proteinuria, ematuria, IRA rapidamente progressiva",
+            "Microematuria",
+            "Tutti i casi di diabete mellito"
+          ],
+          "risposta_corretta": "Proteinuria, ematuria, IRA rapidamente progressiva"
+        },
+        {
+          "testo": "La presenza di semilune glomerulari alla biopsia renale si associa:",
+          "opzioni": [
+            "Glomerulonefrite rapidamente progressiva",
+            "Ipertrofia prostatica benigna",
+            "Necrosi tubulare acuta",
+            "Glomerulonefrite post streptococcica"
+          ],
+          "risposta_corretta": "Glomerulonefrite rapidamente progressiva"
+        },
+        {
+          "testo": "La somministrazione di mezzo di contrasto iodato:",
+          "opzioni": [
+            "È sempre controindicato per qualsiasi valore eGFR",
+            "È controindicato per eGFR inferiori a 30 ml/min/1.73 mq",
+            "È raccomandato per qualsiasi valore di eGFR",
+            "È controindicato per valori di eGFR superiori a 60 ml/min/1.73 mq"
+          ],
+          "risposta_corretta": "È controindicato per eGFR inferiori a 30 ml/min/1.73 mq"
+        },
+        {
+          "testo": "La macroematuria:",
+          "opzioni": [
+            "Non è mai di origine glomerulare",
+            "È sempre secondaria a patologia tumorale",
+            "Può essere anche di origine glomerulare",
+            "È sempre secondaria ad una infezione delle vie urinarie"
+          ],
+          "risposta_corretta": "Può essere anche di origine glomerulare"
+        },
+        {
+          "testo": "La proteinuria:",
+          "opzioni": [
+            "È sempre di origine glomerulare",
+            "È sempre di origine tubulare",
+            "È sempre secondaria alle infezioni delle vie urinarie",
+            "Può essere espressione di danno glomerulare e pertanto va sempre indagata, eventualmente anche mediante biopsia renale"
+          ],
+          "risposta_corretta": "Può essere espressione di danno glomerulare e pertanto va sempre indagata, eventualmente anche mediante biopsia renale"
+        },
+        {
+          "testo": "Gli strumenti per identificare il paziente nefropatico sono:",
+          "opzioni": [
+            "Esame delle urine e stima del filtrato glomerulare",
+            "Biopsia renale e ecografia",
+            "Radiografia e tomografia",
+            "TC addome e cistoscopia"
+          ],
+          "risposta_corretta": "Esame delle urine e stima del filtrato glomerulare"
+        },
+        {
+          "testo": "La Creatinina:",
+          "opzioni": [
+            "È espressione della funzionalità renale e deriva dal catabolismo della creatina muscolare",
+            "È prodotta solo nei reni",
+            "Non è mai utilizzata per monitorare la funzionalità renale",
+            "Deriva esclusivamente dall'introito proteico alimentare"
+          ],
+          "risposta_corretta": "È espressione della funzionalità renale e deriva dal catabolismo della creatina muscolare"
+        },
+        {
+          "testo": "L'insufficienza renale acuta post-renale può essere causata da:",
+          "opzioni": [
+            "Ostruzioni intrinseche o estrinseche",
+            "Solo infezioni renali",
+            "Solo disidratazione",
+            "Glomerulonefrite rapidamente progressiva"
+          ],
+          "risposta_corretta": "Ostruzioni intrinseche o estrinseche"
+        },
+        {
+          "testo": "Proteinuria elevata, ipoproteinuria, ipercolesterolemia ed edemi sono caratteristiche comuni a:",
+          "opzioni": [
+            "Sindrome nefrosica",
+            "Insufficienza renale acuta",
+            "Nefropatia diabetica",
+            "Pielonefrite acuta"
+          ],
+          "risposta_corretta": "Sindrome nefrosica"
+        },
+        {
+          "testo": "Per oliguria si intende:",
+          "opzioni": [
+            "Una diuresi inferiore a 450ml/die",
+            "Una diuresi superiore a 1.000ml/die",
+            "Una diuresi pari a 500 ml/die",
+            "Assenza totale di produzione di urina"
+          ],
+          "risposta_corretta": "Una diuresi inferiore a 450ml/die"
+        }
+      ]
+    },
+    {
+      "argomento": "Chirurgia Generale",
+      "domande": [
+        {
+          "testo": "La revisione chirurgica di lesioni da decubito è necessaria:",
+          "opzioni": [
+            "Solo al 4° stadio",
+            "Al 2° e 3° stadio",
+            "A tutti gli stadi",
+            "Al 3° e 4° stadio"
+          ],
+          "risposta_corretta": "Al 3° e 4° stadio"
+        },
+        {
+          "testo": "La fuoriuscita di un viscere dalla parete addominale attraverso un orifizio naturale preformato si definisce:",
+          "opzioni": [
+            "Ernia",
+            "Sventramento",
+            "Prolasso",
+            "Laparocele"
+          ],
+          "risposta_corretta": "Ernia"
+        },
+        {
+          "testo": "Si definisce sindrome compartimentale addominale:",
+          "opzioni": [
+            "Aumento della pressione endoaddominale oltre i 12 mmHg",
+            "Chirurgia addominale compartimentale",
+            "Eviscerazione con pressione addominale abnorme",
+            "Compressione distrettuale addominale"
+          ],
+          "risposta_corretta": "Aumento della pressione endoaddominale oltre i 12 mmHg"
+        },
+        {
+          "testo": "Una complicazione dell'addome aperto è:",
+          "opzioni": [
+            "Sanguinamento",
+            "Aumento della pressione endoaddominale",
+            "Fistola enterica",
+            "Erniazione di visceri"
+          ],
+          "risposta_corretta": "Fistola enterica"
+        },
+        {
+          "testo": "Quale dei seguenti batteri è responsabile della gangrena gassosa?",
+          "opzioni": [
+            "Batteri anaerobi",
+            "Batteri aerobi",
+            "Batteri gram-positivi",
+            "Batteri enterici"
+          ],
+          "risposta_corretta": "Batteri anaerobi"
+        },
+        {
+          "testo": "Quale processo NON interviene nella guarigione di una ferita?",
+          "opzioni": [
+            "Emostasi",
+            "Infiammazione",
+            "Rigenerazione tissutale",
+            "Sclerosi"
+          ],
+          "risposta_corretta": "Sclerosi"
+        },
+        {
+          "testo": "Qual è il sintomo più frequente associato all'embolia polmonare acuta (EPA)?",
+          "opzioni": [
+            "Dolore toracico",
+            "Dispnea",
+            "Tosse con emottisi",
+            "Febbre"
+          ],
+          "risposta_corretta": "Dispnea"
+        },
+        {
+          "testo": "Quale di questi accessi non può essere utilizzato per la nutrizione enterale:",
+          "opzioni": [
+            "Sondino naso-gastrico",
+            "Gastrostomia",
+            "Digiunostomia",
+            "Laringostomia"
+          ],
+          "risposta_corretta": "Laringostomia"
+        }
+      ]
+    },
+    {
+      "argomento": "Oncologia",
+      "domande": [
+        {
+          "testo": "Il deterioramento cognitivo dopo un intervento chirurgico:",
+          "opzioni": [
+            "Colpisce solo i soggetti anziani",
+            "Incide sulla mortalità post operatoria a breve nei soggetti anziani",
+            "Incide sulla mortalità a lungo termine dei soggetti anziani",
+            "Non è mai prevedibile"
+          ],
+          "risposta_corretta": "Incide sulla mortalità post operatoria a breve nei soggetti anziani"
+        },
+        {
+          "testo": "Fattore di rischio per il carcinoma della mammella è:",
+          "opzioni": [
+            "L'allattamento",
+            "La familiarità (BRACA 1-2)",
+            "Il parto prima dei 35 anni",
+            "La pluriparità"
+          ],
+          "risposta_corretta": "La familiarità (BRACA 1-2)"
+        },
+        {
+          "testo": "I tumori nei soggetti anziani:",
+          "opzioni": [
+            "sono decisamente meno aggressivi",
+            "necessitano di trattamenti meno intesivi",
+            "necessitano sempre di una valutazione oncogeriatrica",
+            "non necessitano di follow up"
+          ],
+          "risposta_corretta": "necessitano sempre di una valutazione oncogeriatrica"
+        },
+        {
+          "testo": "Con il termine eziologia si intende:",
+          "opzioni": [
+            "Lo studio delle cause e fattori di rischio",
+            "Lo studio della distribuzione degli eventi di malattia nella popolazione",
+            "La messa in atto di procedure di prevenzione oncologica",
+            "Il processo volto ad accertare la presenza di malattia in una persona"
+          ],
+          "risposta_corretta": "Lo studio delle cause e fattori di rischio"
+        },
+        {
+          "testo": "La prevalenza di una neoplasia calcola:",
+          "opzioni": [
+            "Il numero totale di soggetti vivi in un determinato istante affetti da tale patologia",
+            "Il numero di nuovi casi di malattia in una popolazione in un arco temporale definito",
+            "Il numero di decessi imputabili a tale patologia",
+            "La probabilità di guarigione da tale patologia"
+          ],
+          "risposta_corretta": "Il numero totale di soggetti vivi in un determinato istante affetti da tale patologia"
+        },
+        {
+          "testo": "In una neoplasia mammaria, quale dei seguenti elementi è più importante conoscere ai fini prognostici e terapeutici?",
+          "opzioni": [
+            "La dimensione del tumore",
+            "Se lobulare o duttale",
+            "La presenza di linfonodi metastatici",
+            "L'età del paziente"
+          ],
+          "risposta_corretta": "Se lobulare o duttale"
+        },
+        {
+          "testo": "Quale tra i seguenti tipi di carcinoma polmonare è maggiormente sensibile alla chemioterapia?",
+          "opzioni": [
+            "Adenocarcinoma",
+            "Carcinoma a cellule squamose",
+            "Microcitoma",
+            "Carcinoma a grandi cellule"
+          ],
+          "risposta_corretta": "Microcitoma"
+        },
+        {
+          "testo": "Cosa sono gli oncogeni?",
+          "opzioni": [
+            "Geni che sopprimono la crescita tumorale",
+            "Geni che promuovono la crescita cellulare e la mitosi",
+            "Geni che impediscono la divisione cellulare",
+            "Geni che causano la morte cellulare"
+          ],
+          "risposta_corretta": "Geni che promuovono la crescita cellulare e la mitosi"
+        },
+        {
+          "testo": "Quali di questi tumori ha un substrato ereditario?",
+          "opzioni": [
+            "Tumore al fegato",
+            "Retinoblastoma",
+            "Tumore del polmone",
+            "Tumore mammario"
+          ],
+          "risposta_corretta": "Retinoblastoma"
+        },
+        {
+          "testo": "Un tumore benigno è usualmente caratterizzato da:",
+          "opzioni": [
+            "Rapido accrescimento",
+            "Lentezza nella diffusione",
+            "Lento accrescimento",
+            "Estrema aggressività"
+          ],
+          "risposta_corretta": "Lento accrescimento"
+        },
+        {
+          "testo": "Qual'è l'unità di misura convenzionale utilizzata in radioterapia:",
+          "opzioni": [
+            "Gray",
+            "Sievert",
+            "Rad",
+            "Becquerel"
+          ],
+          "risposta_corretta": "Gray"
+        }
+      ]
+    }
+  ]
+}

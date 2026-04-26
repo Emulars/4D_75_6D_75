@@ -1,37 +1,57 @@
-# Our Love Story - Interactive Book
+# Quiz Exam website
 
-A romantic, animated book website template for your partner.
+Il sito web Quiz Exam è una piattaforma progettata per offrire agli utenti un modo interattivo e coinvolgente per mettere alla prova le proprie conoscenze su diverse materie. Il sito propone un'ampia gamma di quiz su vari argomenti, consentendo agli utenti di mettersi alla prova e migliorare la comprensione del materiale.
 
-## Features
-- Password protection (Client-side)
-- 3D Book flip animation
-- Mobile responsive
-- Easy to customize
+Il sito dovrà proporre una logica a quiz, per cui l'utente sceglierà una materia e successivamente l'utente potrà svolgere un quiz su tutti gli argomenti insieme, oppure scegliere un argomento specificio e svolgere un quiz su quell'argomento. Al termine del quiz, l'utente riceverà un punteggio ed un report per migliorare la propria comprensione.
+Le domande dovranno essere riordinate ogni volta che si svolge un quiz, in modo da rendere l'esperienza più dinamica e stimolante.
 
-## How to Use
+Ogni volta che l'utente conferma la selezione della risposta alla domanda, il sito fornirà un feedback immediato, indicando se la risposta è corretta o errata. In caso di risposta errata, il sito mostrerà la risposta corretta e una breve spiegazione per aiutare l'utente a comprendere meglio l'argomento.
 
-1.  **Setup Content**:
-    - Open `setup.html` in your browser.
-    - Edit the JSON content with your own story, images, and text.
-    - Enter a password.
-    - Click "Generate Encrypted Code".
-    - Copy the generated code.
+Le domande saranno fornite al progetto come file JSON, che conterrà tutte le informazioni necessarie per la creazione dei quiz, come le domande, le opzioni di risposta e le risposte corrette. Esempio:
 
-2.  **Apply Content**:
-    - Open `js/content.js`.
-    - Replace the content with the code you copied.
+```json
+{
+  "materia": "Matematica",
+  "argomenti": [
+    {
+      "argomento": "Algebra",
+      "domande": [
+        {
+          "testo": "Qual è la soluzione dell'equazione x + 2 = 5?",
+          "opzioni": ["x = 1", "x = 2", "x = 3", "x = 4"],
+          "risposta_corretta": "x = 3"
+        },
+        {
+          "testo": "Qual è il risultato di (2 + 3) * 4?",
+          "opzioni": ["20", "25", "30", "35"],
+          "risposta_corretta": "20"
+        }
+      ]
+    },
+    {
+      "argomento": "Geometria",
+      "domande": [
+        {
+          "testo": "Qual è la formula per calcolare l'area di un cerchio?",
+          "opzioni": ["A = πr^2", "A = 2πr", "A = πd", "A = r^2"],
+          "risposta_corretta": "A = πr^2"
+        },
+        {
+          "testo": "Qual è la somma degli angoli interni di un triangolo?",
+          "opzioni": ["180 gradi", "360 gradi", "90 gradi", "270 gradi"],
+          "risposta_corretta": "180 gradi"
+        }
+      ]
+    }
+  ]
+}
+```
 
-3.  **Test**:
-    - Open `index.html`.
-    - Enter your password.
-    - Enjoy the story!
+Il sito deve funzionare su Git Pages, quindi è necessario che sia sviluppato utilizzando solo HTML, CSS e JavaScript, senza l'uso di framework o librerie esterne. Il sito deve essere responsive, in modo da garantire una buona esperienza utente su dispositivi di diverse dimensioni, come smartphone, tablet e desktop.
 
-4.  **Deploy to GitHub Pages**:
-    - Push this repository to GitHub.
-    - Go to Repository Settings -> Pages.
-    - Select "Deploy from a branch" (usually `main` or `master`).
-    - Save.
-    - Your site will be live!
+# Setup locale
+Per eseguire il sito web Quiz Exam in locale, è necessario seguire questi passaggi:
 
-## Security Note
-This uses client-side encryption. The content is encrypted, but the password logic runs in the browser. It is secure enough for a romantic gift to keep prying eyes away, but do not use it for highly sensitive data (like bank passwords).
+1. Apri un terminale nella cartella progetto.
+2. Esegui: python -m http.server 8000
+3. Apri un browser web e vai all'indirizzo: http://localhost:8000

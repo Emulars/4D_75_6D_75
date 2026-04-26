@@ -1,0 +1,8 @@
+{
+  "subjects": [
+    {
+      "label": "Medicina Generale",
+      "file": "subjects/medicina_generale.json"
+    }
+  ]
+}

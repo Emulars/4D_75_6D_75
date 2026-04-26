@@ -1,154 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Story</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quiz Exam: piattaforma di quiz interattivi per materie e argomenti in italiano.">
+  <title>Quiz Exam</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Login Screen -->
-    <div id="login-screen">
-        <div class="login-container">
-            <h1>For My Love</h1>
-            <p>Please enter the magic word</p>
-            <input type="password" id="password-input" placeholder="Password">
-            <button id="login-btn">Open Heart</button>
-            <p id="error-msg" class="hidden">Wrong password, try again ❤️</p>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Quiz Exam</p>
+        <h1>Allena le tue conoscenze con quiz dinamici su misura.</h1>
+        <p class="hero__text">
+          Scegli una materia, decidi se studiare tutti gli argomenti o concentrarti su uno solo, poi completa il quiz con feedback immediato e report finale.
+        </p>
+      </div>
+      <div class="hero__panel">
+        <div class="hero__stat">
+          <span class="hero__stat-label">Modalità</span>
+          <strong>Materie + argomenti</strong>
         </div>
-    </div>
-
-    <!-- Hearts Animation Container -->
-    <div id="hearts-container"></div>
-
-    <!-- Background Animation -->
-    <div id="background-scene">
-        <svg id="scene-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
-            <defs>
-                <g id="flower-def">
-                    <g class="petals">
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(0)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(30)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(60)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(90)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(120)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(150)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(180)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(210)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(240)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(270)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(300)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(330)" />
-                    </g>
-                    <circle cx="0" cy="0" r="12" fill="#5d4037" />
-                </g>
-            </defs>
-
-            <!-- Grass Field -->
-            <g id="grass" transform="scale(1, 0)">
-                <rect x="-100" y="380" width="600" height="50" fill="#2e7d32" />
-                <path d="M-50 380 
-                         L-40 360 L-30 380 L-20 355 L-10 380 
-                         L0 365 L10 380 L20 350 L30 380 
-                         L40 360 L50 380 L60 355 L70 380 
-                         L80 365 L90 380 L100 350 L110 380 
-                         L120 360 L130 380 L140 355 L150 380 
-                         L160 365 L170 380 L180 350 L190 380 
-                         L200 360 L210 380 L220 355 L230 380 
-                         L240 365 L250 380 L260 350 L270 380 
-                         L280 360 L290 380 L300 355 L310 380 
-                         L320 365 L330 380 L340 350 L350 380 
-                         L360 360 L370 380 L380 355 L390 380 
-                         L400 365 L410 380 L420 350 L430 380 
-                         L440 360 L450 380" fill="#388e3c" />
-            </g>
-
-            <!-- Small Sunflowers in Grass -->
-            <g id="small-sunflowers" transform="scale(0)">
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="10" y="375" height="20" width="20" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="60" y="365" height="25" width="25" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="130" y="380" height="15" width="15" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="180" y="370" height="22" width="22" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="240" y="375" height="18" width="18" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="320" y="360" height="28" width="28" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="380" y="375" height="20" width="20" />
-            </g>
-
-            <!-- Sunflower 1 (Left) -->
-            <g id="sf1">
-                <path class="stem" d="M100 400 Q 90 350 100 280" stroke="#4caf50" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="300" stroke-dashoffset="300" />
-                <g class="leaves" transform="scale(0)">
-                    <path d="M100 320 Q 70 300 60 280 Q 80 290 100 310" fill="#4caf50" />
-                    <path d="M100 280 Q 130 260 140 240 Q 120 250 100 270" fill="#4caf50" />
-                </g>
-                <g class="head" transform="translate(100, 280)">
-                    <g class="flower-petals" transform="scale(0)">
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(0)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(30)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(60)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(90)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(120)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(150)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(180)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(210)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(240)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(270)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(300)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(330)" />
-                    </g>
-                    <circle class="flower-center" cx="0" cy="0" r="12" fill="#5d4037" transform="scale(0)" />
-                </g>
-            </g>
-
-            <!-- Sunflower 2 (Right) -->
-            <g id="sf2">
-                <path class="stem" d="M300 400 Q 310 350 300 260" stroke="#4caf50" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="300" stroke-dashoffset="300" />
-                <g class="leaves" transform="scale(0)">
-                    <path d="M300 330 Q 270 310 260 290 Q 280 300 300 320" fill="#4caf50" />
-                    <path d="M300 270 Q 330 250 340 230 Q 320 240 300 260" fill="#4caf50" />
-                </g>
-                <g class="head" transform="translate(300, 260)">
-                    <g class="flower-petals" transform="scale(0)">
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(0)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(30)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(60)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(90)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(120)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(150)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(180)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(210)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(240)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(270)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(300)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(330)" />
-                    </g>
-                    <circle class="flower-center" cx="0" cy="0" r="12" fill="#5d4037" transform="scale(0)" />
-                </g>
-            </g>
-        </svg>
-    </div>
-
-    <!-- Book Container -->
-    <div id="book-container" class="hidden">
-        <div class="book" id="book">
-            <!-- Pages will be injected here by JS -->
+        <div class="hero__stat">
+          <span class="hero__stat-label">Esperienza</span>
+          <strong>Responsive e senza librerie</strong>
         </div>
-        
-        <div class="controls">
-            <button id="prev-btn" class="nav-btn" aria-label="Previous Page">
-                <span class="arrow">◄</span>
-            </button>
-            <button id="next-btn" class="nav-btn" aria-label="Next Page">
-                <span class="arrow">►</span>
-            </button>
+        <div class="hero__stat">
+          <span class="hero__stat-label">Aggiornamento</span>
+          <strong>Domande e opzioni mescolate a ogni avvio</strong>
         </div>
-    </div>
+      </div>
+    </header>
 
-    <script src="js/content.js"></script>
-    <script src="js/script.js"></script>
+    <main class="app-grid">
+      <section class="card card--controls" aria-labelledby="selezione-titolo">
+        <div class="card__header">
+          <div>
+            <p class="eyebrow">Impostazioni quiz</p>
+            <h2 id="selezione-titolo">Configura la sessione</h2>
+          </div>
+          <span class="status-pill" id="caricamento-stato">Caricamento contenuti...</span>
+        </div>
+
+        <div class="form-grid">
+          <label class="field">
+            <span>Materia</span>
+            <select id="subject-select" disabled></select>
+          </label>
+
+          <label class="field">
+            <span>Argomento</span>
+            <select id="topic-select" disabled></select>
+          </label>
+        </div>
+
+        <button class="button button--primary" id="start-quiz" type="button" disabled>Avvia quiz</button>
+
+        <div class="empty-state" id="setup-empty">
+          <p>Caricamento del database quiz in corso. Quando le domande saranno pronte, potrai iniziare subito.</p>
+        </div>
+      </section>
+
+      <section class="card card--quiz hidden" id="quiz-section" aria-labelledby="quiz-titolo">
+        <div class="card__header card__header--stacked">
+          <div>
+            <p class="eyebrow">Sessione attiva</p>
+            <h2 id="quiz-titolo">Quiz in corso</h2>
+          </div>
+          <div class="progress-wrap">
+            <div class="progress-meta">
+              <span id="question-count">Domanda 1 di 1</span>
+              <span id="score-preview">0 corrette</span>
+            </div>
+            <div class="progress-bar" aria-hidden="true">
+              <span id="progress-fill"></span>
+            </div>
+          </div>
+        </div>
+
+        <article class="question-card" aria-live="polite">
+          <div class="question-meta">
+            <span class="tag" id="subject-tag"></span>
+            <span class="tag tag--soft" id="topic-tag"></span>
+          </div>
+          <h3 id="question-text"></h3>
+          <div class="options-list" id="options-list" role="radiogroup" aria-label="Opzioni di risposta"></div>
+        </article>
+
+        <div class="feedback-panel hidden" id="feedback-panel" aria-live="polite">
+          <p class="feedback-panel__label" id="feedback-label"></p>
+          <p id="feedback-message"></p>
+          <p class="feedback-panel__detail" id="feedback-detail"></p>
+        </div>
+
+        <div class="quiz-actions">
+          <button class="button button--ghost" id="restart-quiz" type="button">Ricomincia</button>
+          <button class="button button--primary" id="confirm-answer" type="button">Conferma risposta</button>
+          <button class="button button--primary hidden" id="next-question" type="button">Prossima domanda</button>
+        </div>
+      </section>
+
+      <section class="card card--results hidden" id="results-section" aria-labelledby="report-titolo">
+        <div class="card__header card__header--stacked">
+          <div>
+            <p class="eyebrow">Report finale</p>
+            <h2 id="report-titolo">Risultato quiz</h2>
+          </div>
+          <span class="status-pill status-pill--success" id="result-summary-pill">Completato</span>
+        </div>
+
+        <div class="results-grid">
+          <div class="result-tile">
+            <span>Punteggio</span>
+            <strong id="result-score">0/0</strong>
+          </div>
+          <div class="result-tile">
+            <span>Percentuale</span>
+            <strong id="result-percent">0%</strong>
+          </div>
+          <div class="result-tile">
+            <span>Errore</span>
+            <strong id="result-wrong">0 risposte errate</strong>
+          </div>
+        </div>
+
+        <div class="report-block">
+          <h3>Dettaglio prestazioni</h3>
+          <p id="result-context"></p>
+        </div>
+
+        <div class="report-block">
+          <h3>Domande da rivedere</h3>
+          <div class="review-list" id="review-list"></div>
+        </div>
+
+        <button class="button button--primary" id="new-quiz" type="button">Avvia un nuovo quiz</button>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js" type="module"></script>
 </body>
 </html>
