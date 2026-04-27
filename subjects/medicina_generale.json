@@ -783,6 +783,46 @@
             "Carcinoma dell'ovaio"
           ],
           "risposta_corretta": "Carcinoma della mammella"
+        },
+        {
+          "testo": "Il linfonodo sentinella in un melanoma del tronco:",
+          "opzioni": [
+            "È nella stazione linfonodale più vicina",
+            "È prevedibile dividendo il tronco in quattro quadranti",
+            "Interessa sempre due stazioni linfonodali",
+            "Può interessare stazioni multiple"
+          ],
+          "risposta_corretta": "È prevedibile dividendo il tronco in quattro quadranti"
+        },
+        {
+          "testo": "I tumori nei soggetti anziani:",
+          "opzioni": [
+            "Sono decisamente meno aggressivi",
+            "Necessitano di trattamenti meno intensivi",
+            "Necessitano sempre di una valutazione oncogeriatrica",
+            "Non necessitano di follow up"
+          ],
+          "risposta_corretta": "Necessitano sempre di una valutazione oncogeriatrica"
+        },
+        {
+          "testo": "Con il termine 'eziologia' si intende:",
+          "opzioni": [
+            "Lo studio della distribuzione degli eventi di malattia nella popolazione",
+            "Lo studio delle cause e fattori di rischio",
+            "La messa in atto di procedure di prevenzione oncologica",
+            "Il processo volto ad accertare la presenza di malattia in una persona"
+          ],
+          "risposta_corretta": "Lo studio delle cause e fattori di rischio"
+        },
+        {
+          "testo": "La prevalenza di una neoplasia calcola:",
+          "opzioni": [
+            "Il numero totale di soggetti vivi in un determinato istante affetti da tale patologia",
+            "Il numero di nuovi casi di malattia in una popolazione in un arco temporale definito",
+            "Il numero di decessi imputabili a tale patologia",
+            "La probabilità di guarigione da tale patologia"
+          ],
+          "risposta_corretta": "Il numero totale di soggetti vivi in un determinato istante affetti da tale patologia"
         }
       ]
     },
@@ -1488,6 +1528,46 @@
             "La capacità di diffusione"
           ],
           "risposta_corretta": "La capacità vitale"
+        },
+        {
+          "testo": "Dal punto di vista respiratorio il pH dipende essenzialmente da:",
+          "opzioni": [
+            "Introito di acidi alimentari",
+            "Pressione parziale di O2",
+            "Pressione parziale di CO2",
+            "Portata cardiaca"
+          ],
+          "risposta_corretta": "Pressione parziale di CO2"
+        },
+        {
+          "testo": "Nelle malattie neuromuscolari (es. SLA, distrofia di Duchenne), qual è la parte dell'apparato respiratorio più compromessa?",
+          "opzioni": [
+            "Piccolo circolo",
+            "Movimento della gabbia toracica",
+            "Muscoli espiratori accessori",
+            "Controllo centrale della ventilazione"
+          ],
+          "risposta_corretta": "Movimento della gabbia toracica"
+        },
+        {
+          "testo": "Qual è il principale muscolo inspiratorio?",
+          "opzioni": [
+            "Trasverso dell'addome",
+            "Scaleno",
+            "Diaframma",
+            "Sternocleidomastoideo"
+          ],
+          "risposta_corretta": "Diaframma"
+        },
+        {
+          "testo": "Per clearance mucociliare si intende:",
+          "opzioni": [
+            "L'iperproduzione di muco",
+            "Il trasporto verso l'alto del muco a causa del movimento ciliare",
+            "Il movimento ciliare in assenza di muco",
+            "Il rivestimento anatomico di tutto l'albero respiratorio"
+          ],
+          "risposta_corretta": "Il trasporto verso l'alto del muco a causa del movimento ciliare"
         }
       ]
     },
@@ -1923,6 +2003,146 @@
             "Trafittivo"
           ],
           "risposta_corretta": "Trafittivo"
+        },
+        {
+          "testo": "Il dolore anginoso è:",
+          "opzioni": [
+            "Tipicamente trafittivo",
+            "Può irradiarsi all'arcata superiore dentaria",
+            "Tipicamente oppressivo",
+            "Può essere indicato con un solo dito sul torace"
+          ],
+          "risposta_corretta": "Tipicamente oppressivo"
+        },
+        {
+          "testo": "L'ortopnea è una condizione in cui il paziente respira meglio:",
+          "opzioni": [
+            "Durante la notte",
+            "Da seduto",
+            "Da sdraiato",
+            "A digiuno"
+          ],
+          "risposta_corretta": "Da seduto"
+        },
+        {
+          "testo": "La nicturia è una condizione in cui:",
+          "opzioni": [
+            "Il numero delle minzioni è aumentato ma il volume delle urine è modesto",
+            "Il volume delle urine è maggiore di giorno",
+            "Il numero delle minzioni è maggiore di notte",
+            "Il volume delle urine è maggiore di notte"
+          ],
+          "risposta_corretta": "Il volume delle urine è maggiore di notte"
+        },
+        {
+          "testo": "La presenza di edemi declivi NON può essere dovuta a:",
+          "opzioni": [
+            "Insufficienza cardiaca",
+            "Insufficienza venosa",
+            "Insufficienza epatica",
+            "Ipertensione arteriosa"
+          ],
+          "risposta_corretta": "Ipertensione arteriosa"
+        },
+        {
+          "testo": "La sincope è:",
+          "opzioni": [
+            "Una perdita di coscienza transitoria dovuta a intossicazione",
+            "Una perdita di coscienza transitoria dovuta a ictus sistemico",
+            "Una perdita di coscienza transitoria dovuta a una diminuzione dell'afflusso di sangue al cervello",
+            "Una perdita di coscienza transitoria dovuta a privazione di sonno"
+          ],
+          "risposta_corretta": "Una perdita di coscienza transitoria dovuta a una diminuzione dell'afflusso di sangue al cervello"
+        },
+        {
+          "testo": "Nell'insufficienza cardiaca la dispnea NON può essere:",
+          "opzioni": [
+            "Parossistica notturna",
+            "Accentuata dallo sforzo",
+            "Associata alla necessità di aggiungere cuscini nel letto",
+            "Associata alla necessità di stare completamente sdraiati"
+          ],
+          "risposta_corretta": "Associata alla necessità di stare completamente sdraiati"
+        },
+        {
+          "testo": "La malattia coronaria NON può esordire con:",
+          "opzioni": [
+            "Morte improvvisa",
+            "Infarto miocardico acuto",
+            "Angina pectoris",
+            "Palpitazioni"
+          ],
+          "risposta_corretta": "Palpitazioni"
+        },
+        {
+          "testo": "Il dolore della dissezione aortica è tipicamente:",
+          "opzioni": [
+            "Urente e sordo",
+            "Trafittivo lacerante improvviso",
+            "Oppressivo a esordio lento e progressivo",
+            "Leggero e intermittente"
+          ],
+          "risposta_corretta": "Trafittivo lacerante improvviso"
+        },
+        {
+          "testo": "Quale di questi fattori NON favorisce la coagulazione intravascolare (triade di Virchow)?",
+          "opzioni": [
+            "Danno endoteliale",
+            "Rallentamento del flusso sanguigno",
+            "Aumento della permeabilità capillare",
+            "Aumento della coagulabilità del sangue"
+          ],
+          "risposta_corretta": "Aumento della permeabilità capillare"
+        },
+        {
+          "testo": "La fibrocellula muscolare cardiaca è in grado di eseguire una contrazione graduata; la quantità di forza è:",
+          "opzioni": [
+            "Proporzionale al numero di ponti trasversali attivi ed alla concentrazione del Ca²⁺",
+            "Proporzionale solo alla concentrazione di calcio",
+            "Proporzionale solo al numero di ponti trasversali attivi",
+            "Proporzionale al numero di ponti trasversali attivi ed alla concentrazione del K⁺"
+          ],
+          "risposta_corretta": "Proporzionale al numero di ponti trasversali attivi ed alla concentrazione del Ca²⁺"
+        },
+        {
+          "testo": "Il muscolo cardiaco ha una ben definita relazione tensione (forza)/lunghezza; esiste una lunghezza ottimale alla quale la forza di contrazione è massima?",
+          "opzioni": [
+            "No",
+            "Sì",
+            "Dipende dall'età",
+            "È proporzionale alla concentrazione di K⁺"
+          ],
+          "risposta_corretta": "Sì"
+        },
+        {
+          "testo": "Relativamente al lavoro cardiaco/cavità ventricolari, il Ventricolo Sinistro:",
+          "opzioni": [
+            "Possiede una muscolatura circolare + spirale",
+            "Possiede una sola muscolatura circolare",
+            "Possiede una sola muscolatura spirale",
+            "Riduce contraendosi solo il diametro trasversale"
+          ],
+          "risposta_corretta": "Possiede una muscolatura circolare + spirale"
+        },
+        {
+          "testo": "Secondo la legge di Frank-Starling, la lunghezza delle fibre muscolari ventricolari è determinata da:",
+          "opzioni": [
+            "Pressione arteriosa",
+            "Volume ventricolare telediastolico",
+            "Anatomia del paziente",
+            "Frequenza cardiaca"
+          ],
+          "risposta_corretta": "Volume ventricolare telediastolico"
+        },
+        {
+          "testo": "La cardiopatia dilatativa colpisce prevalentemente:",
+          "opzioni": [
+            "Il ventricolo destro",
+            "Il ventricolo sinistro",
+            "Tutte le cavità cardiache",
+            "Solo gli atri"
+          ],
+          "risposta_corretta": "Il ventricolo sinistro"
         }
       ]
     },
@@ -2398,6 +2618,36 @@
             "Stress"
           ],
           "risposta_corretta": "H. pylori"
+        },
+        {
+          "testo": "Quale tra i seguenti sintomi è considerato più specifico di esofagite eosinofila?",
+          "opzioni": [
+            "Pirosi retrosternale",
+            "Impatto del bolo",
+            "Rigurgito",
+            "Disfagia"
+          ],
+          "risposta_corretta": "Disfagia"
+        },
+        {
+          "testo": "La diagnosi di Sindrome dell'intestino irritabile si fonda sui criteri di:",
+          "opzioni": [
+            "Tokyo",
+            "Roma",
+            "Montreal",
+            "Praga"
+          ],
+          "risposta_corretta": "Roma"
+        },
+        {
+          "testo": "La classificazione di Child-Pugh, per valutare la gravità della cirrosi epatica, prende in considerazione:",
+          "opzioni": [
+            "Bilirubina, Encefalopatia, Ascite, Albumina, Tempo di Quick",
+            "Bilirubina, Encefalopatia, Ascite, Transaminasi, Tempo di Quick",
+            "Bilirubina, Encefalopatia, Ascite, Amilasi e lipasi, Tempo di Quick",
+            "Emocromo, Encefalopatia, Ascite, Transaminasi, Tempo di Quick"
+          ],
+          "risposta_corretta": "Bilirubina, Encefalopatia, Ascite, Albumina, Tempo di Quick"
         }
       ]
     },
@@ -3053,6 +3303,66 @@
             "Scintigrafia renale"
           ],
           "risposta_corretta": "Ecografia addomino-pelvica"
+        },
+        {
+          "testo": "Alcune delle indicazioni alla biopsia renale sono:",
+          "opzioni": [
+            "Solo proteinuria",
+            "Proteinuria, ematuria, IRA rapidamente progressiva",
+            "Microematuria isolata",
+            "Tutti i casi di diabete mellito"
+          ],
+          "risposta_corretta": "Proteinuria, ematuria, IRA rapidamente progressiva"
+        },
+        {
+          "testo": "La presenza di semilune glomerulari alla biopsia renale si associa a:",
+          "opzioni": [
+            "Glomerulonefrite post-streptococcica",
+            "Glomerulonefrite rapidamente progressiva",
+            "Ipertrofia prostatica benigna",
+            "Necrosi tubulare acuta"
+          ],
+          "risposta_corretta": "Glomerulonefrite rapidamente progressiva"
+        },
+        {
+          "testo": "La somministrazione di mezzo di contrasto iodato:",
+          "opzioni": [
+            "È sempre controindicata per qualsiasi valore di eGFR",
+            "È raccomandata per qualsiasi valore di eGFR",
+            "È controindicata per valori di eGFR inferiori a 30 ml/min/1.73 m²",
+            "È controindicata per valori di eGFR superiori a 60 ml/min/1.73 m²"
+          ],
+          "risposta_corretta": "È controindicata per valori di eGFR inferiori a 30 ml/min/1.73 m²"
+        },
+        {
+          "testo": "La proteinuria:",
+          "opzioni": [
+            "È sempre di origine glomerulare",
+            "È sempre di origine tubulare",
+            "È sempre secondaria alle infezioni delle vie urinarie",
+            "Può essere espressione di danno glomerulare e va sempre indagata, eventualmente anche mediante biopsia renale"
+          ],
+          "risposta_corretta": "Può essere espressione di danno glomerulare e va sempre indagata, eventualmente anche mediante biopsia renale"
+        },
+        {
+          "testo": "Si definisce sindrome compartimentale addominale:",
+          "opzioni": [
+            "Aumento della pressione endoaddominale oltre i 12 mmHg",
+            "Chirurgia addominale con pressione compartimentale",
+            "Eviscerazione con pressione compartimentale abnorme",
+            "Compressione distrettuale addominale"
+          ],
+          "risposta_corretta": "Aumento della pressione endoaddominale oltre i 12 mmHg"
+        },
+        {
+          "testo": "Una complicazione dell'addome aperto è:",
+          "opzioni": [
+            "Sanguinamento",
+            "Aumento della pressione endoaddominale",
+            "Fistola enterica",
+            "Erniazione di visceri"
+          ],
+          "risposta_corretta": "Fistola enterica"
         }
       ]
     },
@@ -3278,6 +3588,16 @@
             "Solo nei bambini"
           ],
           "risposta_corretta": "Negli uomini"
+        },
+        {
+          "testo": "Il deterioramento cognitivo dopo un intervento chirurgico:",
+          "opzioni": [
+            "Colpisce solo i soggetti anziani",
+            "Incide sulla mortalità post-operatoria a breve nei soggetti anziani",
+            "Incide sulla mortalità a lungo termine dei soggetti anziani",
+            "Non è mai prevedibile"
+          ],
+          "risposta_corretta": "Incide sulla mortalità a lungo termine dei soggetti anziani"
         }
       ]
     }
