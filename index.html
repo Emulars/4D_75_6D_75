@@ -20,13 +20,16 @@
     </header>
 
     <main class="app-grid">
-      <section class="card card--controls" aria-labelledby="selezione-titolo">
+      <section class="card card--controls" id="session-config-card" aria-labelledby="selezione-titolo">
         <div class="card__header">
           <div>
             <p class="eyebrow">Impostazioni quiz</p>
             <h2 id="selezione-titolo">Configura la sessione</h2>
           </div>
-          <span class="status-pill" id="caricamento-stato">Caricamento contenuti...</span>
+          <div class="card__header-actions">
+            <span class="status-pill" id="caricamento-stato">Caricamento contenuti...</span>
+            <button class="chip-button chip-button--reopen" id="reopen-session-config" type="button">Riapri configurazione</button>
+          </div>
         </div>
 
         <div class="selection-overview">

@@ -3,7 +3,9 @@ const fallbackSubjectUrl = "subjects/medicina_generale.json";
 const jsonFetchTimeoutMs = 8000;
 
 const elements = {
+  sessionConfigCard: document.getElementById("session-config-card"),
   loadingStatus: document.getElementById("caricamento-stato"),
+  reopenSessionConfigButton: document.getElementById("reopen-session-config"),
   setupEmpty: document.getElementById("setup-empty"),
   subjectSelect: document.getElementById("subject-select"),
   subjectSelectionDisplay: document.getElementById("subject-selection-display"),
@@ -228,6 +230,10 @@ function bindEvents() {
     openTopicModal();
   });
 
+  elements.reopenSessionConfigButton.addEventListener("click", () => {
+    setSessionConfigCollapsed(false);
+  });
+
   elements.closeTopicModalButton.addEventListener("click", () => {
     closeTopicModal();
   });
@@ -328,6 +334,10 @@ function applyTopicSelection() {
   closeTopicModal();
 }
 
+function setSessionConfigCollapsed(collapsed) {
+  elements.sessionConfigCard.classList.toggle("is-collapsed", collapsed);
+}
+
 function getAllTopicIndexes(subjectIndex) {
   const subject = state.subjects[subjectIndex];
   if (!subject) {
@@ -405,6 +415,7 @@ function startQuiz() {
 
   elements.resultsSection.classList.add("hidden");
   elements.quizSection.classList.remove("hidden");
+  setSessionConfigCollapsed(true);
   elements.feedbackPanel.classList.add("hidden");
   renderQuestion();
   scrollToQuiz();
@@ -516,6 +527,7 @@ function showResults() {
 
   elements.quizSection.classList.add("hidden");
   elements.resultsSection.classList.remove("hidden");
+  setSessionConfigCollapsed(false);
 
   elements.resultScore.textContent = `${correctAnswers}/${total}`;
   elements.resultPercent.textContent = `${percent}%`;
