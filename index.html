@@ -14,7 +14,7 @@
         <p class="eyebrow">Quiz Exam</p>
         <h1>Allena le tue conoscenze</h1>
         <p class="hero__text">
-          Scegli una materia, decidi se studiare tutti gli argomenti o concentrarti su uno solo.
+          Scegli una materia e seleziona liberamente uno o piu argomenti per costruire il quiz su misura.
         </p>
       </div>
     </header>
@@ -29,16 +29,21 @@
           <span class="status-pill" id="caricamento-stato">Caricamento contenuti...</span>
         </div>
 
-        <div class="form-grid">
-          <label class="field">
-            <span>Materia</span>
-            <select id="subject-select" disabled></select>
-          </label>
+        <div class="selection-overview">
+          <div class="selection-overview__block">
+            <p class="selection-overview__label">Materia selezionata</p>
+            <p class="selection-overview__subject" id="subject-selection-display">Nessuna materia selezionata.</p>
+          </div>
 
-          <label class="field">
-            <span>Argomento</span>
-            <select id="topic-select" disabled></select>
-          </label>
+          <div class="selection-overview__block">
+            <p class="selection-overview__label">Argomenti selezionati</p>
+            <div class="topic-summary" id="topic-selection-summary" aria-live="polite"></div>
+            <p class="field-note" id="topic-selection-note">Nessun argomento selezionato.</p>
+          </div>
+
+          <div class="field-actions">
+            <button class="chip-button" id="open-topic-modal" type="button" disabled>Modifica materia e argomenti</button>
+          </div>
         </div>
 
         <button class="button button--primary" id="start-quiz" type="button" disabled>Avvia quiz</button>
@@ -129,6 +134,32 @@
         <button class="button button--primary" id="new-quiz" type="button">Avvia un nuovo quiz</button>
       </section>
     </main>
+
+    <div class="modal hidden" id="topic-modal" role="dialog" aria-modal="true" aria-labelledby="topic-modal-title">
+      <div class="modal__backdrop" id="topic-modal-backdrop"></div>
+      <div class="modal__panel">
+        <div class="modal__header">
+          <h3 id="topic-modal-title">Seleziona materia e argomenti</h3>
+          <button class="modal__close" id="close-topic-modal" type="button" aria-label="Chiudi selezione materia e argomenti">Chiudi</button>
+        </div>
+
+        <label class="field">
+          <span>Materia</span>
+          <select id="subject-select" disabled></select>
+        </label>
+
+        <div class="field-actions field-actions--modal">
+          <button class="chip-button" id="topics-all" type="button" disabled>Seleziona tutti</button>
+          <button class="chip-button" id="topics-none" type="button" disabled>Deseleziona tutti</button>
+        </div>
+
+        <div class="topic-multiselect topic-multiselect--modal" id="topic-list" role="group" aria-label="Seleziona uno o piu argomenti"></div>
+
+        <div class="modal__footer">
+          <button class="button button--primary" id="apply-topic-selection" type="button" disabled>Applica selezione</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="script.js?v=20260427-2" type="module"></script>
