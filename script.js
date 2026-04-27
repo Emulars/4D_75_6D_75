@@ -20,7 +20,6 @@ const elements = {
   feedbackPanel: document.getElementById("feedback-panel"),
   feedbackLabel: document.getElementById("feedback-label"),
   feedbackMessage: document.getElementById("feedback-message"),
-  feedbackDetail: document.getElementById("feedback-detail"),
   confirmAnswer: document.getElementById("confirm-answer"),
   nextQuestion: document.getElementById("next-question"),
   restartQuiz: document.getElementById("restart-quiz"),
@@ -29,6 +28,7 @@ const elements = {
   resultPercent: document.getElementById("result-percent"),
   resultWrong: document.getElementById("result-wrong"),
   resultContext: document.getElementById("result-context"),
+  topicErrorList: document.getElementById("topic-error-list"),
   reviewList: document.getElementById("review-list"),
 };
 
@@ -146,19 +146,10 @@ function normalizeSubjectData(data, entry = {}) {
             text: question.testo || "Domanda senza testo",
             options: Array.isArray(question.opzioni) ? question.opzioni : [],
             correctAnswer: question.risposta_corretta || "",
-            explanation: question.spiegazione || buildFallbackExplanation(question),
           }))
         : [],
     })),
   };
-}
-
-function buildFallbackExplanation(question) {
-  if (question?.risposta_corretta) {
-    return `La risposta corretta è: ${question.risposta_corretta}. Rileggi il concetto collegato e confrontalo con le altre opzioni per fissare meglio il contenuto.`;
-  }
-
-  return "Rivedi l'argomento per consolidare il concetto prima di riprovare.";
 }
 
 function populateSubjects() {
@@ -298,7 +289,6 @@ function confirmAnswer() {
     subject: current.subject,
     selected: state.selectedOption,
     correct,
-    explanation: current.explanation,
     isCorrect,
   });
 
@@ -315,7 +305,6 @@ function confirmAnswer() {
   elements.feedbackMessage.textContent = isCorrect
     ? "Hai selezionato la risposta giusta."
     : `La risposta corretta era: ${correct}.`;
-  elements.feedbackDetail.textContent = current.explanation;
   elements.confirmAnswer.classList.add("hidden");
   elements.nextQuestion.classList.remove("hidden");
   elements.nextQuestion.textContent = state.currentIndex === state.currentQuiz.questions.length - 1 ? "Vedi risultato finale" : "Prossima domanda";
@@ -350,12 +339,40 @@ function showResults() {
   elements.resultWrong.textContent = `${wrongAnswers} risposte errate`;
   elements.resultContext.textContent = `Hai svolto un quiz di ${total} domande su ${subject}, concentrandoti su ${topicLabel}. Il riepilogo qui sotto evidenzia le risposte da ripassare.`;
 
-  renderReviewList();
+  const mistakes = state.results.filter((result) => !result.isCorrect);
+  const topicColors = buildTopicColorMap(mistakes);
+  renderTopicErrorSummary(mistakes, topicColors);
+  renderReviewList(mistakes, topicColors);
   scrollToResults();
 }
 
-function renderReviewList() {
-  const mistakes = state.results.filter((result) => !result.isCorrect);
+function renderTopicErrorSummary(mistakes, topicColors) {
+  if (!mistakes.length) {
+    elements.topicErrorList.innerHTML = '<li class="topic-errors__empty">Nessun errore: tutti gli argomenti sono stati risolti correttamente.</li>';
+    return;
+  }
+
+  const topicCounts = new Map();
+  mistakes.forEach((item) => {
+    const topic = item.topic || "Argomento non specificato";
+    topicCounts.set(topic, (topicCounts.get(topic) || 0) + 1);
+  });
+
+  elements.topicErrorList.innerHTML = Array.from(topicCounts.entries())
+    .sort(([a], [b]) => a.localeCompare(b, "it"))
+    .map(([topic, count]) => {
+      const colors = topicColors.get(topic);
+      return `
+        <li class="topic-errors__item">
+          <span class="topic-chip" style="${buildTopicChipStyle(colors)}">${escapeHtml(topic)}</span>
+          <strong class="topic-errors__count">${count} ${count === 1 ? "errore" : "errori"}</strong>
+        </li>
+      `;
+    })
+    .join("");
+}
+
+function renderReviewList(mistakes, topicColors) {
 
   if (!mistakes.length) {
     elements.reviewList.innerHTML = `
@@ -371,14 +388,47 @@ function renderReviewList() {
     .map(
       (item) => `
         <article class="review-item">
-          <strong>${escapeHtml(item.question)}</strong>
-          <p><strong>Risposta corretta:</strong> ${escapeHtml(item.correct)}</p>
-          <p><strong>La tua risposta:</strong> ${escapeHtml(item.selected)}</p>
-          <p>${escapeHtml(item.explanation)}</p>
+          <span class="topic-chip topic-chip--question review-item__topic" style="${buildTopicChipStyle(topicColors.get(item.topic || "Argomento non specificato"))}">${escapeHtml(item.topic || "Argomento non specificato")}</span>
+          <strong class="review-item__question">${escapeHtml(item.question)}</strong>
+          <p class="review-item__line">
+            <span class="review-item__label review-item__label--correct">Risposta corretta:</span>
+            <span class="review-item__value">${escapeHtml(item.correct)}</span>
+          </p>
+          <p class="review-item__line">
+            <span class="review-item__label review-item__label--selected">La tua risposta:</span>
+            <span class="review-item__value">${escapeHtml(item.selected)}</span>
+          </p>
         </article>
       `,
     )
     .join("");
+}
+
+function buildTopicColorMap(mistakes) {
+  const topics = [...new Set(mistakes.map((item) => item.topic || "Argomento non specificato"))].sort((a, b) => a.localeCompare(b, "it"));
+  const topicColors = new Map();
+
+  topics.forEach((topic, index) => {
+    const hue = Math.round((index * 137.508) % 360);
+    topicColors.set(topic, {
+      text: `hsl(${hue} 68% 28%)`,
+      background: `hsl(${hue} 86% 92%)`,
+      border: `hsl(${hue} 52% 70%)`,
+    });
+  });
+
+  return topicColors;
+}
+
+function buildTopicChipStyle(colors) {
+  const fallbackColors = {
+    text: "hsl(190 35% 25%)",
+    background: "hsl(190 52% 92%)",
+    border: "hsl(190 30% 72%)",
+  };
+  const palette = colors || fallbackColors;
+
+  return `--topic-chip-text:${palette.text};--topic-chip-bg:${palette.background};--topic-chip-border:${palette.border};`;
 }
 
 function shuffle(items) {
