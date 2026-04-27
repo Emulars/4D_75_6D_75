@@ -1,5 +1,7 @@
 # Quiz Exam website
 
+## Descrizione
+
 Il sito web Quiz Exam è una piattaforma progettata per offrire agli utenti un modo interattivo e coinvolgente per mettere alla prova le proprie conoscenze su diverse materie. Il sito propone un'ampia gamma di quiz su vari argomenti, consentendo agli utenti di mettersi alla prova e migliorare la comprensione del materiale.
 
 Il sito dovrà proporre una logica a quiz, per cui l'utente sceglierà una materia e successivamente l'utente potrà svolgere un quiz su tutti gli argomenti insieme, oppure scegliere un argomento specificio e svolgere un quiz su quell'argomento. Al termine del quiz, l'utente riceverà un punteggio ed un report per migliorare la propria comprensione.
@@ -49,7 +51,8 @@ Le domande saranno fornite al progetto come file JSON, che conterrà tutte le in
 
 Il sito deve funzionare su Git Pages, quindi è necessario che sia sviluppato utilizzando solo HTML, CSS e JavaScript, senza l'uso di framework o librerie esterne. Il sito deve essere responsive, in modo da garantire una buona esperienza utente su dispositivi di diverse dimensioni, come smartphone, tablet e desktop.
 
-# Setup locale
+## Setup locale
+
 Per eseguire il sito web Quiz Exam in locale, è necessario seguire questi passaggi:
 
 1. Apri un terminale nella cartella progetto.
