@@ -1,6 +1,10 @@
 {
   "subjects": [
     {
+      "label": "Management",
+      "file": "subjects/management.json"
+    },
+    {
       "label": "Medicina Generale",
       "file": "subjects/medicina_generale.json"
     }

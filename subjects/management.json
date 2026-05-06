@@ -1,0 +1,4060 @@
+{
+  "materia": "Management",
+  "argomenti": [
+    {
+      "argomento": "Economia Sanitaria",
+      "domande": [
+        {
+          "testo": "Perché l'economia studia la ripartizione delle risorse?",
+          "opzioni": [
+            "Le risorse sono scarse e vanno divise fra diversi usi fra loro alternativi",
+            "Le risorse possono essere ripristinate e ciò non crea problemi",
+            "Le risorse sono sufficienti ed è solo una questione di prezzo",
+            "Le risorse sono abbondanti e non esistono problemi"
+          ],
+          "risposta_corretta": "Le risorse sono scarse e vanno divise fra diversi usi fra loro alternativi"
+        },
+        {
+          "testo": "Quando si ha efficienza produttiva?",
+          "opzioni": [
+            "Se con le risorse date si minimizzano le quantità di servizi prodotti",
+            "Se con le risorse date si riesce a massimizzare la quantità di servizi prodotti",
+            "Se con le risorse date si ottiene una spesa maggiore di risorse",
+            "Se con le risorse date si diminuiscono i risultati"
+          ],
+          "risposta_corretta": "Se con le risorse date si riesce a massimizzare la quantità di servizi prodotti"
+        },
+        {
+          "testo": "Che cosa è il rapporto ricoveri/medici?",
+          "opzioni": [
+            "È un mero dato statistico fine a se stesso",
+            "È un sistema per individuare i responsabili delle varie fasi",
+            "È un indicatore che misura la efficienza produttiva",
+            "È un rapporto che ormai non è più usato"
+          ],
+          "risposta_corretta": "È un indicatore che misura la efficienza produttiva"
+        },
+        {
+          "testo": "Che cosa è la frontiera delle possibilità produttive?",
+          "opzioni": [
+            "È una curva che descrive tutti i modi per suddividere le risorse fra produzioni alternative",
+            "L'incremento sostenuto per produrre un servizio in più",
+            "Il risultato della divisione tra costo totale e il numero delle prestazioni",
+            "È un semplice indicatore senza particolari caratteristiche"
+          ],
+          "risposta_corretta": "È una curva che descrive tutti i modi per suddividere le risorse fra produzioni alternative"
+        },
+        {
+          "testo": "Che cosa è il processo produttivo?",
+          "opzioni": [
+            "È la trasformazione di output in input",
+            "È la trasformazione di output in outcome",
+            "È la trasformazione di outcome in input",
+            "È la trasformazione di input in output"
+          ],
+          "risposta_corretta": "È la trasformazione di input in output"
+        },
+        {
+          "testo": "Cosa sono le visite ambulatoriali nell'ambito del processo di produzione di un ospedale?",
+          "opzioni": [
+            "Sono un output",
+            "Sono un input",
+            "Non rientrano nel calcolo del processo",
+            "Sono outcome"
+          ],
+          "risposta_corretta": "Sono un output"
+        },
+        {
+          "testo": "Come si può misurare l'efficienza?",
+          "opzioni": [
+            "Fare il rapporto fra output e outcome",
+            "Sommare input e output",
+            "Fare il rapporto fra input e outcome",
+            "Fare il rapporto fra output e input"
+          ],
+          "risposta_corretta": "Fare il rapporto fra output e input"
+        },
+        {
+          "testo": "L'efficienza produttiva di un ospedale si può raggiungere...",
+          "opzioni": [
+            "Massimizzando le risorse utilizzate per produrre un certo numero di ricoveri",
+            "Minimizzando le risorse utilizzate per produrre un certo numero di ricoveri",
+            "Minimizzando il numero di ricoveri, date certe risorse a disposizione",
+            "Svolgendo il compito assegnato con l'uso di tutte le risorse disponibili"
+          ],
+          "risposta_corretta": "Minimizzando le risorse utilizzate per produrre un certo numero di ricoveri"
+        },
+        {
+          "testo": "Quale è il rapporto per misurare l'efficacia?",
+          "opzioni": [
+            "Devo fare il rapporto fra output e input",
+            "Devo fare il rapporto fra outcome e input",
+            "Devo fare il rapporto fra outcome e output",
+            "Devo fare il rapporto fra input e output"
+          ],
+          "risposta_corretta": "Devo fare il rapporto fra outcome e output"
+        },
+        {
+          "testo": "Per decidere come ripartire le risorse devo...",
+          "opzioni": [
+            "Confrontare i ricavi",
+            "Confrontare i benefici con i costi",
+            "Confrontare il numero di ricoveri da un anno all'altro",
+            "Confrontare le liste d'attesa tra i vari ospedali"
+          ],
+          "risposta_corretta": "Confrontare i benefici con i costi"
+        },
+        {
+          "testo": "Cosa sono le ore lavoro nell'ambito della produzione di un ambulatorio?",
+          "opzioni": [
+            "Un input",
+            "Un output",
+            "Un outcome",
+            "Un mix tra output e outcome"
+          ],
+          "risposta_corretta": "Un input"
+        },
+        {
+          "testo": "Il rapporto fra numero di vite salvate e numero di vaccinazioni effettuate è...",
+          "opzioni": [
+            "Un indicatore che si ottiene come rapporto tra efficienza e efficacia",
+            "Un indicatore di efficienza",
+            "Un indicatore di efficacia",
+            "Un semplice dato statistico che non influisce sull'efficacia"
+          ],
+          "risposta_corretta": "Un indicatore di efficacia"
+        },
+        {
+          "testo": "Che cosa è il costo-opportunità?",
+          "opzioni": [
+            "Puntualizza quanto produrre",
+            "È il beneficio della minor scelta alternativa",
+            "È sempre il beneficio in ogni caso",
+            "È il beneficio della migliore scelta alternativa"
+          ],
+          "risposta_corretta": "È il beneficio della migliore scelta alternativa"
+        },
+        {
+          "testo": "Cosa afferma la legge dei rendimenti marginali decrescenti?",
+          "opzioni": [
+            "Per stessi incrementi di servizi sanitari, gli incrementi di salute sono via via più bassi",
+            "Per inferiori incrementi di servizi sanitari, gli incrementi di salute sono via via più stabili",
+            "Per decrementi crescenti di servizi sanitari, gli incrementi di salute sono via via più alti",
+            "Per stessi incrementi di servizi sanitari, gli incrementi di salute sono via via più alti"
+          ],
+          "risposta_corretta": "Per stessi incrementi di servizi sanitari, gli incrementi di salute sono via via più bassi"
+        },
+        {
+          "testo": "Quale di queste affermazioni è vera?",
+          "opzioni": [
+            "Il mondo reale è uguale a quello ipotizzato dal modello della concorrenza perfetta",
+            "Il mercato è sempre all'altezza del suo ideale di concorrenza perfetta",
+            "Il modello della concorrenza perfetta si rifà a quanto avviene nel mondo reale",
+            "Il mondo reale è diverso da quello ipotizzato dal modello della concorrenza perfetta"
+          ],
+          "risposta_corretta": "Il mondo reale è diverso da quello ipotizzato dal modello della concorrenza perfetta"
+        },
+        {
+          "testo": "Qual è la combinazione di beni efficiente dal punto di vista allocativo?",
+          "opzioni": [
+            "La combinazione che massimizza il benessere dei cittadini",
+            "Tutte le combinazioni di beni efficienti lo sono anche dal punto di vista allocativo",
+            "La combinazione che minimizza il benessere dei cittadini",
+            "Nessuna delle combinazioni di beni efficienti lo è anche dal punto di vista allocativo"
+          ],
+          "risposta_corretta": "La combinazione che massimizza il benessere dei cittadini"
+        },
+        {
+          "testo": "Perché si dice che il settore privato è inefficiente?",
+          "opzioni": [
+            "Perché offre una quantità troppo piccola di beni pubblici",
+            "Perché assicura la produzione di una quantità sufficiente di beni pubblici",
+            "Perché non offre assolutamente nessuna quantità di beni pubblici",
+            "Perché potenzialmente offre elevate quantità di beni pubblici"
+          ],
+          "risposta_corretta": "Perché offre una quantità troppo piccola di beni pubblici"
+        },
+        {
+          "testo": "In presenza di esternalità, l'intervento pubblico si propone di...",
+          "opzioni": [
+            "Favorire la produzione di esternalità negative e scoraggiare le esternalità positive",
+            "Favorire la produzione di esternalità positive e scoraggiare le esternalità negative",
+            "Favorire la produzione di tutte le esternalità, poi sarà il mercato che ne determina il tipo",
+            "Non intervenire per non influenzare l'andamento dei vari mercati"
+          ],
+          "risposta_corretta": "Favorire la produzione di esternalità positive e scoraggiare le esternalità negative"
+        },
+        {
+          "testo": "Quando si verifica una esternalità?",
+          "opzioni": [
+            "Un bene produce esternalità su un terzo: senza che questi paghi o riceva un compenso",
+            "Un bene produce esternalità su un terzo: solo se questi paghi o riceva un compenso",
+            "Un bene produce esternalità su un terzo: sempre ed in ogni caso",
+            "Un bene produce esternalità su un terzo: mai"
+          ],
+          "risposta_corretta": "Un bene produce esternalità su un terzo: senza che questi paghi o riceva un compenso"
+        },
+        {
+          "testo": "A proposito del fenomeno della domanda provocata da 'induzione da offerta':",
+          "opzioni": [
+            "Normalmente non riguarda il campo dell'Economia Sanitaria",
+            "A volte la domanda di prestazioni mediche porta a una riduzione di prescrizioni e trattamenti",
+            "A volte la domanda di prestazioni mediche porta a un eccesso di prescrizioni e trattamenti",
+            "Il fenomeno può essere ricollegato alla presenza di esternalità"
+          ],
+          "risposta_corretta": "A volte la domanda di prestazioni mediche porta a un eccesso di prescrizioni e trattamenti"
+        },
+        {
+          "testo": "Cosa significa che esiste asimmetria di informazione su un mercato?",
+          "opzioni": [
+            "L'informazione è uniformemente distribuita tra le imprese",
+            "L'informazione non è uniformemente distribuita tra le imprese e i consumatori",
+            "L'informazione è uniformemente distribuita tra gli individui",
+            "Mancano informazioni per consumatori e produttori"
+          ],
+          "risposta_corretta": "L'informazione non è uniformemente distribuita tra le imprese e i consumatori"
+        },
+        {
+          "testo": "Cosa comporta un premio assicurativo uguale per tutti entro certe classi di rischio?",
+          "opzioni": [
+            "Non attira gli individui",
+            "Attira gli individui meno rischiosi",
+            "Attira gli individui indipendentemente dal rischio",
+            "Attira gli individui più rischiosi"
+          ],
+          "risposta_corretta": "Attira gli individui più rischiosi"
+        },
+        {
+          "testo": "Cosa riceve chi si vaccina?",
+          "opzioni": [
+            "Un beneficio personale, ma non produce nessun beneficio esterno",
+            "Un beneficio personale, ma produce anche un beneficio esterno",
+            "Un beneficio personale, ma potrebbe produrre un beneficio esterno negativo",
+            "Un beneficio personale, ma una esternalità non positiva"
+          ],
+          "risposta_corretta": "Un beneficio personale, ma produce anche un beneficio esterno"
+        },
+        {
+          "testo": "Chi è in grado di esprimere una corretta domanda di prestazioni?",
+          "opzioni": [
+            "Il paziente è di solito in grado di farlo",
+            "Il paziente delega il proprio medico",
+            "Nessuno, né il paziente né il medico",
+            "A volte il medico, altre il paziente"
+          ],
+          "risposta_corretta": "Il paziente delega il proprio medico"
+        },
+        {
+          "testo": "Quale comportamento si ha di solito con una copertura assicurativa sanitaria aggiuntiva?",
+          "opzioni": [
+            "Indifferente rispetto al periodo precedente",
+            "Si tenderà a consumare meno prestazioni sanitarie",
+            "Si tenderà a consumare più prestazioni sanitarie",
+            "Si tenderà a non consumare prestazioni sanitarie"
+          ],
+          "risposta_corretta": "Si tenderà a consumare più prestazioni sanitarie"
+        },
+        {
+          "testo": "Cosa produce il minor intervento dello stato?",
+          "opzioni": [
+            "Nessun effetto",
+            "Maggiore produzione di beni pubblici",
+            "Uguale produzione di beni pubblici",
+            "Minor produzione di beni pubblici"
+          ],
+          "risposta_corretta": "Minor produzione di beni pubblici"
+        },
+        {
+          "testo": "Se alcuni hanno un vantaggio informativo rispetto ad altri, ciò cosa comporta?",
+          "opzioni": [
+            "Inefficienza di funzionamento del sistema di mercato",
+            "Questo crea efficienza sui mercati",
+            "La produzione di beni si attesta su livelli di tipo sufficiente",
+            "Le informazioni sono distribuite uniformemente"
+          ],
+          "risposta_corretta": "Inefficienza di funzionamento del sistema di mercato"
+        },
+        {
+          "testo": "Cosa succede di solito nel libero mercato?",
+          "opzioni": [
+            "Si pensa a definire i costi e benefici di tipo globale",
+            "Ciascuno decide in modo individuale",
+            "Hanno un peso maggiore le decisioni collettive",
+            "I prezzi di beni e servizi sono fissati d'autorità"
+          ],
+          "risposta_corretta": "Ciascuno decide in modo individuale"
+        },
+        {
+          "testo": "Il pronto soccorso è di solito remunerato agli ospedali...",
+          "opzioni": [
+            "Per giornata di degenza",
+            "In base alla classificazione degli accessi secondo i codici di triage",
+            "Per numero di ore di servizi resi",
+            "Per budget preventivo"
+          ],
+          "risposta_corretta": "In base alla classificazione degli accessi secondo i codici di triage"
+        },
+        {
+          "testo": "Cosa succede in un modello di protezione sanitaria come quello del S.S.N.?",
+          "opzioni": [
+            "La solidarietà è solo su base regionale",
+            "Si riceve sempre secondo i protocolli di Evidence Based Medicine",
+            "Ciascuno paga secondo il proprio rischio",
+            "C'è la massima solidarietà tra i cittadini"
+          ],
+          "risposta_corretta": "C'è la massima solidarietà tra i cittadini"
+        },
+        {
+          "testo": "In quale sistema c'è un meccanismo di solidarietà fra chi è nella stessa categoria?",
+          "opzioni": [
+            "Sistema assicurativo privato",
+            "Sistema del servizio sanitario nazionale",
+            "Sistema mutualistico",
+            "Sistema federalistico"
+          ],
+          "risposta_corretta": "Sistema mutualistico"
+        },
+        {
+          "testo": "La remunerazione per DRG per i ricoveri ordinari è un esempio di pagamento...",
+          "opzioni": [
+            "Per caso trattato",
+            "Per budget",
+            "Per giornata di degenza",
+            "Per servizio"
+          ],
+          "risposta_corretta": "Per caso trattato"
+        },
+        {
+          "testo": "Le strutture residenziali per anziani prevalentemente...",
+          "opzioni": [
+            "Sono finanziate per budget",
+            "Sono finanziate per servizio",
+            "Sono finanziate per caso trattato",
+            "Sono finanziate per giornata di degenza"
+          ],
+          "risposta_corretta": "Sono finanziate per giornata di degenza"
+        },
+        {
+          "testo": "Cosa significa pagamento a budget?",
+          "opzioni": [
+            "Che le competenze in campo sanitario sono affidate per la maggior parte alle regioni",
+            "Il pagamento varia a seconda del punto di vista organizzativo dei sistemi sanitari",
+            "Viene assegnata una somma e si deve cercare di spendere il meno possibile",
+            "Le prestazioni sono remunerate per servizi effettuati"
+          ],
+          "risposta_corretta": "Viene assegnata una somma e si deve cercare di spendere il meno possibile"
+        },
+        {
+          "testo": "Il problema dell'equità...",
+          "opzioni": [
+            "Può essere risolto ricorrendo al mercato",
+            "Può essere risolto mediante l'intervento dello stato",
+            "Può essere superato mediante una buona capacità d'acquisto dei singoli",
+            "Non è rilevante perché il singolo può e deve scegliere quello che desidera"
+          ],
+          "risposta_corretta": "Può essere risolto mediante l'intervento dello stato"
+        },
+        {
+          "testo": "Come si possono definire i costi fissi?",
+          "opzioni": [
+            "Difficilmente variano nel breve periodo",
+            "Solitamente non sono elevati nelle strutture sanitarie",
+            "Dipendono dal volume della produzione",
+            "Aumentano proporzionalmente alla produzione"
+          ],
+          "risposta_corretta": "Difficilmente variano nel breve periodo"
+        },
+        {
+          "testo": "I costi variabili...",
+          "opzioni": [
+            "Si sostengono soltanto anche quando non viene prodotto un determinato servizio",
+            "Si calcolano come rapporto tra costo totale e quantità prodotta",
+            "Si calcolano come prodotto tra prezzo di riferimento e quantità prodotta",
+            "Dipendono dal volume della produzione"
+          ],
+          "risposta_corretta": "Dipendono dal volume della produzione"
+        },
+        {
+          "testo": "Quale definizione sulle curve di costo è esatta?",
+          "opzioni": [
+            "La curva del costo fisso è crescente",
+            "La curva del costo variabile è costante",
+            "La curva del costo totale è crescente e parte dall'origine degli assi",
+            "La curva del costo medio di norma è dapprima decrescente e poi crescente"
+          ],
+          "risposta_corretta": "La curva del costo medio di norma è dapprima decrescente e poi crescente"
+        },
+        {
+          "testo": "Che cosa è il costo marginale?",
+          "opzioni": [
+            "È l'incremento che subisce il costo totale aumentando la quantità prodotta di una unità",
+            "In strutture produttive con rilevanti costi fissi, il costo marginale è usualmente medio-alto",
+            "È il decremento che subisce il costo aumentando la quantità prodotta di una unità",
+            "È un costo sempre costante"
+          ],
+          "risposta_corretta": "È l'incremento che subisce il costo totale aumentando la quantità prodotta di una unità"
+        },
+        {
+          "testo": "L'efficienza di scala è determinata...",
+          "opzioni": [
+            "Dalla presenza di minori sprechi",
+            "Da minori costi di acquisto dei fattori produttivi",
+            "Dalla più alta incidenza, al crescere della produzione, dei costi fissi rispetto ai costi variabili",
+            "Dalla diminuzione dei costi medi unitari per l'aumento dei volumi di produzione"
+          ],
+          "risposta_corretta": "Dalla diminuzione dei costi medi unitari per l'aumento dei volumi di produzione"
+        },
+        {
+          "testo": "Che cosa è il break-even point?",
+          "opzioni": [
+            "È la differenza fra tariffa unitaria e costo medio di produzione",
+            "Il punto nel quale la quantità prodotta porta ad un profitto significativo",
+            "Il punto nel quale la quantità prodotta porta ad una perdita significativa",
+            "Il punto nel quale la quantità prodotta porta al pareggio tra costi e ricavi totali"
+          ],
+          "risposta_corretta": "Il punto nel quale la quantità prodotta porta al pareggio tra costi e ricavi totali"
+        },
+        {
+          "testo": "Che cosa è la contabilità analitica?",
+          "opzioni": [
+            "È il vecchio modo di contabilizzare i costi adottato nelle aziende pubbliche in passato",
+            "È una contabilità tipicamente finanziaria",
+            "Il sistema con il quale si imputano costi e ricavi ai singoli centri di costo/attività",
+            "Un sistema che non permette di imputare i costi/ricavi ai singoli centri di costo/attività"
+          ],
+          "risposta_corretta": "Il sistema con il quale si imputano costi e ricavi ai singoli centri di costo/attività"
+        },
+        {
+          "testo": "Qual è lo scopo del controllo di gestione?",
+          "opzioni": [
+            "Verificare l'andamento dell'azienda rispetto agli obiettivi stabiliti",
+            "'Premiare' i dipendenti più produttivi",
+            "Verificare esclusivamente i profitti d'impresa",
+            "Calcolare solo i costi diretti d'impresa"
+          ],
+          "risposta_corretta": "Verificare l'andamento dell'azienda rispetto agli obiettivi stabiliti"
+        },
+        {
+          "testo": "L'indice di turn-over esprime...",
+          "opzioni": [
+            "Quanti letti sono liberi tra un ricovero e l'altro",
+            "Per quanto tempo un letto è libero tra un ricovero e l'altro",
+            "Quanti letti sono mediamente occupati",
+            "Quanti ricoveri avvengono mediamente in un anno in un letto"
+          ],
+          "risposta_corretta": "Per quanto tempo un letto è libero tra un ricovero e l'altro"
+        },
+        {
+          "testo": "L'indice di rotazione esprime...",
+          "opzioni": [
+            "Quanti letti sono liberi tra un ricovero e l'altro",
+            "Per quanto tempo un letto è libero tra un ricovero e l'altro",
+            "Quale percentuale di letti è mediamente occupata",
+            "Quanti ricoveri avvengono mediamente in un anno in un letto"
+          ],
+          "risposta_corretta": "Quanti ricoveri avvengono mediamente in un anno in un letto"
+        },
+        {
+          "testo": "Il tasso di occupazione dei posti letto esprime...",
+          "opzioni": [
+            "Quanti letti sono liberi tra un ricovero e l'altro",
+            "Per quanto tempo un letto è libero tra un ricovero e l'altro",
+            "Quale percentuale di letti è mediamente occupata",
+            "Quanti ricoveri avvengono mediamente in un anno in un letto"
+          ],
+          "risposta_corretta": "Quale percentuale di letti è mediamente occupata"
+        },
+        {
+          "testo": "Nei paesi dell'Europa continentale...",
+          "opzioni": [
+            "Prevale il modello basato sulla mutualità sociale",
+            "Prevale il modello universalistico",
+            "Prevale il modello basato sulle assicurazioni private",
+            "Prevale l'acquisto diretto delle prestazioni da parte dei cittadini"
+          ],
+          "risposta_corretta": "Prevale il modello basato sulla mutualità sociale"
+        },
+        {
+          "testo": "L'educazione alimentare fa parte degli interventi di...",
+          "opzioni": [
+            "Prevenzione primaria",
+            "Prevenzione secondaria",
+            "Sostegno alla gestione della cronicità",
+            "Assistenza a domicilio"
+          ],
+          "risposta_corretta": "Prevenzione primaria"
+        },
+        {
+          "testo": "L'educazione stradale fa parte degli interventi di...",
+          "opzioni": [
+            "Prevenzione primaria",
+            "Prevenzione secondaria",
+            "Diagnosi precoce",
+            "Riabilitazione"
+          ],
+          "risposta_corretta": "Prevenzione primaria"
+        },
+        {
+          "testo": "Le attività di screening rientrano...",
+          "opzioni": [
+            "Nella prevenzione primaria",
+            "Nella prevenzione secondaria",
+            "Nei programmi di riabilitazione",
+            "Nelle principali attività ospedaliere"
+          ],
+          "risposta_corretta": "Nella prevenzione secondaria"
+        },
+        {
+          "testo": "Il tasso di mortalità infantile...",
+          "opzioni": [
+            "È uno dei più attendibili indicatori dello stato di salute di una popolazione",
+            "Per esprimere un dato inconfutabile va confrontato con il tasso di letalità dei tumori",
+            "Non vale come indicatore dello stato di salute per i paesi sviluppati",
+            "Indica quanti anni rimangono mediamente da vivere ai bambini di età inferiore a 10 anni"
+          ],
+          "risposta_corretta": "È uno dei più attendibili indicatori dello stato di salute di una popolazione"
+        },
+        {
+          "testo": "Il piano sanitario regionale si pone come...",
+          "opzioni": [
+            "Strumento di programmazione finanziaria regionale",
+            "Strumento di disciplina normativa specifica sulla qualità dell'assistenza sanitaria",
+            "Strumento di programmazione generale sanitaria di declinazione, a livello regionale, del PSN",
+            "Strumento di sperimentazione gestionale per tutte le aziende regionali"
+          ],
+          "risposta_corretta": "Strumento di programmazione generale sanitaria di declinazione, a livello regionale, del PSN"
+        },
+        {
+          "testo": "Nell'organizzazione dei servizi sanitari la ricerca dell'equità...",
+          "opzioni": [
+            "È spesso in conflitto con il raggiungimento dell'efficacia",
+            "È spesso in conflitto con il raggiungimento dell'efficienza",
+            "È sempre alternativa alla massimizzazione del profitto da parte dei fornitori",
+            "Non crea mai conflitti con altri obiettivi del sistema sanitario"
+          ],
+          "risposta_corretta": "È spesso in conflitto con il raggiungimento dell'efficienza"
+        },
+        {
+          "testo": "I cambiamenti epidemiologici con l'aumento dei bisogni legati alle patologie croniche...",
+          "opzioni": [
+            "Richiedono un potenziamento dell'assistenza ospedaliera",
+            "Richiedono un potenziamento delle attrezzature diagnostiche radiologiche",
+            "Richiedono un impegno maggiore da parte delle cure primarie",
+            "Richiedono un minor budget di risorse"
+          ],
+          "risposta_corretta": "Richiedono un impegno maggiore da parte delle cure primarie"
+        },
+        {
+          "testo": "Le domande fondamentali dell'analisi economica sono:",
+          "opzioni": [
+            "Cosa, quanto, come, con chi, dove produrre",
+            "Cosa, quanto, a che prezzo, per chi, dove produrre",
+            "Cosa, perché, come, per chi, dove produrre",
+            "Cosa, quanto, come, per chi, dove produrre"
+          ],
+          "risposta_corretta": "Cosa, quanto, come, per chi, dove produrre"
+        },
+        {
+          "testo": "Come si può misurare l'ammontare della spesa in Sanità?",
+          "opzioni": [
+            "In base ai costi standard delle prestazioni",
+            "Come percentuale del P.I.L. di una Nazione",
+            "Come percentuale dell'indebitamento medio di una Nazione",
+            "Come percentuale degli investimenti di una Nazione"
+          ],
+          "risposta_corretta": "Come percentuale del P.I.L. di una Nazione"
+        },
+        {
+          "testo": "L'assistenza ospedaliera in Italia...",
+          "opzioni": [
+            "Assorbe quasi l'80% delle risorse del FSN",
+            "Assorbe poco più del 60% delle risorse del FSN",
+            "Assorbe circa il 45% delle risorse del FSN",
+            "Assorbe il doppio della spesa per l'assistenza territoriale"
+          ],
+          "risposta_corretta": "Assorbe il doppio della spesa per l'assistenza territoriale"
+        },
+        {
+          "testo": "L'assistenza sanitaria primaria si svolge prevalentemente...",
+          "opzioni": [
+            "In ambito ospedaliero",
+            "In ambito territoriale",
+            "Negli istituti di riabilitazione",
+            "Negli istituti di ricovero e cura a carattere scientifico"
+          ],
+          "risposta_corretta": "In ambito territoriale"
+        },
+        {
+          "testo": "Il ticket di compartecipazione alla spesa sanitaria è finalizzato...",
+          "opzioni": [
+            "A reperire ingenti risorse economiche per il sistema sanitario",
+            "A moderare la richiesta di prestazioni, specie quelle non necessarie o inappropriate",
+            "A scoraggiare la richiesta delle prestazioni più costose, anche se utili",
+            "A dirottare la richiesta dei cittadini più abbienti sul settore privato"
+          ],
+          "risposta_corretta": "A moderare la richiesta di prestazioni, specie quelle non necessarie o inappropriate"
+        },
+        {
+          "testo": "Le tariffe dei servizi sanitari erogati dalle strutture pubbliche sono di solito più basse dei prezzi di mercato perché...",
+          "opzioni": [
+            "Per incoraggiare le persone a utilizzare i servizi pubblici",
+            "Perché in effetti i costi di produzione del settore pubblico sono più bassi del privato",
+            "Perché le tariffe pubbliche vengono aggiornate in ritardo",
+            "Perché i servizi pubblici incorporano delle esternalità positive del cui onere si fa carico lo Stato"
+          ],
+          "risposta_corretta": "Perché i servizi pubblici incorporano delle esternalità positive del cui onere si fa carico lo Stato"
+        },
+        {
+          "testo": "I servizi sanitari, al pari di quelli di istruzione...",
+          "opzioni": [
+            "Generano esternalità negative",
+            "Generano esternalità positive",
+            "Non generano alcun tipo di esternalità perché riguardano i soli diretti beneficiari",
+            "Raramente generano esternalità"
+          ],
+          "risposta_corretta": "Generano esternalità positive"
+        },
+        {
+          "testo": "I sistemi sanitari fondati sulle assicurazioni commerciali...",
+          "opzioni": [
+            "Sono i meno costosi",
+            "Sono i più efficienti",
+            "Garantiscono la maggiore efficacia",
+            "Non hanno dimostrato di essere né i meno costosi, né i più efficienti, né equi"
+          ],
+          "risposta_corretta": "Non hanno dimostrato di essere né i meno costosi, né i più efficienti, né equi"
+        },
+        {
+          "testo": "Il meccanismo del prezzo di mercato...",
+          "opzioni": [
+            "Allinea le quantità domandate a quelle offerte",
+            "Non garantisce mai la migliore allocazione delle risorse",
+            "Non remunera mai con un utile la produzione di beni e servizi",
+            "Non è uno strumento di autoregolazione degli scambi"
+          ],
+          "risposta_corretta": "Allinea le quantità domandate a quelle offerte"
+        },
+        {
+          "testo": "L'asimmetria informativa sul mercato sanitario...",
+          "opzioni": [
+            "Non penalizza mai il cliente/paziente/utente",
+            "Crea un giusto vantaggio negli scambi a favore dei produttori/erogatori",
+            "Non riguarda le performance degli ospedali",
+            "È un fattore di debolezza nel funzionamento del sistema"
+          ],
+          "risposta_corretta": "È un fattore di debolezza nel funzionamento del sistema"
+        },
+        {
+          "testo": "Il sistema universalistico è adottato...",
+          "opzioni": [
+            "In Germania",
+            "In Francia",
+            "Negli Stati Uniti",
+            "In Spagna"
+          ],
+          "risposta_corretta": "In Spagna"
+        },
+        {
+          "testo": "I sistemi sanitari basati sulle assicurazioni sociali sono finanziati...",
+          "opzioni": [
+            "Prevalentemente attraverso la provvista fiscale",
+            "Attraverso i ticket di compartecipazione alla spesa",
+            "Attraverso i contributi dei lavoratori e dei datori di lavoro",
+            "Attraverso i premi versati dagli assicurati"
+          ],
+          "risposta_corretta": "Attraverso i contributi dei lavoratori e dei datori di lavoro"
+        },
+        {
+          "testo": "La curva di domanda è di norma rappresentata su un sistema di assi cartesiani (ascissa=quantità, ordinata=prezzo)...",
+          "opzioni": [
+            "Come piatta",
+            "Come ascendente verso destra",
+            "Come discendente verso destra",
+            "Con forma a U"
+          ],
+          "risposta_corretta": "Come discendente verso destra"
+        },
+        {
+          "testo": "La curva di offerta è di norma rappresentata su un sistema di assi cartesiani (ascissa=quantità, ordinata=prezzo)...",
+          "opzioni": [
+            "Come piatta",
+            "Come ascendente verso destra",
+            "Come discendente verso destra",
+            "Con forma a U"
+          ],
+          "risposta_corretta": "Come ascendente verso destra"
+        },
+        {
+          "testo": "Il sistema di budget ha come obiettivo...",
+          "opzioni": [
+            "Il massimo risparmio",
+            "Esclusivamente la responsabilizzazione sull'impiego delle risorse",
+            "La responsabilizzazione nell'impiego delle risorse e nel perseguimento degli obiettivi gestionali",
+            "L'efficacia clinica"
+          ],
+          "risposta_corretta": "La responsabilizzazione nell'impiego delle risorse e nel perseguimento degli obiettivi gestionali"
+        },
+        {
+          "testo": "Il finanziamento delle regioni da parte dello Stato, per la spesa sanitaria, si basa essenzialmente...",
+          "opzioni": [
+            "Sulla quota capitaria assoluta",
+            "Sulla quota 'storica'",
+            "Sull'estensione territoriale della regione",
+            "Sulla quota capitaria ponderata con altri criteri"
+          ],
+          "risposta_corretta": "Sulla quota capitaria ponderata con altri criteri"
+        },
+        {
+          "testo": "I grandi consumatori di servizi sanitari, quelli a cui è dovuto il consumo dei 3/4 di tutti i servizi sanitari...",
+          "opzioni": [
+            "Superano il 50% della popolazione totale",
+            "Non superano il 30% della popolazione totale",
+            "Sono concentrati nelle fasce di età ultra ottantenni",
+            "Sono equamente distribuiti tra tutte le classi demografiche"
+          ],
+          "risposta_corretta": "Non superano il 30% della popolazione totale"
+        },
+        {
+          "testo": "L'influenza dei determinanti ambientali (acqua, cibo, fognature) sullo stato di salute di una popolazione...",
+          "opzioni": [
+            "È sempre meno importante dei fattori genetici",
+            "Può essere 'neutralizzata' da idonei stili di vita",
+            "Raramente ha effetti",
+            "Può essere significativa a seconda delle diverse condizioni complessive di vita"
+          ],
+          "risposta_corretta": "Può essere significativa a seconda delle diverse condizioni complessive di vita"
+        },
+        {
+          "testo": "Quale di queste affermazioni è VERA in tema di economia sanitaria?",
+          "opzioni": [
+            "La soluzione di mercato è l'unica che garantisce efficienza allocativa",
+            "Quando ci sono rilevanti esternalità è giustificato l'intervento pubblico",
+            "L'intervento pubblico è giustificato unicamente da motivazioni di equità",
+            "Fallimento del mercato significa che non si riesce ad arrivare a un accordo fra compratori e venditori"
+          ],
+          "risposta_corretta": "Quando ci sono rilevanti esternalità è giustificato l'intervento pubblico"
+        },
+        {
+          "testo": "Quale di queste affermazioni è falsa in tema di economia sanitaria?",
+          "opzioni": [
+            "L'analisi economica non consiste soltanto nella valutazione della efficienza",
+            "Studiare l'efficienza allocativa significa determinare a chi devo allocare le risorse",
+            "Alcune vaccinazioni sono obbligatorie perché producono importanti esternalità",
+            "L'efficienza produttiva non garantisce automaticamente efficienza allocativa"
+          ],
+          "risposta_corretta": "Studiare l'efficienza allocativa significa determinare a chi devo allocare le risorse"
+        },
+        {
+          "testo": "Il costo per vita salvata è...",
+          "opzioni": [
+            "Un indicatore che misura l'equità della allocazione delle risorse",
+            "Un indicatore di efficacia e di outcome",
+            "Un indicatore di efficienza ed efficacia",
+            "Un indicatore di efficienza e di appropriatezza"
+          ],
+          "risposta_corretta": "Un indicatore di efficienza ed efficacia"
+        },
+        {
+          "testo": "L'analisi costo-efficacia prescrive che un nuovo farmaco possa essere introdotto se:",
+          "opzioni": [
+            "L'ICER ha un valore positivo",
+            "I benefici sono maggiori dei costi",
+            "L'ICER è minore del valore soglia",
+            "L'efficacia è maggiore del costo"
+          ],
+          "risposta_corretta": "L'ICER è minore del valore soglia"
+        },
+        {
+          "testo": "I QALY sono:",
+          "opzioni": [
+            "Indicatori di qualità della vita",
+            "Indicatori di salute o di outcome",
+            "Coefficienti per misurare il grado di disabilità",
+            "Misure di outcome"
+          ],
+          "risposta_corretta": "Misure di outcome"
+        },
+        {
+          "testo": "Universalismo significa...",
+          "opzioni": [
+            "Che ciascuno può accedere automaticamente alle prestazioni del servizio sanitario nazionale",
+            "Tutte le risposte sono corrette",
+            "Che il criterio per accedere alle prestazioni è il bisogno",
+            "Che i servizi sanitari gratuiti sono pagati tramite la fiscalità generale"
+          ],
+          "risposta_corretta": "Che ciascuno può accedere automaticamente alle prestazioni del servizio sanitario nazionale"
+        },
+        {
+          "testo": "Nel modello 'integrato':",
+          "opzioni": [
+            "L'assicuratore deve obbligatoriamente essere pubblico",
+            "È più facile controllare la spesa",
+            "L'assicuratore deve obbligatoriamente essere privato",
+            "Ciascun cittadino ha maggiore libertà di scelta"
+          ],
+          "risposta_corretta": "È più facile controllare la spesa"
+        },
+        {
+          "testo": "Tutte le combinazioni situate sulla frontiera delle possibilità produttive sono:",
+          "opzioni": [
+            "Efficaci dal punto di vista produttivo",
+            "Efficienti dal punto di vista produttivo",
+            "Efficaci dal punto di vista della efficacia teorica",
+            "Efficienti dal punto di vista allocativo"
+          ],
+          "risposta_corretta": "Efficienti dal punto di vista produttivo"
+        },
+        {
+          "testo": "Nel modello universalistico:",
+          "opzioni": [
+            "Chi ha bisogno ha diritto a ricevere tutte le prestazioni sanitarie",
+            "Soltanto chi lavora e paga i contributi ha diritto a ricevere i LEA",
+            "Tutti hanno diritto a ricevere tutte le prestazioni sanitarie",
+            "Tutti hanno diritto a ricevere i LEA in caso di bisogno"
+          ],
+          "risposta_corretta": "Tutti hanno diritto a ricevere i LEA in caso di bisogno"
+        },
+        {
+          "testo": "Il costo di produzione di un ricovero ospedaliero è:",
+          "opzioni": [
+            "Il numeratore del rapporto incrementale costo efficacia",
+            "La somma di tutti i costi diretti",
+            "Il valore monetario di tutti gli input utilizzati diviso per il numero di ricoveri effettuati",
+            "La somma di costi fissi e costi variabili"
+          ],
+          "risposta_corretta": "Il valore monetario di tutti gli input utilizzati diviso per il numero di ricoveri effettuati"
+        },
+        {
+          "testo": "Quale affermazione è corretta in merito alle prestazioni meritorie?",
+          "opzioni": [
+            "Tutte le prestazioni meritorie devono anche essere rese obbligatorie",
+            "Un intervento di prevenzione è sempre costo-efficace perché prevenire è sempre meglio che curare",
+            "Se una prestazione è considerata meritoria deve essere resa obbligatoria",
+            "Se una prestazione è considerata meritoria deve essere fornita gratuitamente, anche se non è obbligatoria"
+          ],
+          "risposta_corretta": "Se una prestazione è considerata meritoria deve essere fornita gratuitamente, anche se non è obbligatoria"
+        },
+        {
+          "testo": "Nei Paesi Bassi la maggior parte degli ospedali sono fondazioni non profit. Quale delle seguenti affermazioni si può dedurre?",
+          "opzioni": [
+            "Il sistema sanitario olandese è universalistico",
+            "Il sistema sanitario olandese è mutualistico",
+            "Il sistema sanitario olandese è privato",
+            "Ciascuna delle conclusioni elencate potrebbe essere vera"
+          ],
+          "risposta_corretta": "Ciascuna delle conclusioni eleccate potrebbe essere vera"
+        },
+        {
+          "testo": "Qual è la modalità di finanziamento nel modello BEVERIDGE?",
+          "opzioni": [
+            "Sovvenzionato da premi versati a compagnie di assicurazione private",
+            "Sovvenzionato da un sistema di assicurazione sociale",
+            "Sovvenzionato da un'imposizione fiscale",
+            "Sovvenzionato in base alla qualità delle prestazioni"
+          ],
+          "risposta_corretta": "Sovvenzionato da un'imposizione fiscale"
+        },
+        {
+          "testo": "Quali sono i Paesi che hanno adottato il modello Beveridge come sistema sanitario?",
+          "opzioni": [
+            "Austria - Germania",
+            "Danimarca - Svezia",
+            "Francia - Lussemburgo",
+            "USA – Svizzera"
+          ],
+          "risposta_corretta": "Danimarca - Svezia"
+        },
+        {
+          "testo": "Quando nacque l'esigenza di creare un modello di Welfare in Europa?",
+          "opzioni": [
+            "Nasce alla fine del 600",
+            "Nasce alla fine dell'800",
+            "Nasce dopo la I° guerra mondiale",
+            "Nasce dopo la II° guerra mondiale"
+          ],
+          "risposta_corretta": "Nasce alla fine dell'800"
+        },
+        {
+          "testo": "A quale modello di Sistema Sanitario si rifà il Sistema Sanitario Italiano?",
+          "opzioni": [
+            "Modello Bismark",
+            "Modello Beveridge",
+            "Modello del libero mercato",
+            "Modello mutualistico"
+          ],
+          "risposta_corretta": "Modello Beveridge"
+        },
+        {
+          "testo": "La degenza media è un indicatore di...",
+          "opzioni": [
+            "Efficacia",
+            "Efficienza",
+            "Equità",
+            "Accessibilità"
+          ],
+          "risposta_corretta": "Efficienza"
+        },
+        {
+          "testo": "Il numero di ricoveri per posto letto è un indicatore di:",
+          "opzioni": [
+            "Efficienza allocativa",
+            "Risorse disponibili",
+            "Appropriatezza",
+            "Efficienza produttiva"
+          ],
+          "risposta_corretta": "Efficienza produttiva"
+        }
+      ]
+    },
+    {
+      "argomento": "Organizzazione del Servizio Sanitario Nazionale",
+      "domande": [
+        {
+          "testo": "Che cosa sono i DRG (Diagnostic Related Groups)?",
+          "opzioni": [
+            "Un metodo di determinazione dei costi ospedalieri",
+            "Un sistema di classificazione dei casi ospedalieri",
+            "Un sistema di classificazione delle malattie più costose",
+            "Un sistema di classificazione dei dispositivi diagnostici"
+          ],
+          "risposta_corretta": "Un sistema di classificazione dei casi ospedalieri"
+        },
+        {
+          "testo": "Qual è la finalità del sistema DRG?",
+          "opzioni": [
+            "Controllare la qualità dell'assistenza sanitaria",
+            "Ridurre le spese sanitarie",
+            "Fornire un criterio di classificazione dei casi trattati in ospedale, omogenei per assorbimento di risorse",
+            "Ridurre la degenza media ospedaliera"
+          ],
+          "risposta_corretta": "Fornire un criterio di classificazione dei casi trattati in ospedale, omogenei per assorbimento di risorse"
+        },
+        {
+          "testo": "Che cosa è il DRG?",
+          "opzioni": [
+            "Un metodo per il controllo della qualità delle prestazioni sanitarie",
+            "Un metodo per la verifica della qualità delle prestazioni sanitarie",
+            "Un metodo per la classificazione dei pazienti dimessi dagli ospedali",
+            "Un metodo per la gestione economica degli ospedali"
+          ],
+          "risposta_corretta": "Un metodo per la classificazione dei pazienti dimessi dagli ospedali"
+        },
+        {
+          "testo": "Cosa vuol dire l'acronimo SDO?",
+          "opzioni": [
+            "Scheda di Dimissione Ospedaliera",
+            "Servizio Domiciliare Ospedaliero",
+            "Scheda di Day Hospital Ospedaliero",
+            "Scheda di Diagnosi Ospedaliera"
+          ],
+          "risposta_corretta": "Scheda di Dimissione Ospedaliera"
+        },
+        {
+          "testo": "La Classificazione ICD-9-CM è lo strumento per:",
+          "opzioni": [
+            "La codifica delle cause di morte nel modello ISTAT",
+            "La codifica di diagnosi ed interventi sulla SDO",
+            "La codifica delle prestazioni sanitarie sulle impegnative SSN",
+            "La codifica dei farmaci nel PTO"
+          ],
+          "risposta_corretta": "La codifica di diagnosi ed interventi sulla SDO"
+        },
+        {
+          "testo": "Cosa sono i LEA?",
+          "opzioni": [
+            "I Livelli Estemporanei di Assistenza sanitaria",
+            "I Livelli Estrinseci di Assistenza",
+            "I Livelli Essenziali di Assicurazione privata di malattia",
+            "I Livelli Essenziali di Assistenza"
+          ],
+          "risposta_corretta": "I Livelli Essenziali di Assistenza"
+        },
+        {
+          "testo": "Quali tipologie di assistenza comprendono i LEA?",
+          "opzioni": [
+            "Sanitaria collettiva in ambienti di vita e di lavoro, distrettuale, ospedaliera",
+            "Sanitaria collettiva in ambienti di vita e di lavoro, degenziale, residenziale",
+            "Degenziale, residenziale, distrettuale",
+            "Ospedaliera, semi-residenziale"
+          ],
+          "risposta_corretta": "Sanitaria collettiva in ambienti di vita e di lavoro, distrettuale, ospedaliera"
+        },
+        {
+          "testo": "L'Istituto superiore di sanità (ISS) è un organo che svolge funzioni di:",
+          "opzioni": [
+            "Ricerca, sperimentazione, controllo e formazione relativi alla salute pubblica",
+            "Supporto alle attività sanitarie regionali",
+            "Organizzazione e gestione dei servizi sanitari",
+            "Strumento tecnico per la sanità animale"
+          ],
+          "risposta_corretta": "Ricerca, sperimentazione, controllo e formazione relativi alla salute pubblica"
+        },
+        {
+          "testo": "In un'azienda ospedaliera pubblica, il Direttore Sanitario aziendale è nominato da:",
+          "opzioni": [
+            "Il Presidente della Regione, contestualmente alla nomina del Direttore generale",
+            "Il Presidente della Regione, su proposta del Direttore Generale",
+            "L'Assessore alla Sanità della Regione",
+            "Il Direttore Generale"
+          ],
+          "risposta_corretta": "Il Direttore Generale"
+        },
+        {
+          "testo": "Il principale obiettivo del Sistema Sanitario Nazionale (SSN) è quello di:",
+          "opzioni": [
+            "Tutelare lo stato di salute dei cittadini",
+            "Fornire un numero minimo di prestazioni sanitarie ai meno abbienti",
+            "Incentivare l'occupazione del settore",
+            "Calmierare i prezzi delle prestazioni sanitarie"
+          ],
+          "risposta_corretta": "Tutelare lo stato di salute dei cittadini"
+        },
+        {
+          "testo": "Quale tra le seguenti NON è un'attività del distretto?",
+          "opzioni": [
+            "Assistenza specialistica ambulatoriale",
+            "Attività di consultorio",
+            "Attività ospedaliera",
+            "Assistenza rivolta a disabili e anziani"
+          ],
+          "risposta_corretta": "Attività ospedaliera"
+        },
+        {
+          "testo": "Che cosa è un IRCCS?",
+          "opzioni": [
+            "Istituto di ricovero e cura a carattere scientifico",
+            "Istituto di ricerca e cura a carattere speciale",
+            "Istituto di ricovero e cura a carattere speciale",
+            "Istituto di ricerca e cura a carattere secondario"
+          ],
+          "risposta_corretta": "Istituto di ricovero e cura a carattere scientifico"
+        },
+        {
+          "testo": "Le funzioni di governo della spesa farmaceutica e di autorizzazione all'immissione in commercio dei farmaci fanno capo a:",
+          "opzioni": [
+            "Assessorati alla sanità delle regioni",
+            "Conferenza Stato - Regioni",
+            "Consiglio Superiore di Sanità (CSS)",
+            "Agenzia Italiana del Farmaco (AIFA)"
+          ],
+          "risposta_corretta": "Agenzia Italiana del Farmaco (AIFA)"
+        },
+        {
+          "testo": "Il Ministero della sanità è stato istituito nel:",
+          "opzioni": [
+            "1888",
+            "1934",
+            "1958",
+            "1978"
+          ],
+          "risposta_corretta": "1958"
+        },
+        {
+          "testo": "La massima autorità sanitaria a livello locale in base alle normative vigenti è:",
+          "opzioni": [
+            "Il Questore",
+            "L'Ufficiale sanitario",
+            "Il Sindaco",
+            "Il Direttore generale delle Aziende USL"
+          ],
+          "risposta_corretta": "Il Sindaco"
+        },
+        {
+          "testo": "Cosa è un distretto?",
+          "opzioni": [
+            "Un raggruppamento di unità operative affini e complementari",
+            "Un'articolazione del territorio che comprende almeno 60.000 abitanti",
+            "Un'articolazione del territorio che comprende almeno 40.000 abitanti",
+            "Un percorso assistenziale"
+          ],
+          "risposta_corretta": "Un'articolazione del territorio che comprende almeno 60.000 abitanti"
+        },
+        {
+          "testo": "L'acronimo ADI cosa significa?",
+          "opzioni": [
+            "Assistenza domiciliare Interdisciplinare",
+            "Assistenza domiciliare Integrata",
+            "Assistenza domiciliare infermieristica",
+            "Assistenza domiciliare Indipendente"
+          ],
+          "risposta_corretta": "Assistenza domiciliare Integrata"
+        },
+        {
+          "testo": "La 'I' di ADI intende una integrazione tra quali funzioni?",
+          "opzioni": [
+            "Infermieri e fisioterapisti",
+            "Medici e infermieri",
+            "Sanità e sociale",
+            "Medici, infermieri e fisioterapisti"
+          ],
+          "risposta_corretta": "Sanità e sociale"
+        },
+        {
+          "testo": "Quali sono gli organi di un'azienda sanitaria in Regione Liguria?",
+          "opzioni": [
+            "Direttore generale - Direttore Amministrativo - Direttore Sanitario",
+            "Direttore Generale - Collegio Sindacale",
+            "Direttore Generale - Collegio Sindacale - Collegio di Direzione",
+            "Direttore Generale - Ufficio Infermieristico - Direttore Sanitario"
+          ],
+          "risposta_corretta": "Direttore Generale - Collegio Sindacale - Collegio di Direzione"
+        },
+        {
+          "testo": "Quali tra questi requisiti devono obbligatoriamente avere le aziende ospedaliere?",
+          "opzioni": [
+            "Solo triennio universitario",
+            "Solo Dipartimento di Emergenza",
+            "Solo almeno 2 alte specialità",
+            "Triennio universitario, Dipartimento di Emergenza e almeno 2 alte specialità"
+          ],
+          "risposta_corretta": "Triennio universitario, Dipartimento di Emergenza e almeno 2 alte specialità"
+        },
+        {
+          "testo": "Il Piano Sanitario Nazionale in Italia rimane in vigore per:",
+          "opzioni": [
+            "1 anno",
+            "3 anni",
+            "5 anni",
+            "10 anni"
+          ],
+          "risposta_corretta": "3 anni"
+        },
+        {
+          "testo": "Il Piano Sanitario Nazionale è predisposto da:",
+          "opzioni": [
+            "Governo",
+            "Presidente della Repubblica",
+            "Regione",
+            "Parlamento"
+          ],
+          "risposta_corretta": "Governo"
+        },
+        {
+          "testo": "Che cosa prevedono i Decreti Legge 502/92 e 517/93?",
+          "opzioni": [
+            "Solo il sistema di finanziamento a prestazioni",
+            "Solo l'aziendalizzazione di USL e ospedali",
+            "Solo la nomina del Direttore Generale della USL",
+            "Il sistema di finanziamento a prestazioni, l'aziendalizzazione di USL e ospedali, i vincoli di bilancio e la nomina del Direttore Generale"
+          ],
+          "risposta_corretta": "Il sistema di finanziamento a prestazioni, l'aziendalizzazione di USL e ospedali, i vincoli di bilancio e la nomina del Direttore Generale"
+        },
+        {
+          "testo": "Secondo il D.Lgs. 502/92 modificato dal D.Lgs. 229/99, il Direttore di struttura complessa di un reparto ospedaliero resta in carica:",
+          "opzioni": [
+            "3 anni",
+            "5 anni",
+            "10 anni",
+            "Ininterrottamente fino al compimento del 65° anno di età"
+          ],
+          "risposta_corretta": "5 anni"
+        },
+        {
+          "testo": "Le Unità Sanitarie locali (U.S.L.) sono diventate Aziende Sanitarie Locali (A.S.L.) con:",
+          "opzioni": [
+            "La legge Crispi-Pagliani (1888)",
+            "La legge Mariotti (1968)",
+            "La legge 833/78",
+            "La legge 502/92"
+          ],
+          "risposta_corretta": "La legge 502/92"
+        },
+        {
+          "testo": "Cosa norma la Legge 194/78?",
+          "opzioni": [
+            "Istituzione del SSN",
+            "Tutela sociale della maternità e sulla interruzione di gravidanza",
+            "Accertamenti e trattamenti volontari e obbligatori",
+            "Interventi urgenti in materia di prevenzione e lotta AIDS"
+          ],
+          "risposta_corretta": "Tutela sociale della maternità e sulla interruzione di gravidanza"
+        },
+        {
+          "testo": "Cosa norma la Legge 180/78?",
+          "opzioni": [
+            "Istituzione del SSN",
+            "Tutela sociale della maternità e sulla interruzione di gravidanza",
+            "Accertamenti e trattamenti volontari e obbligatori",
+            "Interventi urgenti in materia di prevenzione e lotta AIDS"
+          ],
+          "risposta_corretta": "Accertamenti e trattamenti volontari e obbligatori"
+        },
+        {
+          "testo": "Cosa norma la Legge 135/90?",
+          "opzioni": [
+            "Istituzione del SSN",
+            "Tutela sociale della maternità",
+            "Accertamenti e trattamenti volontari",
+            "Interventi urgenti in materia di prevenzione e lotta AIDS"
+          ],
+          "risposta_corretta": "Interventi urgenti in materia di prevenzione e lotta AIDS"
+        },
+        {
+          "testo": "Cosa norma la Legge 251/2000?",
+          "opzioni": [
+            "Istituzione del SSN",
+            "Professioni sanitarie infermieristiche, tecniche, della riabilitazione, della prevenzione nonché della professione ostetrica",
+            "Accertamenti e trattamenti volontari e obbligatori",
+            "Interventi urgenti in materia di prevenzione e lotta AIDS"
+          ],
+          "risposta_corretta": "Professioni sanitarie infermieristiche, tecniche, della riabilitazione, della prevenzione nonché della professione ostetrica"
+        },
+        {
+          "testo": "Quale tra le seguenti innovazioni sono state introdotte dal D.Lgs. 502/92?",
+          "opzioni": [
+            "Nomina diretta degli organi collegiali per la gestione dell'USL da parte del Ministero",
+            "Istituzione del Direttore generale, amministrativo e sanitario",
+            "Istituzione della figura dell'Assistente ospedaliero",
+            "Istituzione della figura dell'Amministratore delegato della USL"
+          ],
+          "risposta_corretta": "Istituzione del Direttore generale, amministrativo e sanitario"
+        },
+        {
+          "testo": "La Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome (Conferenza Stato-Regioni) è stata istituita nel:",
+          "opzioni": [
+            "1927",
+            "1958",
+            "1978",
+            "1993"
+          ],
+          "risposta_corretta": "1993"
+        },
+        {
+          "testo": "Il Consiglio superiore di sanità (CSS) esprime pareri e proposte in merito alla tutela della salute della popolazione al:",
+          "opzioni": [
+            "Ministero dell'Ambiente",
+            "Ministero della Salute",
+            "Ministero dell'Istruzione",
+            "Ministero dei Trasporti"
+          ],
+          "risposta_corretta": "Ministero della Salute"
+        },
+        {
+          "testo": "Gli Istituti Zooprofilattici sperimentali svolgono le funzioni di:",
+          "opzioni": [
+            "Strumento tecnico per la sanità animale, il controllo di salubrità e qualità degli alimenti di origine animale",
+            "Esprimere pareri in merito alla tutela della salute",
+            "Ricerca, sperimentazione e controllo per la salute pubblica",
+            "Perseguire finalità di ricerca nel campo biomedico"
+          ],
+          "risposta_corretta": "Strumento tecnico per la sanità animale, il controllo di salubrità e qualità degli alimenti di origine animale"
+        },
+        {
+          "testo": "Un accettabile rapporto posti letto/n. di abitanti può essere:",
+          "opzioni": [
+            "5 posti letto per 100 abitanti",
+            "4 posti letto per 1.000 abitanti",
+            "5 posti letto per 10.000 abitanti",
+            "5 posti letto per 100.000 abitanti"
+          ],
+          "risposta_corretta": "4 posti letto per 1.000 abitanti"
+        },
+        {
+          "testo": "Per indice di turnover per posto letto si intende:",
+          "opzioni": [
+            "La durata media, in anni, del posto letto",
+            "La media dei cambi di posto letto di un paziente durante il ricovero",
+            "La media dei trasferimenti interni per posto letto",
+            "L'intervallo di tempo medio tra un ricovero e l'altro"
+          ],
+          "risposta_corretta": "L'intervallo di tempo medio tra un ricovero e l'altro"
+        },
+        {
+          "testo": "Il tasso di ospedalizzazione è:",
+          "opzioni": [
+            "Rapporto tra numero di ricoveri e posti letto",
+            "Misurazione del periodo di tempo tra le dimissioni di un paziente e la successiva ammissione",
+            "Rapporto tra giornate di degenza effettive e ricoveri registrati nell'anno",
+            "Rapporto tra ricoveri registrati in un anno e popolazione residente"
+          ],
+          "risposta_corretta": "Rapporto tra ricoveri registrati in un anno e popolazione residente"
+        },
+        {
+          "testo": "Per indice di rotazione per posto letto si intende:",
+          "opzioni": [
+            "Il numero di ricoveri per posto letto in un dato periodo",
+            "Il numero dei posti letti che mutano specialità di appartenenza nel corso dell'anno",
+            "Il numero dei posti letto che, a rotazione, possono essere utilizzati per il Day Hospital",
+            "Il numero dei posti letti che, a rotazione, debbono essere conferiti al DEA"
+          ],
+          "risposta_corretta": "Il numero di ricoveri per posto letto in un dato periodo"
+        },
+        {
+          "testo": "La durata media della degenza è:",
+          "opzioni": [
+            "Rapporto tra numero di ricoveri e di posti letto",
+            "Misurazione del periodo di tempo, in giorni, che intercorre tra le dimissioni e la successiva ammissione",
+            "Rapporto tra ricoveri registrati in un anno e popolazione residente",
+            "Rapporto tra giornate di degenza effettive e ricoveri registrati nell'anno"
+          ],
+          "risposta_corretta": "Rapporto tra giornate di degenza effettive e ricoveri registrati nell'anno"
+        },
+        {
+          "testo": "Per la Costituzione italiana la salute è:",
+          "opzioni": [
+            "Un diritto da tutelare indipendentemente dalla capacità contributiva",
+            "Un privilegio riservato ai soggetti residenti nel territorio italiano",
+            "Un valore fondamentale protetto dallo stato",
+            "Un diritto fondamentale protetto dallo stato e un valore da proteggere indipendentemente dalla capacità contributiva"
+          ],
+          "risposta_corretta": "Un diritto fondamentale protetto dallo stato e un valore da proteggere indipendentemente dalla capacità contributiva"
+        },
+        {
+          "testo": "Quali tra i seguenti sono considerati organi centrali del SSN italiano?",
+          "opzioni": [
+            "Solo l'Istituto Superiore di Sanità",
+            "Solo l'AIFA",
+            "Istituto Superiore di Sanità, Consiglio Superiore di Sanità, Conferenza Stato-Regioni, ISPESL",
+            "Solo le Aziende Ospedaliere"
+          ],
+          "risposta_corretta": "Istituto Superiore di Sanità, Consiglio Superiore di Sanità, Conferenza Stato-Regioni, ISPESL"
+        },
+        {
+          "testo": "La legge istitutiva del SSN (Sistema sanitario nazionale) è del:",
+          "opzioni": [
+            "1968",
+            "1975",
+            "1978",
+            "1992"
+          ],
+          "risposta_corretta": "1978"
+        },
+        {
+          "testo": "La definizione più appropriata di risk management è:",
+          "opzioni": [
+            "Studio epidemiologico sperimentale con valutazione di efficacia di un intervento preventivo",
+            "Processo che porta alla valutazione e alla misura degli effetti sulla salute di un fattore di rischio",
+            "Identificazione del livello di rischio, eliminazione o riduzione dell'esposizione e continuo monitoraggio del livello di rischio individuale e collettivo",
+            "Informazione ed educazione della popolazione su problemi sanitari"
+          ],
+          "risposta_corretta": "Identificazione del livello di rischio, eliminazione o riduzione dell'esposizione e continuo monitoraggio del livello di rischio individuale e collettivo"
+        },
+        {
+          "testo": "La definizione più appropriata di risk assessment è:",
+          "opzioni": [
+            "Informazione ed educazione della popolazione su problemi sanitari",
+            "Processo che porta alla valutazione e alla misura degli effetti sulla salute di un fattore di rischio",
+            "Processo che conferisce alle popolazioni i mezzi per assicurare un maggior controllo sulla salute",
+            "Identificazione del livello di rischio e continuo monitoraggio del rischio"
+          ],
+          "risposta_corretta": "Processo che porta alla valutazione e alla misura degli effetti sulla salute di un fattore di rischio"
+        },
+        {
+          "testo": "L'attuale legge sulla sanità (D.L. 229/99) prevede che l'accreditamento istituzionale per erogare prestazioni nell'ambito del SSN venga rilasciato:",
+          "opzioni": [
+            "Dallo stato",
+            "Dalla regione",
+            "Da un'azienda USL",
+            "Dal comune"
+          ],
+          "risposta_corretta": "Dalla regione"
+        },
+        {
+          "testo": "Quali tra le seguenti innovazioni sono state apportate dalla legge n°833/78?",
+          "opzioni": [
+            "Istituzione del Ministero della Sanità",
+            "Istituzione del Servizio Sanitario Nazionale",
+            "Estinzione degli enti mutualistici",
+            "Istituzione delle Aziende Sanitarie Locali"
+          ],
+          "risposta_corretta": "Istituzione del Servizio Sanitario Nazionale"
+        }
+      ]
+    },
+    {
+      "argomento": "Diritto del Lavoro",
+      "domande": [
+        {
+          "testo": "Gli obblighi di un lavoratore sono:",
+          "opzioni": [
+            "La prestazione lavorativa e la diligenza",
+            "La prestazione lavorativa, la diligenza e l'obbedienza",
+            "La prestazione lavorativa, la diligenza, l'obbedienza e la fedeltà",
+            "La sola prestazione lavorativa"
+          ],
+          "risposta_corretta": "La prestazione lavorativa, la diligenza, l'obbedienza e la fedeltà"
+        },
+        {
+          "testo": "Il contratto individuale di lavoro:",
+          "opzioni": [
+            "Non è necessario perché origini il rapporto di lavoro",
+            "Ha un contenuto determinato solo fra le parti che lo sottoscrivono",
+            "Ha un contenuto predeterminato da leggi e contratti collettivi",
+            "Non ha contenuto economico"
+          ],
+          "risposta_corretta": "Ha un contenuto predeterminato da leggi e contratti collettivi"
+        },
+        {
+          "testo": "Il periodo di prova:",
+          "opzioni": [
+            "È obbligatorio per ogni tipologia di rapporto di lavoro",
+            "Se concluso positivamente, è computato nell'anzianità di servizio",
+            "Può essere sostituito da altra clausola di garanzia",
+            "Ha durata illimitata"
+          ],
+          "risposta_corretta": "Se concluso positivamente, è computato nell'anzianità di servizio"
+        },
+        {
+          "testo": "Le mansioni di un lavoratore:",
+          "opzioni": [
+            "Possono essere modificate a discrezione del datore di lavoro",
+            "Indicano lo status professionale del lavoratore",
+            "Sono determinate nel contratto di lavoro",
+            "Non sono mai definibili contrattualmente"
+          ],
+          "risposta_corretta": "Sono determinate nel contratto di lavoro"
+        },
+        {
+          "testo": "L'orario di lavoro:",
+          "opzioni": [
+            "È deciso dal lavoratore in accordo con il datore di lavoro",
+            "È definito dal datore di lavoro in base all'organizzazione lavorativa",
+            "È definito dal datore di lavoro nel rispetto della legge e dei contratti collettivi",
+            "Non ha limiti legali"
+          ],
+          "risposta_corretta": "È definito dal datore di lavoro nel rispetto della legge e dei contratti collettivi"
+        },
+        {
+          "testo": "Il lavoratore ha diritto:",
+          "opzioni": [
+            "Alla pausa per il pranzo",
+            "Al riposo giornaliero",
+            "Al riposo giornaliero e settimanale",
+            "Solo al riposo settimanale"
+          ],
+          "risposta_corretta": "Al riposo giornaliero e settimanale"
+        },
+        {
+          "testo": "Il sistema di performance individuale:",
+          "opzioni": [
+            "Valuta l'apporto del singolo lavoratore al miglioramento dell'attività complessiva della struttura di appartenenza",
+            "Valuta il risultato dell'attività del lavoratore con riguardo anche ai costi della struttura",
+            "Controlla il rendimento del singolo lavoratore nell'ambito della struttura",
+            "Misura solo le assenze del lavoratore"
+          ],
+          "risposta_corretta": "Valuta l'apporto del singolo lavoratore al miglioramento dell'attività complessiva della struttura di appartenenza"
+        },
+        {
+          "testo": "Il lavoratore subordinato:",
+          "opzioni": [
+            "Ha discrezionalità nell'effettuazione del lavoro",
+            "Non ha subordinazione nelle modalità di svolgimento dell'attività lavorativa",
+            "Lavora alle dipendenze di un datore di lavoro che determina le modalità di effettuazione del lavoro",
+            "Organizza autonomamente la propria attività"
+          ],
+          "risposta_corretta": "Lavora alle dipendenze di un datore di lavoro che determina le modalità di effettuazione del lavoro"
+        },
+        {
+          "testo": "Il dipendente pubblico:",
+          "opzioni": [
+            "Ha il dovere di esclusività nei confronti della Pubblica Amministrazione di appartenenza",
+            "Può svolgere altre attività non concorrenziali con la P.A. di appartenenza",
+            "Può svolgere altre attività purché occasionali",
+            "Non ha vincoli nell'esercitare attività extra"
+          ],
+          "risposta_corretta": "Ha il dovere di esclusività nei confronti della Pubblica Amministrazione di appartenenza"
+        },
+        {
+          "testo": "Un lavoratore ha diritto a quante ore di riposo per ogni giornata lavorativa?",
+          "opzioni": [
+            "8 ore",
+            "10 ore",
+            "11 ore",
+            "12 ore"
+          ],
+          "risposta_corretta": "11 ore"
+        },
+        {
+          "testo": "Il datore di lavoro ha l'obbligo di:",
+          "opzioni": [
+            "Corrispondere la retribuzione al lavoratore",
+            "Garantire la promozione annuale del lavoratore",
+            "Assicurare un bonus trimestrale ai dipendenti",
+            "Fornire vitto e alloggio al lavoratore"
+          ],
+          "risposta_corretta": "Corrispondere la retribuzione al lavoratore"
+        },
+        {
+          "testo": "La fruizione delle ferie:",
+          "opzioni": [
+            "È a discrezione del datore di lavoro",
+            "Può essere sostituita da monetizzazione su richiesta del lavoratore",
+            "È un diritto reale e non può essere sostituito da monetizzazione",
+            "È obbligatoria solo per i lavoratori part-time"
+          ],
+          "risposta_corretta": "È un diritto reale e non può essere sostituito da monetizzazione"
+        },
+        {
+          "testo": "Lo scopo del CCL (contratto collettivo di lavoro):",
+          "opzioni": [
+            "È stabilire condizioni uniformi ed obbligatorie valide per tutti i datori di lavoro e i lavoratori di una determinata categoria",
+            "È tutelare esclusivamente gli interessi del datore di lavoro",
+            "È stabilire le retribuzioni massime per categoria",
+            "È definire i turni di lavoro obbligatori"
+          ],
+          "risposta_corretta": "È stabilire condizioni uniformi ed obbligatorie valide per tutti i datori di lavoro e i lavoratori di una determinata categoria"
+        },
+        {
+          "testo": "Grave infrazione disciplinare è:",
+          "opzioni": [
+            "Il ritardo occasionale di 15 minuti",
+            "Falsa attestazione della presenza in servizio e assenza dal servizio per malattia",
+            "Il rifiuto di effettuare ore straordinarie",
+            "L'uso del telefono personale durante il lavoro"
+          ],
+          "risposta_corretta": "Falsa attestazione della presenza in servizio e assenza dal servizio per malattia"
+        },
+        {
+          "testo": "Lo svolgimento di lavoro notturno:",
+          "opzioni": [
+            "È a discrezione del lavoratore",
+            "È disciplinato dalla legge e dai contratti collettivi di lavoro",
+            "Non è regolamentato",
+            "È vietato dalla legge italiana"
+          ],
+          "risposta_corretta": "È disciplinato dalla legge e dai contratti collettivi di lavoro"
+        },
+        {
+          "testo": "Il lavoratore autonomo:",
+          "opzioni": [
+            "È subordinato alle direttive del committente",
+            "Ha una posizione di autonomia nella gestione e organizzazione dell'attività",
+            "Deve rispettare gli stessi orari del lavoratore dipendente",
+            "Non può avere rapporti di lavoro con terzi"
+          ],
+          "risposta_corretta": "Ha una posizione di autonomia nella gestione e organizzazione dell'attività"
+        },
+        {
+          "testo": "In materia di sicurezza il lavoratore deve:",
+          "opzioni": [
+            "Rifiutarsi di lavorare in caso di rischi minimi",
+            "Segnalare i rischi solo al sindacato",
+            "Utilizzare i DPI (dispositivi di protezione individuale)",
+            "Acquistare personalmente i DPI"
+          ],
+          "risposta_corretta": "Utilizzare i DPI (dispositivi di protezione individuale)"
+        },
+        {
+          "testo": "Per dovere di esclusività si intende:",
+          "opzioni": [
+            "Che il dipendente pubblico non può svolgere mai altri incarichi",
+            "Che il dipendente pubblico può svolgere incarichi retribuiti solo se preventivamente autorizzati dalla sua amministrazione",
+            "Che il dipendente pubblico lavora solo per un datore di lavoro pubblico",
+            "Che il contratto di lavoro esclude altre forme di collaborazione"
+          ],
+          "risposta_corretta": "Che il dipendente pubblico può svolgere incarichi retribuiti solo se preventivamente autorizzati dalla sua amministrazione"
+        },
+        {
+          "testo": "Le mansioni e le qualifiche del lavoratore:",
+          "opzioni": [
+            "Non hanno rilevanza economica",
+            "Determinano la sua posizione lavorativa ed il suo trattamento economico",
+            "Sono determinate esclusivamente dall'anzianità di servizio",
+            "Possono essere modificate liberamente dal datore di lavoro"
+          ],
+          "risposta_corretta": "Determinano la sua posizione lavorativa ed il suo trattamento economico"
+        },
+        {
+          "testo": "Il diritto del lavoro:",
+          "opzioni": [
+            "È un complesso di norme che disciplinano i rapporti di lavoro e tutelano l'aspetto economico e i diritti del lavoratore",
+            "Riguarda solo i lavoratori del settore pubblico",
+            "Non prevede tutele per i lavoratori autonomi",
+            "È esclusivamente di competenza regionale"
+          ],
+          "risposta_corretta": "È un complesso di norme che disciplinano i rapporti di lavoro e tutelano l'aspetto economico e i diritti del lavoratore"
+        },
+        {
+          "testo": "La tutela della salute e la sicurezza dei lavoratori è garantita da:",
+          "opzioni": [
+            "Solo dal datore di lavoro",
+            "Solo dal medico competente",
+            "Il Servizio di Prevenzione e Protezione",
+            "Solo dall'INAIL"
+          ],
+          "risposta_corretta": "Il Servizio di Prevenzione e Protezione"
+        },
+        {
+          "testo": "La cessazione del rapporto di lavoro può essere:",
+          "opzioni": [
+            "Solo facoltà del datore di lavoro",
+            "Solo facoltà del lavoratore",
+            "Facoltà del lavoratore o del datore di lavoro",
+            "Decisione esclusiva del sindacato"
+          ],
+          "risposta_corretta": "Facoltà del lavoratore o del datore di lavoro"
+        },
+        {
+          "testo": "Il CCL (contratto collettivo di lavoro) è:",
+          "opzioni": [
+            "Un accordo tra i lavoratori di una stessa azienda",
+            "L'accordo tra datore di lavoro e organizzazione dei lavoratori di una determinata categoria",
+            "Un documento emanato dal Ministero del Lavoro",
+            "Un regolamento interno aziendale"
+          ],
+          "risposta_corretta": "L'accordo tra datore di lavoro e organizzazione dei lavoratori di una determinata categoria"
+        }
+      ]
+    },
+    {
+      "argomento": "Principi di Diritto Pubblico",
+      "domande": [
+        {
+          "testo": "Con il termine vacatio legis si intende:",
+          "opzioni": [
+            "Termine necessario per accertare che l'atto non presenti irregolarità formali",
+            "Il tempo necessario per la promulgazione della legge",
+            "Il tempo entro il quale una legge può essere contestata",
+            "Il tempo intercorrente tra la pubblicazione di una legge e la sua entrata in vigore per consentire alla popolazione di prendere visione del testo"
+          ],
+          "risposta_corretta": "Il tempo intercorrente tra la pubblicazione di una legge e la sua entrata in vigore per consentire alla popolazione di prendere visione del testo"
+        },
+        {
+          "testo": "Quanto dura la vacatio legis?",
+          "opzioni": [
+            "7 giorni",
+            "15 giorni",
+            "30 giorni",
+            "60 giorni"
+          ],
+          "risposta_corretta": "15 giorni"
+        },
+        {
+          "testo": "A seguito della ripartizione dell'art. 117 della Costituzione italiana, la materia relativa alla 'Tutela della salute' è stata inserita:",
+          "opzioni": [
+            "Tra le materie di legislazione esclusiva statale",
+            "Tra le materie di legislazione concorrente",
+            "Tra le materie di legislazione esclusiva regionale",
+            "Tra le materie di competenza provinciale"
+          ],
+          "risposta_corretta": "Tra le materie di legislazione concorrente"
+        },
+        {
+          "testo": "Si ha antinomia:",
+          "opzioni": [
+            "Quando una stessa fattispecie è disciplinata in modo confliggente da norme poste da fonti diverse, o dalla stessa fonte ma in momenti diversi",
+            "Quando una fonte di produzione contrasta con la fonte di cognizione",
+            "Quando il giudice amministrativo annulla una decisione di un altro giudice",
+            "Quando il criterio gerarchico coincide con il criterio di specialità"
+          ],
+          "risposta_corretta": "Quando una stessa fattispecie è disciplinata in modo confliggente da norme poste da fonti diverse, o dalla stessa fonte ma in momenti diversi"
+        },
+        {
+          "testo": "Per potestà legislativa concorrente (Stato-Regioni) si intende:",
+          "opzioni": [
+            "Che la Regione ha una potestà legislativa concorrente a quella comunale",
+            "Che la legislazione dello Stato determina i 'principi' fondamentali della materia, mentre il resto della disciplina compete alle Regioni",
+            "Che la Regione può legiferare senza alcun vincolo dello Stato",
+            "Che Stato e Regioni legiferano sempre insieme"
+          ],
+          "risposta_corretta": "Che la legislazione dello Stato determina i 'principi' fondamentali della materia, mentre il resto della disciplina compete alle Regioni"
+        },
+        {
+          "testo": "Entro quale termine deve avvenire la conversione in legge dei decreti-legge da parte delle Camere?",
+          "opzioni": [
+            "15 giorni",
+            "30 giorni",
+            "60 giorni",
+            "90 giorni"
+          ],
+          "risposta_corretta": "60 giorni"
+        },
+        {
+          "testo": "Per fonti di produzione si intende:",
+          "opzioni": [
+            "Ciascun atto o fatto abilitato dall'ordinamento giuridico a produrre norme giuridiche",
+            "I testi che contengono le norme già formate (es. Gazzetta Ufficiale)",
+            "Gli strumenti che forniscono la conoscibilità legale della norma",
+            "Le norme che indicano come devono essere prodotte le fonti"
+          ],
+          "risposta_corretta": "Ciascun atto o fatto abilitato dall'ordinamento giuridico a produrre norme giuridiche"
+        },
+        {
+          "testo": "Quali di queste risposte spiega il significato di 'astrattezza' della norma giuridica?",
+          "opzioni": [
+            "Non è scritta",
+            "Non sono individuabili i casi in cui è stata applicata",
+            "Prende in considerazione fattispecie astratte, a cui dovranno poi ricondursi tutti i casi concreti che presentino gli stessi caratteri",
+            "Non è contenuta nella Carta Costituzionale"
+          ],
+          "risposta_corretta": "Prende in considerazione fattispecie astratte, a cui dovranno poi ricondursi tutti i casi concreti che presentino gli stessi caratteri"
+        },
+        {
+          "testo": "Secondo il criterio gerarchico, quando due norme confliggenti traggono origine dalla medesima fonte:",
+          "opzioni": [
+            "Prevale quella emanata successivamente",
+            "Prevale quella emanata in precedenza",
+            "Entrambe sono nulle",
+            "Entrambe le leggi sono valide"
+          ],
+          "risposta_corretta": "Prevale quella emanata successivamente"
+        },
+        {
+          "testo": "I regolamenti comunitari:",
+          "opzioni": [
+            "Hanno portata individuale, sono obbligatori per i soli destinatari designati",
+            "Hanno portata generale, sono obbligatori in tutti i loro elementi e direttamente applicabili negli Stati membri",
+            "Sono esortazioni o moniti diretti ai singoli Stati membri",
+            "Vincolano lo Stato membro solo per quanto riguarda il risultato da raggiungere"
+          ],
+          "risposta_corretta": "Hanno portata generale, sono obbligatori in tutti i loro elementi e direttamente applicabili negli Stati membri"
+        },
+        {
+          "testo": "I diritti inviolabili:",
+          "opzioni": [
+            "Possono essere ceduti",
+            "Sono irrinunciabili e inalienabili",
+            "Sono riconosciuti solo ai cittadini italiani",
+            "Vengono acquisiti al compimento dei 18 anni"
+          ],
+          "risposta_corretta": "Sono irrinunciabili e inalienabili"
+        },
+        {
+          "testo": "Il principio personalista esprime:",
+          "opzioni": [
+            "Il rifiuto di logiche utilitaristiche della persona umana",
+            "Il dovere assoluto di salvare la vita umana",
+            "Un dovere di solidarietà verso la persona umana",
+            "Il diritto di esprimere un proprio punto di vista sul concetto di salute"
+          ],
+          "risposta_corretta": "Il rifiuto di logiche utilitaristiche della persona umana"
+        },
+        {
+          "testo": "Il consenso informato rappresenta:",
+          "opzioni": [
+            "Uno strumento per esercitare il diritto alla salute",
+            "Uno strumento per trasferire la responsabilità del medico al paziente",
+            "Uno strumento per trasferire la scelta della terapia al paziente",
+            "Un documento obbligatorio solo per gli interventi chirurgici"
+          ],
+          "risposta_corretta": "Uno strumento per esercitare il diritto alla salute"
+        },
+        {
+          "testo": "Il diritto alla tutela salute si configura come:",
+          "opzioni": [
+            "Un dovere verso la collettività",
+            "Una situazione protetta dell'uomo",
+            "Una situazione protetta del solo cittadino italiano",
+            "Un privilegio per i soggetti con basso reddito"
+          ],
+          "risposta_corretta": "Una situazione protetta dell'uomo"
+        },
+        {
+          "testo": "La tutela della salute corrisponde a:",
+          "opzioni": [
+            "Un dovere del cittadino",
+            "Un diritto del cittadino",
+            "Un servizio a pagamento facoltativo",
+            "Un privilegio elargito dallo Stato"
+          ],
+          "risposta_corretta": "Un diritto del cittadino"
+        },
+        {
+          "testo": "Fonti di cognizione del diritto sono:",
+          "opzioni": [
+            "Le sentenze della Corte Costituzionale",
+            "Documenti ufficiali che riproducono il testo delle norme giuridiche (Gazzetta Ufficiale)",
+            "I trattati internazionali",
+            "I regolamenti comunali"
+          ],
+          "risposta_corretta": "Documenti ufficiali che riproducono il testo delle norme giuridiche (Gazzetta Ufficiale)"
+        },
+        {
+          "testo": "Quale di questi soggetti NON è titolare del potere di iniziativa legislativa?",
+          "opzioni": [
+            "Il Governo",
+            "Il Parlamento",
+            "Il Presidente della Repubblica",
+            "500.000 elettori"
+          ],
+          "risposta_corretta": "Il Presidente della Repubblica"
+        },
+        {
+          "testo": "Quale articolo della Costituzione prevede il diritto alla salute come fondamentale diritto dell'individuo e della collettività?",
+          "opzioni": [
+            "Articolo 2",
+            "Articolo 10",
+            "Articolo 32",
+            "Articolo 41"
+          ],
+          "risposta_corretta": "Articolo 32"
+        },
+        {
+          "testo": "Quali tra i seguenti atti normativi dell'Unione Europea sono atti non vincolanti?",
+          "opzioni": [
+            "I regolamenti",
+            "Le direttive",
+            "Le decisioni",
+            "Le raccomandazioni"
+          ],
+          "risposta_corretta": "Le raccomandazioni"
+        },
+        {
+          "testo": "Quali delle seguenti norme legislative dell'ordinamento italiano sono di rango superiore?",
+          "opzioni": [
+            "Leggi ordinarie dello Stato",
+            "Costituzione, leggi costituzionali, leggi di revisione della Costituzione",
+            "Regolamenti governativi",
+            "Decreti legislativi"
+          ],
+          "risposta_corretta": "Costituzione, leggi costituzionali, leggi di revisione della Costituzione"
+        },
+        {
+          "testo": "Secondo i principi espressi dalla Costituzione si può dire che:",
+          "opzioni": [
+            "Non esiste alcun obbligo di informare il paziente",
+            "Esiste un dovere generale di informare il paziente",
+            "L'informazione al paziente è a discrezione del medico",
+            "Il paziente non ha diritto all'informazione"
+          ],
+          "risposta_corretta": "Esiste un dovere generale di informare il paziente"
+        },
+        {
+          "testo": "Il decreto 38 del 2000 introduce una modifica fondamentale nei confronti del DPR 1124 del 1965:",
+          "opzioni": [
+            "Introduce la responsabilità penale del datore di lavoro",
+            "Introduce anche nell'assicurazione sociale il concetto di danno biologico",
+            "Abolisce l'obbligo assicurativo per gli infortuni",
+            "Istituisce il Fondo Nazionale per gli Infortuni"
+          ],
+          "risposta_corretta": "Introduce anche nell'assicurazione sociale il concetto di danno biologico"
+        },
+        {
+          "testo": "A quale organo viene conferita la delega legislativa?",
+          "opzioni": [
+            "Al Parlamento",
+            "Al Governo",
+            "Alla Corte Costituzionale",
+            "Al Presidente della Repubblica"
+          ],
+          "risposta_corretta": "Al Governo"
+        },
+        {
+          "testo": "La mancata conversione di un decreto-legge comporta:",
+          "opzioni": [
+            "La sua perdita di efficacia e l'automatica sfiducia al Governo",
+            "La sua perdita d'efficacia ex tunc (sin dall'inizio)",
+            "La sua perdita di efficacia dal momento della mancata conversione",
+            "L'intervento automatico della Corte Costituzionale"
+          ],
+          "risposta_corretta": "La sua perdita d'efficacia ex tunc (sin dall'inizio)"
+        },
+        {
+          "testo": "Quale caratteristica rivestono i regolamenti comunitari nell'ordinamento giuridico interno italiano?",
+          "opzioni": [
+            "Necessitano di leggi nazionali di attuazione",
+            "Sono direttamente applicabili nello Stato Italiano",
+            "Hanno per destinatari soltanto alcuni Stati membri",
+            "Sono subordinati alla legge degli Stati membri"
+          ],
+          "risposta_corretta": "Sono direttamente applicabili nello Stato Italiano"
+        },
+        {
+          "testo": "Da chi viene nominato il Presidente del Consiglio Superiore di Sanità?",
+          "opzioni": [
+            "Dall'Assemblea in adunanza generale",
+            "Dal Ministro della Salute",
+            "Dai membri di diritto",
+            "Dal Presidente della Repubblica"
+          ],
+          "risposta_corretta": "Dall'Assemblea in adunanza generale"
+        },
+        {
+          "testo": "Quale posto occupano i decreti legge nella gerarchia delle fonti?",
+          "opzioni": [
+            "Sono equiparati alle leggi ordinarie",
+            "Sono al vertice della gerarchia",
+            "Sono equiparati alla normativa comunitaria",
+            "Sono sotto le leggi ordinarie"
+          ],
+          "risposta_corretta": "Sono equiparati alle leggi ordinarie"
+        },
+        {
+          "testo": "Quali tra i seguenti atti normativi dell'Unione Europea sono atti normativi vincolanti?",
+          "opzioni": [
+            "Le raccomandazioni",
+            "I pareri",
+            "Le direttive",
+            "Le comunicazioni"
+          ],
+          "risposta_corretta": "Le direttive"
+        }
+      ]
+    },
+    {
+      "argomento": "Igiene Generale e Applicata",
+      "domande": [
+        {
+          "testo": "Sono determinanti di salute:",
+          "opzioni": [
+            "Solo il sistema politico",
+            "Solo l'ambiente di vita e di lavoro",
+            "Il sistema politico, l'ambiente di vita e di lavoro e il sistema economico",
+            "Solo i fattori genetici"
+          ],
+          "risposta_corretta": "Il sistema politico, l'ambiente di vita e di lavoro e il sistema economico"
+        },
+        {
+          "testo": "Il costo annuo per la salute degli italiani è:",
+          "opzioni": [
+            "Circa 500 miliardi di €",
+            "Circa 1.500 miliardi di €",
+            "Circa 10 miliardi di €",
+            "Circa 120 miliardi di €"
+          ],
+          "risposta_corretta": "Circa 120 miliardi di €"
+        },
+        {
+          "testo": "Cosa significa l'acronimo HTA?",
+          "opzioni": [
+            "Health Transmigrant Assessment",
+            "Horticultural Tissue Authority",
+            "Health Technology Assessment",
+            "Human Treatment Authority"
+          ],
+          "risposta_corretta": "Health Technology Assessment"
+        },
+        {
+          "testo": "Cosa è l'OECD?",
+          "opzioni": [
+            "Organization for Economic Co-operation and Dental diseases",
+            "Organization for Economic Central District",
+            "Organization for Economic Co-operation and Development",
+            "Organization for European Community Development"
+          ],
+          "risposta_corretta": "Organization for Economic Co-operation and Development"
+        },
+        {
+          "testo": "La mutualità sanitaria integrativa nel nostro Paese copre le spese sanitarie per:",
+          "opzioni": [
+            "Circa il 4%",
+            "Circa il 40%",
+            "Circa il 60%",
+            "Circa il 100%"
+          ],
+          "risposta_corretta": "Circa il 4%"
+        },
+        {
+          "testo": "Quale è la Regione italiana o Provincia Autonoma che nel periodo 2002-2011 ha maggiormente contribuito al disavanzo del SSN?",
+          "opzioni": [
+            "Provincia Autonoma di Trento",
+            "Lazio",
+            "Liguria",
+            "Campania"
+          ],
+          "risposta_corretta": "Lazio"
+        },
+        {
+          "testo": "Quali tra queste rappresentano una criticità del public management?",
+          "opzioni": [
+            "Domanda appropriata",
+            "Informazione simmetrica",
+            "Ampia concorrenza",
+            "Terzo pagante"
+          ],
+          "risposta_corretta": "Terzo pagante"
+        },
+        {
+          "testo": "Quale tipo di gestione organizzata è idonea per il Servizio Sanitario Nazionale?",
+          "opzioni": [
+            "Limiting public management",
+            "Public administration",
+            "Public management",
+            "Business management"
+          ],
+          "risposta_corretta": "Public management"
+        },
+        {
+          "testo": "Sono studi di farmaceconomia:",
+          "opzioni": [
+            "Gli studi sui benefici politici",
+            "Gli studi Costi Utilità (CUA)",
+            "Gli studi privato/pubblico",
+            "Gli studi malato/sano"
+          ],
+          "risposta_corretta": "Gli studi Costi Utilità (CUA)"
+        },
+        {
+          "testo": "Che cosa si intende per infezione nosocomiale?",
+          "opzioni": [
+            "Infezione di origine comunitaria all'ingresso in ospedale",
+            "Qualsiasi infezione presente durante il ricovero",
+            "Infezione non presente o in incubazione al momento del ricovero e che diventa manifesta dopo almeno 48 ore dall'inizio del ricovero",
+            "Infezione non presente al momento del ricovero e che diventa manifesta dopo almeno 5 ore"
+          ],
+          "risposta_corretta": "Infezione non presente o in incubazione al momento del ricovero e che diventa manifesta dopo almeno 48 ore dall'inizio del ricovero"
+        },
+        {
+          "testo": "In Italia annualmente quanti pazienti si stima contraggano un'infezione ospedaliera?",
+          "opzioni": [
+            "50.000 – 200.000",
+            "700.000 – 900.000",
+            "150.000 – 200.000",
+            "450.000 - 700.000"
+          ],
+          "risposta_corretta": "450.000 - 700.000"
+        },
+        {
+          "testo": "Quale delle seguenti infezioni nosocomiali è definita a 'modesta' trasmissibilità?",
+          "opzioni": [
+            "Rosolia",
+            "Tubercolosi",
+            "HIV",
+            "Morbillo"
+          ],
+          "risposta_corretta": "HIV"
+        },
+        {
+          "testo": "Cosa si intende per sterilizzazione?",
+          "opzioni": [
+            "Eliminazione dei soli microrganismi patogeni",
+            "Riduzione della maggior quantità di microrganismi che causano malattie",
+            "Inattivazione dei microorganismi che causano malattie",
+            "Qualsiasi processo chimico o fisico che porti all'eliminazione di ogni microrganismo vivente, sia patogeno che non patogeno"
+          ],
+          "risposta_corretta": "Qualsiasi processo chimico o fisico che porti all'eliminazione di ogni microrganismo vivente, sia patogeno che non patogeno"
+        },
+        {
+          "testo": "L'attività di un disinfettante è influenzata da:",
+          "opzioni": [
+            "Solo dalla natura del microrganismo",
+            "Solo dalla temperatura",
+            "Solo dal tempo di esposizione",
+            "Dalla natura del microrganismo, dalla temperatura e dal tempo di esposizione"
+          ],
+          "risposta_corretta": "Dalla natura del microrganismo, dalla temperatura e dal tempo di esposizione"
+        },
+        {
+          "testo": "Quali di queste sono vie di trasmissione di microrganismi infettivi?",
+          "opzioni": [
+            "Solo per droplets",
+            "Solo aerea",
+            "Solo da contatto",
+            "Per droplets, aerea e da contatto"
+          ],
+          "risposta_corretta": "Per droplets, aerea e da contatto"
+        },
+        {
+          "testo": "Quale test è il 'gold standard' per la sorveglianza dell'infezione tubercolare latente?",
+          "opzioni": [
+            "Esame colturale dell'espettorato",
+            "Test tubercolinico (TST)",
+            "Test Interferon Gamma (TIG)",
+            "Rx del torace"
+          ],
+          "risposta_corretta": "Test tubercolinico (TST)"
+        },
+        {
+          "testo": "Secondo il Ministero della Salute gli obiettivi di copertura vaccinale per influenza, per le categorie a rischio, sono:",
+          "opzioni": [
+            "15% come obiettivo minimo; 60% come obiettivo ottimale",
+            "75% come obiettivo minimo; 95% come obiettivo ottimale",
+            "30% come obiettivo minimo; 99% come obiettivo ottimale",
+            "50% come obiettivo minimo; 80% come obiettivo ottimale"
+          ],
+          "risposta_corretta": "75% come obiettivo minimo; 95% come obiettivo ottimale"
+        },
+        {
+          "testo": "Quali strumenti possono essere utilizzati per la gestione del rischio clinico?",
+          "opzioni": [
+            "Solo studi epidemiologici",
+            "Solo Audit Clinico",
+            "Solo Incident reporting",
+            "Studi epidemiologici, Audit Clinico e Incident reporting"
+          ],
+          "risposta_corretta": "Studi epidemiologici, Audit Clinico e Incident reporting"
+        },
+        {
+          "testo": "Quali infezioni si verificano più frequentemente nei pazienti ricoverati in ospedale?",
+          "opzioni": [
+            "Delle vie respiratorie",
+            "Delle vie urinarie",
+            "Della cute",
+            "Delle vie digestive"
+          ],
+          "risposta_corretta": "Delle vie urinarie"
+        },
+        {
+          "testo": "A chi non è destinata la vaccinazione antinfluenzale?",
+          "opzioni": [
+            "Agli anziani over 65",
+            "Agli individui adulti immunocompetenti",
+            "Ai soggetti affetti da patologie croniche",
+            "Agli operatori sanitari"
+          ],
+          "risposta_corretta": "Agli individui adulti immunocompetenti"
+        },
+        {
+          "testo": "Quale microrganismo non è monitorato nel sistema di allerta del San Martino?",
+          "opzioni": [
+            "Klebsiella pneumoniae",
+            "Staphylococcus aureus meticillino-resistente (MRSA)",
+            "Clostridium tetani",
+            "Pseudomonas aeruginosa"
+          ],
+          "risposta_corretta": "Clostridium tetani"
+        },
+        {
+          "testo": "In caso di suscettibilità del lavoratore esposto a specifico rischio, quali vaccinazioni possono essere raccomandate negli operatori sanitari in Italia?",
+          "opzioni": [
+            "HBV, influenza, morbillo, rosolia, tetano, varicella e meningococco, HAV e BCG in casi particolari",
+            "Solo le vaccinazioni anti-morbillo e rosolia",
+            "Solo la vaccinazione influenzale e HBV",
+            "Solo le vaccinazioni obbligatorie per legge (Difterite, Tetano, Poliomielite e HBV)"
+          ],
+          "risposta_corretta": "HBV, influenza, morbillo, rosolia, tetano, varicella e meningococco, HAV e BCG in casi particolari"
+        },
+        {
+          "testo": "Le coperture vaccinali per influenza negli operatori sanitari in Europa sono generalmente:",
+          "opzioni": [
+            "Oltre il 70%",
+            "Circa 60-70%",
+            "Inferiori al 30-40%",
+            "Superiori al 60%"
+          ],
+          "risposta_corretta": "Inferiori al 30-40%"
+        },
+        {
+          "testo": "Secondo i dati ECDC, la proporzione di ceppi di Klebsiella pneumoniae resistenti ai carbapenemi in Italia nel periodo 2010-2014 è:",
+          "opzioni": [
+            "Sostanzialmente stabile",
+            "In progressiva diminuzione",
+            "Con valori < 1% degli isolati testati",
+            "In progressivo aumento"
+          ],
+          "risposta_corretta": "In progressivo aumento"
+        },
+        {
+          "testo": "In caso di infortunio professionale in operatore sanitario con esposizione a paziente HIV sieropositivo, si raccomanda:",
+          "opzioni": [
+            "Sempre l'inizio della PPE con antiretrovirali preferibilmente entro 48 ore",
+            "Nessun trattamento farmacologico urgente con follow up sierologico ai tempi 4-6-12 mesi",
+            "Sempre l'inizio della PPE con antiretrovirali al più presto (entro 1-4 ore), non oltre 48 ore, con follow up sierologico a 1-3 mesi",
+            "Nessun trattamento farmacologico urgente e valutazione sierologica a 1-3 mesi"
+          ],
+          "risposta_corretta": "Sempre l'inizio della PPE con antiretrovirali al più presto (entro 1-4 ore), non oltre 48 ore, con follow up sierologico a 1-3 mesi"
+        },
+        {
+          "testo": "In caso di infortunio in operatore sanitario non vaccinato con esposizione a paziente HBV di stato sierologico sconosciuto, si raccomanda:",
+          "opzioni": [
+            "La somministrazione di 3 dosi di immunoglobuline specifiche HBV entro 48 h",
+            "La somministrazione di 1 dose di HBIg (0,06 ml/Kg i.m.) entro 24 ore, contestuale valutazione sierologica e pronto inizio del ciclo vaccinale",
+            "Nessun trattamento urgente, solo in caso di ferite profonde",
+            "Il solo inizio del ciclo vaccinale"
+          ],
+          "risposta_corretta": "La somministrazione di 1 dose di HBIg (0,06 ml/Kg i.m.) entro 24 ore, contestuale valutazione sierologica e pronto inizio del ciclo vaccinale"
+        },
+        {
+          "testo": "L'infezione tubercolare latente:",
+          "opzioni": [
+            "Non costituisce una condizione necessaria nella storia naturale della tubercolosi attiva",
+            "È una condizione contagiosa, al pari della tubercolosi attiva clinicamente manifesta",
+            "Ha una prevalenza stimata di oltre il 60% negli studenti di area sanitaria in paesi a bassa incidenza",
+            "Deve essere monitorata attivamente nell'ambito delle attività di sorveglianza sanitaria per gli operatori sanitari esposti a rischio specifico"
+          ],
+          "risposta_corretta": "Deve essere monitorata attivamente nell'ambito delle attività di sorveglianza sanitaria per gli operatori sanitari esposti a rischio specifico"
+        },
+        {
+          "testo": "Le funzioni strategiche del distretto sono definite dal decreto legislativo:",
+          "opzioni": [
+            "502/92",
+            "229/99",
+            "81/2008",
+            "626/94"
+          ],
+          "risposta_corretta": "229/99"
+        },
+        {
+          "testo": "Il Dipartimento di Prevenzione è solitamente composto da:",
+          "opzioni": [
+            "2 Unità Operative complesse",
+            "4 Unità Operative",
+            "6 Unità Operative",
+            "Una sola Unità Operativa semplice"
+          ],
+          "risposta_corretta": "6 Unità Operative"
+        },
+        {
+          "testo": "Le vaccinazioni sono organizzate all'interno del Dipartimento di Prevenzione, in particolare presso l'UO di:",
+          "opzioni": [
+            "Medicina dello sport",
+            "Oculistica",
+            "Igiene e Sanità Pubblica",
+            "Cardiologia preventiva"
+          ],
+          "risposta_corretta": "Igiene e Sanità Pubblica"
+        },
+        {
+          "testo": "Negli ambienti di lavoro, tra gli agenti biologici trasmissibili per via aerea troviamo:",
+          "opzioni": [
+            "Staphylococcus aureus",
+            "Clostridium difficile",
+            "Micobacterium tubercolosis",
+            "Streptococcus pyogenes"
+          ],
+          "risposta_corretta": "Micobacterium tubercolosis"
+        },
+        {
+          "testo": "La frequenza di infezioni correlate all'assistenza varia in base a:",
+          "opzioni": [
+            "Solo all'età media dei pazienti ricoverati",
+            "Solo al tipo di chirurgia effettuata",
+            "Al numero dei posti letto e alle misure preventive adottate",
+            "Esclusivamente al numero di operatori sanitari presenti"
+          ],
+          "risposta_corretta": "Al numero dei posti letto e alle misure preventive adottate"
+        },
+        {
+          "testo": "Gli obiettivi del progetto SPIN-UTI sono:",
+          "opzioni": [
+            "Monitorare il consumo di antibiotici nelle UTI",
+            "Assicurare la standardizzazione delle definizioni, della raccolta dei dati e delle procedure di feedback per la sorveglianza delle ICA nelle UTI",
+            "Valutare la qualità delle cure infermieristiche in terapia intensiva",
+            "Ridurre la spesa farmaceutica nelle unità di terapia intensiva"
+          ],
+          "risposta_corretta": "Assicurare la standardizzazione delle definizioni, della raccolta dei dati e delle procedure di feedback per la sorveglianza delle ICA nelle UTI"
+        },
+        {
+          "testo": "Relativamente al rischio biologico in ambito sanitario, le attività di sorveglianza e prevenzione riguardano:",
+          "opzioni": [
+            "Esclusivamente le infezioni pericolose per il paziente",
+            "Tutte le infezioni pericolose sia per il paziente sia per l'operatore sanitario",
+            "Esclusivamente le infezioni pericolose per l'operatore sanitario",
+            "Solo le infezioni trasmissibili per via aerea"
+          ],
+          "risposta_corretta": "Tutte le infezioni pericolose sia per il paziente sia per l'operatore sanitario"
+        }
+      ]
+    },
+    {
+      "argomento": "Medicina del Lavoro",
+      "domande": [
+        {
+          "testo": "Il primo trattato di Medicina del Lavoro risale a:",
+          "opzioni": [
+            "1900",
+            "1600",
+            "1700",
+            "1492"
+          ],
+          "risposta_corretta": "1700"
+        },
+        {
+          "testo": "Il decreto 277/1991 prende in considerazione i rischi da:",
+          "opzioni": [
+            "Cromo esavalente",
+            "Vibrazioni, rumore",
+            "Rumore, piombo, amianto",
+            "Chimico, biologico, movimentazione manuale dei carichi"
+          ],
+          "risposta_corretta": "Rumore, piombo, amianto"
+        },
+        {
+          "testo": "Il primo Testo Unico sull'assicurazione obbligatoria degli infortuni e delle malattie professionali risale al:",
+          "opzioni": [
+            "1994",
+            "1929",
+            "1991",
+            "1965"
+          ],
+          "risposta_corretta": "1965"
+        },
+        {
+          "testo": "L'articolo 41 del D.Lgs. 81/2008 definisce:",
+          "opzioni": [
+            "Gli obblighi del Medico Competente",
+            "La valutazione dei Rischi",
+            "I dispositivi di protezione individuale",
+            "La sorveglianza Sanitaria"
+          ],
+          "risposta_corretta": "La sorveglianza Sanitaria"
+        },
+        {
+          "testo": "La silicosi è una malattia del polmone contrassegnata da fibrosi:",
+          "opzioni": [
+            "Anodulare",
+            "Nodulare",
+            "Lineare",
+            "Granulare"
+          ],
+          "risposta_corretta": "Nodulare"
+        },
+        {
+          "testo": "La sindrome del tunnel carpale può essere correlata tra le altre a:",
+          "opzioni": [
+            "Al sovraccarico biomeccanico degli arti superiori",
+            "A un eccessivo rumore in ambiente di lavoro",
+            "Alla movimentazione manuale di un carico pesante",
+            "All'esposizione ad alte o basse temperature"
+          ],
+          "risposta_corretta": "Al sovraccarico biomeccanico degli arti superiori"
+        },
+        {
+          "testo": "I valori limite di soglia (TLV) sono:",
+          "opzioni": [
+            "La massima concentrazione rilevabile nell'ambiente di lavoro di una sostanza",
+            "La concentrazione media ponderata di sostanza cui la stragrande maggioranza dei lavoratori può essere esposta senza subire danni alla salute per tutto l'arco della vita lavorativa",
+            "Il livello massimo di sostanza consentito dalle leggi vigenti",
+            "La concentrazione minima di una sostanza tossica in ambiente di lavoro"
+          ],
+          "risposta_corretta": "La concentrazione media ponderata di sostanza cui la stragrande maggioranza dei lavoratori può essere esposta senza subire danni alla salute per tutto l'arco della vita lavorativa"
+        },
+        {
+          "testo": "L'ente deputato alla tutela assicurativa dei lavoratori per quanto riguarda gli infortuni e le malattie professionali è:",
+          "opzioni": [
+            "INPS",
+            "INAIL",
+            "ISTAT",
+            "ASL"
+          ],
+          "risposta_corretta": "INAIL"
+        },
+        {
+          "testo": "La sarcoidosi è una:",
+          "opzioni": [
+            "Malattia neoplastica",
+            "Malattia infettiva",
+            "Malattia granulare",
+            "Malattia vascolare"
+          ],
+          "risposta_corretta": "Malattia granulare"
+        },
+        {
+          "testo": "L'organo bersaglio dei tossici industriali include:",
+          "opzioni": [
+            "Solo il cervello",
+            "Solo il fegato",
+            "Cute, apparato gastrointestinale e respiratorio",
+            "Solo il rene"
+          ],
+          "risposta_corretta": "Cute, apparato gastrointestinale e respiratorio"
+        },
+        {
+          "testo": "La 'concentrazione cronologica':",
+          "opzioni": [
+            "Indica l'intensità massima dell'esposizione",
+            "Indica la durata del contatto tra l'agente esterno e l'organismo del lavoratore",
+            "Misura la concentrazione media settimanale di un tossico",
+            "Indica il periodo di latenza tra esposizione e malattia"
+          ],
+          "risposta_corretta": "Indica la durata del contatto tra l'agente esterno e l'organismo del lavoratore"
+        },
+        {
+          "testo": "L'infortunio in itinere:",
+          "opzioni": [
+            "È l'infortunio che si verifica esclusivamente sul posto di lavoro",
+            "È l'infortunio che si verifica durante il normale percorso di andata e ritorno dal lavoro, senza deviazioni ingiustificate (DL 38/2000)",
+            "È indennizzabile solo se avviene con mezzi pubblici",
+            "Non è mai indennizzabile se l'infortunato utilizza propri mezzi di locomozione"
+          ],
+          "risposta_corretta": "È l'infortunio che si verifica durante il normale percorso di andata e ritorno dal lavoro, senza deviazioni ingiustificate (DL 38/2000)"
+        },
+        {
+          "testo": "I trattamenti sanitari:",
+          "opzioni": [
+            "Sono sempre obbligatori",
+            "Non sono mai obbligatori",
+            "Possono essere obbligatori, ma solo per legge",
+            "Sono stabiliti dall'ASL"
+          ],
+          "risposta_corretta": "Possono essere obbligatori, ma solo per legge"
+        },
+        {
+          "testo": "Il concetto di 'incapacità al guadagno':",
+          "opzioni": [
+            "È di natura esclusivamente penalistica",
+            "È determinato solo da fattori biologici",
+            "È determinato dai fattori biologici ed economico-socio-ambientali",
+            "È determinato dalle sole condizioni del mercato del lavoro"
+          ],
+          "risposta_corretta": "È determinato dai fattori biologici ed economico-socio-ambientali"
+        },
+        {
+          "testo": "Quali sono i requisiti medico-legali della malattia professionale?",
+          "opzioni": [
+            "La malattia deve determinare almeno 40 giorni di inabilità temporanea",
+            "La malattia deve essersi manifestata dopo un'esposizione di almeno un anno",
+            "La malattia deve dipendere dall'esposizione prolungata del lavoratore ad una sostanza nociva e deve rientrare in un'apposita lista o deve esserne dimostrata la causa lavorativa",
+            "La malattia deve essere compresa esclusivamente in un elenco specifico"
+          ],
+          "risposta_corretta": "La malattia deve dipendere dall'esposizione prolungata del lavoratore ad una sostanza nociva e deve rientrare in un'apposita lista o deve esserne dimostrata la causa lavorativa"
+        },
+        {
+          "testo": "Quando si ha penetrazione delle polveri nei bronchioli?",
+          "opzioni": [
+            "Particelle di diametro > 10 micrometri",
+            "Particelle di diametro 5-10 micrometri",
+            "Particelle di diametro 0,5-5 micrometri",
+            "Particelle di diametro < 0,1 micrometri"
+          ],
+          "risposta_corretta": "Particelle di diametro 0,5-5 micrometri"
+        },
+        {
+          "testo": "L'anno di nascita del medico competente in Italia è:",
+          "opzioni": [
+            "1900",
+            "1927",
+            "1965",
+            "1994"
+          ],
+          "risposta_corretta": "1927"
+        },
+        {
+          "testo": "La principale via di assorbimento dei tossici industriali è rappresentata da:",
+          "opzioni": [
+            "Via cutanea",
+            "Via digestiva",
+            "Apparato respiratorio",
+            "Via mucosale"
+          ],
+          "risposta_corretta": "Apparato respiratorio"
+        },
+        {
+          "testo": "Per agente biologico si definisce:",
+          "opzioni": [
+            "Qualsiasi microrganismo anche se geneticamente modificato, coltura cellulare ed endoparassita umano che potrebbe provocare infezioni, allergie o intossicazioni",
+            "Solo i batteri patogeni per l'uomo",
+            "Il risultato della crescita in vitro di cellule derivate da organismi pluricellulari",
+            "Qualsiasi entità microbiologica in grado di riprodursi"
+          ],
+          "risposta_corretta": "Qualsiasi microrganismo anche se geneticamente modificato, coltura cellulare ed endoparassita umano che potrebbe provocare infezioni, allergie o intossicazioni"
+        },
+        {
+          "testo": "Le fibre differiscono dalle particelle granulari o tubulari per:",
+          "opzioni": [
+            "Composizione chimica",
+            "Colore e densità",
+            "Diametro e lunghezza",
+            "Solubilità e reattività"
+          ],
+          "risposta_corretta": "Diametro e lunghezza"
+        },
+        {
+          "testo": "Cosa provoca l'amianto?",
+          "opzioni": [
+            "Solo fibrosi polmonare",
+            "Solo tumori maligni",
+            "Solo tumori benigni",
+            "Fibromi, tumori benigni e tumori maligni"
+          ],
+          "risposta_corretta": "Fibromi, tumori benigni e tumori maligni"
+        },
+        {
+          "testo": "Cosa venne introdotto con il DL 38 del 2000?",
+          "opzioni": [
+            "L'obbligo del casco nei cantieri",
+            "Il concetto di danno biologico nell'assicurazione sociale",
+            "La responsabilità penale del datore di lavoro per infortuni",
+            "L'abolizione della lista delle malattie professionali"
+          ],
+          "risposta_corretta": "Il concetto di danno biologico nell'assicurazione sociale"
+        },
+        {
+          "testo": "Gli indicatori di effetto biologico:",
+          "opzioni": [
+            "Sono sinonimi degli indicatori di dose",
+            "Rappresentano variabili che esprimono l'effetto del fattore nocivo su un sistema biologico",
+            "Sono utilizzati solo per valutare i rischi fisici",
+            "Non hanno validità scientifica riconosciuta"
+          ],
+          "risposta_corretta": "Rappresentano variabili che esprimono l'effetto del fattore nocivo su un sistema biologico"
+        },
+        {
+          "testo": "Il danno può essere causato da:",
+          "opzioni": [
+            "Solo cause fisiche",
+            "Solo cause chimiche",
+            "Solo cause biologiche",
+            "Cause fisiche, chimiche e biologiche"
+          ],
+          "risposta_corretta": "Cause fisiche, chimiche e biologiche"
+        },
+        {
+          "testo": "La sorveglianza sanitaria dei lavoratori è:",
+          "opzioni": [
+            "L'insieme degli atti medici, finalizzati alla tutela dello stato di salute e sicurezza dei lavoratori in relazione all'ambiente di lavoro (art. 2, D.Lgs. 81/08)",
+            "Solo la visita medica preventiva all'assunzione",
+            "La verifica annuale dei DPI utilizzati dai lavoratori",
+            "L'ispezione periodica degli ambienti di lavoro"
+          ],
+          "risposta_corretta": "L'insieme degli atti medici, finalizzati alla tutela dello stato di salute e sicurezza dei lavoratori in relazione all'ambiente di lavoro (art. 2, D.Lgs. 81/08)"
+        }
+      ]
+    },
+    {
+      "argomento": "Medicina Legale e Bioetica",
+      "domande": [
+        {
+          "testo": "In quale articolo della Costituzione si dice che la Repubblica tutela la salute come diritto fondamentale dell'individuo?",
+          "opzioni": [
+            "Articolo 3",
+            "Articolo 21",
+            "Articolo 32",
+            "Articolo 40"
+          ],
+          "risposta_corretta": "Articolo 32"
+        },
+        {
+          "testo": "Quale delle seguenti fattispecie fa parte dei delitti contro l'incolumità individuale?",
+          "opzioni": [
+            "Infanticidio",
+            "Omicidio",
+            "Percosse e lesioni personali",
+            "Morte conseguente ad altro delitto"
+          ],
+          "risposta_corretta": "Percosse e lesioni personali"
+        },
+        {
+          "testo": "Cosa si intende per imperizia?",
+          "opzioni": [
+            "Mancanza di nozioni scientifiche o pratiche o insufficiente esperienza professionale",
+            "Inosservanza di leggi, regolamenti, ordini e discipline",
+            "Eccesso di diligenza",
+            "Omissione delle cautele consigliate"
+          ],
+          "risposta_corretta": "Mancanza di nozioni scientifiche o pratiche o insufficiente esperienza professionale"
+        },
+        {
+          "testo": "La responsabilità penale dei professionisti sanitari:",
+          "opzioni": [
+            "È valutata dall'Ordine Professionale",
+            "Può essere contrattuale o extracontrattuale",
+            "È personale",
+            "Si valuta con il criterio della preponderanza dell'evidenza"
+          ],
+          "risposta_corretta": "È personale"
+        },
+        {
+          "testo": "Il referto all'Autorità Giudiziaria:",
+          "opzioni": [
+            "È redatto dal Pubblico Ufficiale o Incaricato di Pubblico Servizio",
+            "È redatto solo dal medico",
+            "Riguarda tutti i reati procedibili a querela di parte",
+            "È l'atto con cui un esercente servizio di pubblica necessità comunica all'Autorità Giudiziaria un reato procedibile d'ufficio"
+          ],
+          "risposta_corretta": "È l'atto con cui un esercente servizio di pubblica necessità comunica all'Autorità Giudiziaria un reato procedibile d'ufficio"
+        },
+        {
+          "testo": "La denuncia giudiziaria:",
+          "opzioni": [
+            "È indirizzata al Giudice per le Indagini Preliminari",
+            "È un atto scritto con cui un pubblico ufficiale riferisce all'autorità giudiziaria di aver prestato la propria assistenza in casi che possono presentare caratteri di un delitto procedibile d'ufficio",
+            "Può essere compilata solo dal Pubblico Ministero",
+            "È fatta dall'esercente di pubblica necessità"
+          ],
+          "risposta_corretta": "È un atto scritto con cui un pubblico ufficiale riferisce all'autorità giudiziaria di aver prestato la propria assistenza in casi che possono presentare caratteri di un delitto procedibile d'ufficio"
+        },
+        {
+          "testo": "Il consenso dell'avente diritto:",
+          "opzioni": [
+            "Può mancare in casi di emergenza in uno 'stato di necessità'",
+            "Può essere prestato dai parenti in caso di paziente interdetto",
+            "È obbligatoriamente scritto in caso di intervento chirurgico",
+            "Non prevede mai l'informazione del minorenne"
+          ],
+          "risposta_corretta": "Può mancare in casi di emergenza in uno 'stato di necessità'"
+        },
+        {
+          "testo": "Quale di queste rappresenta una giusta causa di rivelazione di segreto professionale?",
+          "opzioni": [
+            "Il consenso di un parente prossimo al paziente",
+            "Il consenso del paziente",
+            "Il pericolo di sottoporre l'assistito a procedimento penale",
+            "La volontà di agire per il bene del paziente"
+          ],
+          "risposta_corretta": "Il consenso del paziente"
+        },
+        {
+          "testo": "Quale di queste caratteristiche differenzia la denuncia dal referto?",
+          "opzioni": [
+            "La denuncia è rivolta all'autorità giudiziaria mentre il referto è rivolto all'autorità sanitaria locale",
+            "La denuncia è un atto obbligatorio mentre il referto è a discrezione del medico",
+            "La denuncia è fatta dal pubblico ufficiale mentre il referto è fatto dall'esercente servizio di pubblica necessità",
+            "La denuncia va fatta telefonicamente mentre il referto è un atto scritto"
+          ],
+          "risposta_corretta": "La denuncia è fatta dal pubblico ufficiale mentre il referto è fatto dall'esercente servizio di pubblica necessità"
+        },
+        {
+          "testo": "Quale di questi elementi NON è vincolante nel consenso all'atto medico?",
+          "opzioni": [
+            "Deve essere libero",
+            "Deve essere informato",
+            "Deve essere personale",
+            "Deve essere scritto"
+          ],
+          "risposta_corretta": "Deve essere scritto"
+        },
+        {
+          "testo": "Quale di queste lesioni personali è perseguibile d'ufficio?",
+          "opzioni": [
+            "Il caso di tentato suicidio",
+            "Il caso di pericolo di vita dolosamente causato",
+            "Il caso di pericolo di vita colposamente causato",
+            "Il caso di malattia inferiore ai venti giorni"
+          ],
+          "risposta_corretta": "Il caso di pericolo di vita dolosamente causato"
+        },
+        {
+          "testo": "Cosa si intende per STATO DI NECESSITÀ?",
+          "opzioni": [
+            "La necessità di salvare sé od altri dal pericolo di vita",
+            "La necessità di salvare sé od altri dal pericolo di indebolimento permanente di un senso o organo",
+            "La necessità di evitare un pericolo generico incombente su sé o su altri",
+            "La necessità di salvare sé o altri dal pericolo attuale di un danno grave alla persona"
+          ],
+          "risposta_corretta": "La necessità di salvare sé o altri dal pericolo attuale di un danno grave alla persona"
+        },
+        {
+          "testo": "Quale di questi documenti NON tratta del consenso dell'avente diritto?",
+          "opzioni": [
+            "La Costituzione",
+            "Il Codice Penale",
+            "Il Codice Deontologico del Medico",
+            "Il Codice di Procedura Penale"
+          ],
+          "risposta_corretta": "Il Codice di Procedura Penale"
+        },
+        {
+          "testo": "Quale di questa affermazioni sulla responsabilità professionale è corretta?",
+          "opzioni": [
+            "La responsabilità penale è finalizzata al risarcimento del danno causato",
+            "La responsabilità amministrativa riguarda solo personale non-medico",
+            "La responsabilità civile può sussistere solo in assenza di responsabilità penale",
+            "La responsabilità civile può essere contrattuale o extracontrattuale"
+          ],
+          "risposta_corretta": "La responsabilità civile può essere contrattuale o extracontrattuale"
+        },
+        {
+          "testo": "Quale delle seguenti affermazioni sulle lesioni personali è errata?",
+          "opzioni": [
+            "La percossa non seguita dall'insorgenza di malattia è una lesione personale gravissima",
+            "Lo sfregio è una lesione personale gravissima",
+            "La malattia di durata inferiore ai 20 giorni è una lesione personale lievissima",
+            "La perdita di entrambi gli occhi è una lesione personale gravissima"
+          ],
+          "risposta_corretta": "La percossa non seguita dall'insorgenza di malattia è una lesione personale gravissima"
+        },
+        {
+          "testo": "L'onere della prova in responsabilità civile:",
+          "opzioni": [
+            "Spetta al paziente nel caso di responsabilità extracontrattuale",
+            "Spetta al paziente nel caso di responsabilità contrattuale",
+            "Spetta al rappresentante legale del paziente nel caso di responsabilità contrattuale",
+            "Spetta al pubblico ministero nel caso di responsabilità extracontrattuale"
+          ],
+          "risposta_corretta": "Spetta al paziente nel caso di responsabilità extracontrattuale"
+        },
+        {
+          "testo": "Quale affermazione in merito ai delitti sessuali è corretta?",
+          "opzioni": [
+            "I delitti sessuali sono sempre perseguibili d'ufficio",
+            "Gli atti sessuali con minorenni sono perseguibili d'ufficio",
+            "La violenza sessuale è aggravata se commessa nei confronti di un minore di 18 anni",
+            "La violenza sessuale è aggravata se commessa nei confronti di un minore di 14 anni"
+          ],
+          "risposta_corretta": "La violenza sessuale è aggravata se commessa nei confronti di un minore di 14 anni"
+        },
+        {
+          "testo": "Quale delle seguenti fattispecie NON è compresa nei delitti contro la vita?",
+          "opzioni": [
+            "Aiuto al suicidio",
+            "Aiuto all'omicidio di terzi",
+            "Istigazione al suicidio",
+            "Omicidio doloso"
+          ],
+          "risposta_corretta": "Aiuto all'omicidio di terzi"
+        },
+        {
+          "testo": "Chi è tenuto al segreto professionale?",
+          "opzioni": [
+            "Soltanto il medico curante",
+            "Chi ne ha notizia per il proprio stato, ufficio, professione o arte",
+            "Soltanto il professionista sanitario incaricato di pubblico servizio",
+            "Soltanto il pubblico ufficiale"
+          ],
+          "risposta_corretta": "Chi ne ha notizia per il proprio stato, ufficio, professione o arte"
+        },
+        {
+          "testo": "Sono tenuti a redigere denuncia giudiziaria anziché referto:",
+          "opzioni": [
+            "I professionisti sanitari addetti alle case di cura",
+            "I professionisti sanitari con qualifica giuridica di pubblico ufficiale",
+            "Gli esercenti professione di pubblica utilità",
+            "I titolari di guardia medica in centri urbani con popolazioni superiori alle 100.000 unità"
+          ],
+          "risposta_corretta": "I professionisti sanitari con qualifica giuridica di pubblico ufficiale"
+        },
+        {
+          "testo": "Per organo in medicina legale si intende:",
+          "opzioni": [
+            "Un complesso anatomicamente unitario",
+            "Un complesso di strutture anatomiche esplicante una funzione ben definita ai fini della vita organica o di relazione",
+            "Una entità corporea biologicamente ben individuabile",
+            "Una entità anatomica singola"
+          ],
+          "risposta_corretta": "Un complesso di strutture anatomiche esplicante una funzione ben definita ai fini della vita organica o di relazione"
+        },
+        {
+          "testo": "Il reato si definisce come:",
+          "opzioni": [
+            "Fatto illecito che vada contro i principi dell'etica e della morale comune",
+            "Fatto illecito al quale l'ordinamento giuridico collega come conseguenza una pena",
+            "Fatto illecito previsto dal codice penale",
+            "Fatto illecito non compreso fra i delitti e le contravvenzioni"
+          ],
+          "risposta_corretta": "Fatto illecito al quale l'ordinamento giuridico collega come conseguenza una pena"
+        },
+        {
+          "testo": "In sede penale (art. 583) la perdita della vista monolaterale è:",
+          "opzioni": [
+            "Sfregio permanente del viso",
+            "Perdita di un senso",
+            "Indebolimento permanente di un senso",
+            "Pericolo di vita"
+          ],
+          "risposta_corretta": "Indebolimento permanente di un senso"
+        },
+        {
+          "testo": "Cosa si intende per rapporto di causalità?",
+          "opzioni": [
+            "È il legame che intercorre tra due fenomeni per cui uno è effetto rispetto all'altro",
+            "È la probabilità che dato un evento se ne verifichi un altro",
+            "È un rapporto cronologico tra due eventi, uno dei quali precede l'altro",
+            "È il legame tra concausa e occasione"
+          ],
+          "risposta_corretta": "È il legame che intercorre tra due fenomeni per cui uno è effetto rispetto all'altro"
+        },
+        {
+          "testo": "Qual è la durata del Trattamento Sanitario Obbligatorio per malattia di mente secondo i termini di legge?",
+          "opzioni": [
+            "Almeno 48 ore",
+            "Almeno 96 ore (48+48)",
+            "Di regola 7 giorni (rinnovabili)",
+            "Di regola 10 giorni"
+          ],
+          "risposta_corretta": "Di regola 7 giorni (rinnovabili)"
+        },
+        {
+          "testo": "Quale di queste caratteristiche della capacità giuridica è corretta?",
+          "opzioni": [
+            "Si acquista al compimento del 14° anno d'età",
+            "Si acquista alla nascita",
+            "Si acquista al compimento del 18° anno d'età",
+            "Si perde se si commette un reato perseguibile d'ufficio"
+          ],
+          "risposta_corretta": "Si acquista alla nascita"
+        },
+        {
+          "testo": "L'IVG prima del 90° giorno può essere praticata:",
+          "opzioni": [
+            "Senza addurre alcuna motivazione",
+            "Anche per motivi relativi alle condizioni economiche o sociali o familiari",
+            "Solo se esiste il consenso del padre del concepito",
+            "Previa autorizzazione del Tribunale dei minori"
+          ],
+          "risposta_corretta": "Anche per motivi relativi alle condizioni economiche o sociali o familiari"
+        },
+        {
+          "testo": "Quale dei seguenti ambiti della responsabilità professionale NON esiste?",
+          "opzioni": [
+            "Penale",
+            "Disciplinare",
+            "D'ufficio",
+            "Amministrativa"
+          ],
+          "risposta_corretta": "D'ufficio"
+        },
+        {
+          "testo": "Quale delle seguenti fattispecie NON è compresa nei delitti contro la vita?",
+          "opzioni": [
+            "Omicidio del consenziente",
+            "Lesioni personali gravissime",
+            "Omicidio colposo",
+            "Infanticidio"
+          ],
+          "risposta_corretta": "Lesioni personali gravissime"
+        },
+        {
+          "testo": "Quale affermazione in merito ai delitti sessuali è corretta (seconda versione)?",
+          "opzioni": [
+            "Sono sempre perseguibili d'ufficio",
+            "Gli atti sessuali con minorenni sono sempre perseguibili d'ufficio",
+            "La violenza sessuale è aggravata se commessa su soggetti affidati per ragioni di istruzione, cura o custodia",
+            "La violenza sessuale è aggravata se commessa nei confronti di un minore di 18 anni"
+          ],
+          "risposta_corretta": "La violenza sessuale è aggravata se commessa su soggetti affidati per ragioni di istruzione, cura o custodia"
+        },
+        {
+          "testo": "L'aborto, a differenza dell'interruzione volontaria di gravidanza, nel nostro ordinamento è:",
+          "opzioni": [
+            "Possibile",
+            "Volontario",
+            "Lecito",
+            "Illecito (penale)"
+          ],
+          "risposta_corretta": "Illecito (penale)"
+        },
+        {
+          "testo": "NON è una figura giuridica che può essere ricoperta da un professionista sanitario:",
+          "opzioni": [
+            "Pubblico ufficiale",
+            "Giudice tutelare",
+            "Esercente un servizio di pubblica necessità",
+            "Incaricato di pubblico servizio"
+          ],
+          "risposta_corretta": "Giudice tutelare"
+        },
+        {
+          "testo": "Il consenso allargato:",
+          "opzioni": [
+            "Non esiste",
+            "È una forma di consenso che prevede la possibilità di modificare l'iter terapeutico/chirurgico in corso d'opera",
+            "È un consenso che può essere sottoscritto da parenti fino al terzo grado",
+            "Rappresenta una manleva del professionista sanitario da eventuali errori"
+          ],
+          "risposta_corretta": "È una forma di consenso che prevede la possibilità di modificare l'iter terapeutico/chirurgico in corso d'opera"
+        },
+        {
+          "testo": "Il referto all'Autorità Giudiziaria può non essere redatto:",
+          "opzioni": [
+            "Sempre, è a discrezione del medico",
+            "Nei casi in cui si esponga l'assistito a procedimento penale",
+            "Quando il fatto riguarda solo lesioni lievissime",
+            "Quando il medico non conosce il paziente"
+          ],
+          "risposta_corretta": "Nei casi in cui si esponga l'assistito a procedimento penale"
+        },
+        {
+          "testo": "La responsabilità penale dei professionisti sanitari si valuta in termini di:",
+          "opzioni": [
+            "'Più probabile che non'",
+            "'Certezza al di là di ogni ragionevole dubbio'",
+            "Non esiste",
+            "Preponderanza dell'evidenza"
+          ],
+          "risposta_corretta": "'Certezza al di là di ogni ragionevole dubbio'"
+        },
+        {
+          "testo": "Gli elementi soggettivi del reato sono:",
+          "opzioni": [
+            "Il dolo, la colpa e il rapporto di causalità materiale",
+            "Il dolo, la colpa e la preterintenzione",
+            "L'azione, l'evento e il rapporto di causalità materiale",
+            "Il dolo e la colpa solamente"
+          ],
+          "risposta_corretta": "Il dolo, la colpa e la preterintenzione"
+        },
+        {
+          "testo": "La denuncia di reato:",
+          "opzioni": [
+            "È solo competenza del pubblico ministero",
+            "Viene effettuata dal solo medico di guardia",
+            "È competenza del pubblico ufficiale o dell'incaricato di pubblico servizio, effettuata anche solo per essere venuti a conoscenza di un reato perseguibile d'ufficio, e deve pervenire senza ritardo",
+            "È obbligatoria solo per i delitti contro la persona"
+          ],
+          "risposta_corretta": "È competenza del pubblico ufficiale o dell'incaricato di pubblico servizio, effettuata anche solo per essere venuti a conoscenza di un reato perseguibile d'ufficio, e deve pervenire senza ritardo"
+        },
+        {
+          "testo": "Il reato commesso per colpa è caratterizzato da:",
+          "opzioni": [
+            "Una condotta volontaria",
+            "Una conseguenza maggiore di quella prevista",
+            "Non punibilità del soggetto autore del reato",
+            "Una conseguenza non voluta"
+          ],
+          "risposta_corretta": "Una conseguenza non voluta"
+        },
+        {
+          "testo": "Il delitto di violenza sessuale su maggiorenne è punibile:",
+          "opzioni": [
+            "D'ufficio",
+            "D'ufficio solo se la vittima è di sesso femminile",
+            "A querela della persona offesa (entro 6 mesi)",
+            "In nessun caso"
+          ],
+          "risposta_corretta": "A querela della persona offesa (entro 6 mesi)"
+        },
+        {
+          "testo": "Secondo la legge sull'IVG nei primi 90 giorni, laddove non sussista urgenza, la donna viene invitata dal medico a:",
+          "opzioni": [
+            "Soprassedere per 7 giorni",
+            "Soprassedere per 1 mese",
+            "Presentarsi l'indomani stesso per l'interruzione",
+            "Soprassedere per 3 mesi"
+          ],
+          "risposta_corretta": "Soprassedere per 7 giorni"
+        },
+        {
+          "testo": "Il consenso informato deve essere prestato obbligatoriamente in forma scritta nei seguenti casi:",
+          "opzioni": [
+            "Intervento chirurgico",
+            "Esame radiologico",
+            "Accertamento dell'infezione da HIV",
+            "Dialisi"
+          ],
+          "risposta_corretta": "Accertamento dell'infezione da HIV"
+        },
+        {
+          "testo": "In quali presupposti il consenso del paziente alle prestazioni diagnostico-terapeutiche riconosce la sua motivazione fondamentale?",
+          "opzioni": [
+            "Nel Testo Unico delle Leggi Sanitarie",
+            "Nell'art. 32 della Costituzione",
+            "Nel Codice Penale",
+            "Nel Codice Civile"
+          ],
+          "risposta_corretta": "Nell'art. 32 della Costituzione"
+        },
+        {
+          "testo": "Quando si deve rivelare il segreto professionale?",
+          "opzioni": [
+            "Mai",
+            "Per obbligo di legge",
+            "In caso di consenso dei soli genitori di un minorenne",
+            "In caso di morte dell'interessato"
+          ],
+          "risposta_corretta": "Per obbligo di legge"
+        },
+        {
+          "testo": "Sono tenuti a fare il rapporto invece del referto:",
+          "opzioni": [
+            "I medici addetti alle case di cura",
+            "Gli incaricati di pubblico servizio",
+            "Gli esercenti professione di pubblica utilità",
+            "I titolari di guardia medica"
+          ],
+          "risposta_corretta": "Gli incaricati di pubblico servizio"
+        },
+        {
+          "testo": "Quando non è necessario, per effettuare un atto medico, il consenso del paziente?",
+          "opzioni": [
+            "Se questi ha un'età inferiore ai 18 anni",
+            "Nel corso di un'indagine medico legale",
+            "Se esiste uno stato di necessità",
+            "In cliniche universitarie"
+          ],
+          "risposta_corretta": "Se esiste uno stato di necessità"
+        },
+        {
+          "testo": "A chi deve essere presentato il referto?",
+          "opzioni": [
+            "Al direttore dell'ospedale",
+            "Al medico provinciale",
+            "All'autorità giudiziaria",
+            "Alla ASL"
+          ],
+          "risposta_corretta": "All'autorità giudiziaria"
+        },
+        {
+          "testo": "Quale fra queste qualifiche giuridiche è estranea al medico?",
+          "opzioni": [
+            "Pubblico ufficiale",
+            "Incaricato di pubblico servizio",
+            "Esercente servizio di pubblica necessità",
+            "Pubblico ministero"
+          ],
+          "risposta_corretta": "Pubblico ministero"
+        },
+        {
+          "testo": "Quali fra questi elementi NON conferisce validità al consenso all'atto medico?",
+          "opzioni": [
+            "L'informazione orale",
+            "La maggiore età del paziente",
+            "La libertà di scegliere del paziente",
+            "L'incapacità di fatto del paziente non interdetto"
+          ],
+          "risposta_corretta": "L'incapacità di fatto del paziente non interdetto"
+        },
+        {
+          "testo": "Cosa si intende per danno in responsabilità civile?",
+          "opzioni": [
+            "La perdita della capacità di guadagno",
+            "Le alterazioni a carattere permanente",
+            "L'indebolimento permanente di un organo o di un senso",
+            "Ogni modificazione peggiorativa dello stato anteriore della persona risarcibile"
+          ],
+          "risposta_corretta": "Ogni modificazione peggiorativa dello stato anteriore della persona risarcibile"
+        },
+        {
+          "testo": "In caso di assunzione di bevande alcoliche NON è imputabile colui che, al momento del reato, era in condizioni di:",
+          "opzioni": [
+            "Ebbrezza",
+            "Ebbrezza abituale",
+            "Intossicazione cronica",
+            "Ubriachezza preordinata"
+          ],
+          "risposta_corretta": "Intossicazione cronica"
+        },
+        {
+          "testo": "Il codice deontologico medico:",
+          "opzioni": [
+            "È una raccolta di norme per i sanitari del codice penale",
+            "È una raccolta di norme per i sanitari del codice civile",
+            "È un regolamento interno del corpo medico costituito nell'Ordine Professionale",
+            "È un regolamento redatto dal legislatore"
+          ],
+          "risposta_corretta": "È un regolamento interno del corpo medico costituito nell'Ordine Professionale"
+        },
+        {
+          "testo": "Se il paziente rifiuta di alimentarsi il medico deve:",
+          "opzioni": [
+            "Inoltrare il referto all'autorità giudiziaria",
+            "Procedere all'alimentazione coatta con ogni mezzo",
+            "Rispettare la volontà del paziente",
+            "Applicare la normativa del trattamento sanitario obbligatorio"
+          ],
+          "risposta_corretta": "Rispettare la volontà del paziente"
+        },
+        {
+          "testo": "La Vita:",
+          "opzioni": [
+            "È un bene pubblico",
+            "È un bene privato",
+            "È un bene disponibile",
+            "È un bene indisponibile"
+          ],
+          "risposta_corretta": "È un bene indisponibile"
+        },
+        {
+          "testo": "La previdenza sociale:",
+          "opzioni": [
+            "È rivolta a tutti i cittadini",
+            "È rivolta a tutti i cittadini che abbiano compiuto il 18° anno di età",
+            "È posta a carico dello stato verso chiunque si trovi in una situazione di bisogno",
+            "È rivolta esclusivamente ai lavoratori assicurati quando occorrano eventi dannosi dipendenti o non dipendenti dal lavoro stesso"
+          ],
+          "risposta_corretta": "È rivolta esclusivamente ai lavoratori assicurati quando occorrano eventi dannosi dipendenti o non dipendenti dal lavoro stesso"
+        },
+        {
+          "testo": "Gli elementi essenziali oggettivi del reato sono:",
+          "opzioni": [
+            "Il dolo, la colpa e la preterintenzione",
+            "L'azione od omissione, l'evento e il rapporto di causalità materiale",
+            "L'azione, l'intenzione e la preterintenzione",
+            "L'evento, il danno e la pena"
+          ],
+          "risposta_corretta": "L'azione od omissione, l'evento e il rapporto di causalità materiale"
+        },
+        {
+          "testo": "Il concorso di cause sopravvenute esclude il rapporto di causalità:",
+          "opzioni": [
+            "Solo se tali cause sono dipendenti dall'azione od omissione",
+            "Solo se tali cause non sono dipendenti dall'azione o omissione",
+            "Solo se sono state da sole sufficienti a determinare l'evento",
+            "Solo se si tratta di eventi colposi"
+          ],
+          "risposta_corretta": "Solo se sono state da sole sufficienti a determinare l'evento"
+        },
+        {
+          "testo": "Nel delitto di lesione personale volontaria vi è l'obbligo di referto?",
+          "opzioni": [
+            "Sempre",
+            "Sì, nel caso sia stato provocato un indebolimento anche transitorio dell'uso di un organo",
+            "Solo se sia stata provocata una malattia insanabile",
+            "No, se ne sia derivata una malattia di durata inferiore ai 20 giorni e non vi siano circostanze aggravanti (art. 582)"
+          ],
+          "risposta_corretta": "No, se ne sia derivata una malattia di durata inferiore ai 20 giorni e non vi siano circostanze aggravanti (art. 582)"
+        },
+        {
+          "testo": "Il delitto è colposo:",
+          "opzioni": [
+            "Se l'evento era imprevedibile",
+            "Se l'evento anche se prevedibile non era voluto",
+            "Se nell'azione o nell'omissione non sono riconoscibili negligenza, imprudenza o imperizia",
+            "Se l'azione e l'evento erano voluti"
+          ],
+          "risposta_corretta": "Se l'evento anche se prevedibile non era voluto"
+        },
+        {
+          "testo": "Nella violenza sessuale nella quale l'autore del reato sia il tutore del minore:",
+          "opzioni": [
+            "Non si fa referto",
+            "Si rilascia il certificato medico alla vittima",
+            "Si redige e si presenta il referto all'autorità giudiziaria o di pubblica sicurezza",
+            "Si fa il referto solo se vi sono lesioni anche lievissime"
+          ],
+          "risposta_corretta": "Si redige e si presenta il referto all'autorità giudiziaria o di pubblica sicurezza"
+        },
+        {
+          "testo": "Quali di questi requisiti sono necessari per ottenere la pensione di inabilità?",
+          "opzioni": [
+            "Una riduzione della capacità superiore al 35%",
+            "Una riduzione della capacità lavorativa superiore all'80%",
+            "Una riduzione della capacità lavorativa a meno di 2/3",
+            "Che sia accertata un'assoluta e permanente impossibilità di svolgere qualsiasi lavoro (inabilità al 100%)"
+          ],
+          "risposta_corretta": "Che sia accertata un'assoluta e permanente impossibilità di svolgere qualsiasi lavoro (inabilità al 100%)"
+        },
+        {
+          "testo": "In cosa consiste l'indennità di accompagnamento?",
+          "opzioni": [
+            "In un sussidio economico che si aggiunge alla pensione per gli invalidi civili che non possono deambulare senza l'ausilio di terzi o che non possono compiere autonomamente gli atti quotidiani della vita",
+            "In un sussidio economico che si aggiunge alla rendita INAIL per i grandi invalidi del lavoro",
+            "In un sussidio economico che si aggiunge alla pensione di vecchiaia quando la persona vive da sola",
+            "In un sussidio economico fornito ai soli ciechi"
+          ],
+          "risposta_corretta": "In un sussidio economico che si aggiunge alla pensione per gli invalidi civili che non possono deambulare senza l'ausilio di terzi o che non possono compiere autonomamente gli atti quotidiani della vita"
+        },
+        {
+          "testo": "La super invalidità:",
+          "opzioni": [
+            "È una prestazione economica a favore di chi usufruisce di assegno ordinario di invalidità",
+            "È una prestazione economica a favore degli invalidi civili",
+            "Viene erogata ai soggetti inabili che necessitano di assistenza continua",
+            "È reversibile ai superstiti"
+          ],
+          "risposta_corretta": "Viene erogata ai soggetti inabili che necessitano di assistenza continua"
+        },
+        {
+          "testo": "La revisione dell'assegno ordinario di invalidità e della pensione ordinaria di inabilità:",
+          "opzioni": [
+            "È facoltativa e viene richiesta solo dall'interessato",
+            "È svolta tassativamente ogni 6 mesi",
+            "Può essere richiesta dall'assicurato in caso di aggravamento dell'infermità",
+            "Non può essere richiesta dall'assicurato"
+          ],
+          "risposta_corretta": "Può essere richiesta dall'assicurato in caso di aggravamento dell'infermità"
+        },
+        {
+          "testo": "Il raffreddamento del cadavere si completa di solito:",
+          "opzioni": [
+            "Dopo 5 minuti dalla morte",
+            "Dopo 1 ora",
+            "Dopo 24 ore",
+            "Dopo 1 settimana"
+          ],
+          "risposta_corretta": "Dopo 24 ore"
+        },
+        {
+          "testo": "Quale fenomeno trasformativo speciale interessa elettivamente i cadaveri tumulati in cassa metallica?",
+          "opzioni": [
+            "Putrefazione",
+            "Mummificazione",
+            "Macerazione",
+            "Corificazione"
+          ],
+          "risposta_corretta": "Corificazione"
+        },
+        {
+          "testo": "Le macchie di sangue perdono il loro caratteristico colore rosso vivo assumendo una colorazione rosso scura e infine bruno-nerastra per:",
+          "opzioni": [
+            "Contaminazione da parte del pulviscolo atmosferico",
+            "Trasformazione dell'emoglobina (in ematina)",
+            "Trasformazione del ferro",
+            "Lisi dei globuli rossi"
+          ],
+          "risposta_corretta": "Trasformazione dell'emoglobina (in ematina)"
+        },
+        {
+          "testo": "I fattori del sistema AB0:",
+          "opzioni": [
+            "Non sono presenti alla nascita ma si manifestano intorno al VI mese di vita",
+            "Si modificano in seguito ad alcune rare malattie del sangue",
+            "Permangono inalterati per tutta la vita",
+            "Si modificano in seguito a trasfusioni erronee"
+          ],
+          "risposta_corretta": "Permangono inalterati per tutta la vita"
+        },
+        {
+          "testo": "Quali sono i gruppi muscolari scheletrici che per primi vengono interessati dal fenomeno della rigidità cadaverica?",
+          "opzioni": [
+            "Quelli della mandibola e della mimica facciale",
+            "Quelli degli arti superiori",
+            "Quelli degli arti inferiori",
+            "Quelli paravertebrali"
+          ],
+          "risposta_corretta": "Quelli della mandibola e della mimica facciale"
+        },
+        {
+          "testo": "La fase di migrabilità delle ipostasi a seguito di cambiamento di posizione del cadavere si verifica in genere:",
+          "opzioni": [
+            "Sino alla 4° ora dalla morte",
+            "Sino alla 8°-12° ora dalla morte",
+            "Sino alla 18°-24° ora dalla morte",
+            "Sino alla 48°-72° ora dalla morte"
+          ],
+          "risposta_corretta": "Sino alla 8°-12° ora dalla morte"
+        },
+        {
+          "testo": "L'asfissia per costrizione manuale delle vie respiratorie al collo viene identificata con il nome di:",
+          "opzioni": [
+            "Soffocazione",
+            "Strozzamento",
+            "Strangolamento",
+            "Impiccamento"
+          ],
+          "risposta_corretta": "Strangolamento"
+        },
+        {
+          "testo": "Nell'avvelenamento, da quale delle seguenti sostanze le macchie ipostatiche assumono una colorazione rosso vivo (rosso ciliegia)?",
+          "opzioni": [
+            "Idrogeno solforato",
+            "Stricnina",
+            "Veleni metaemoglobinizzanti",
+            "Monossido di carbonio"
+          ],
+          "risposta_corretta": "Monossido di carbonio"
+        },
+        {
+          "testo": "Nelle ferite da taglio i margini delle lesioni sono in genere:",
+          "opzioni": [
+            "Escoriati",
+            "Regolari e netti",
+            "Seghettati",
+            "Lacerati"
+          ],
+          "risposta_corretta": "Regolari e netti"
+        },
+        {
+          "testo": "Il cosiddetto 'tatuaggio' nelle ferite da arma da fuoco è determinato da:",
+          "opzioni": [
+            "Azione diretta della fiamma",
+            "Impronta del borraggio",
+            "Residui della carica di lancio",
+            "Azione dei pallini periferici della rosata"
+          ],
+          "risposta_corretta": "Residui della carica di lancio"
+        },
+        {
+          "testo": "Il solco al collo nell'impiccamento tipico è:",
+          "opzioni": [
+            "Orizzontale e continuo",
+            "A direzione dal basso verso l'alto e dall'avanti all'indietro, discontinuo posteriormente e inegualmente profondo",
+            "A direzione dall'alto verso il basso, da dietro in avanti e discontinuo anteriormente",
+            "Orizzontale e discontinuo anteriormente"
+          ],
+          "risposta_corretta": "A direzione dal basso verso l'alto e dall'avanti all'indietro, discontinuo posteriormente e inegualmente profondo"
+        },
+        {
+          "testo": "Le modificazioni di colore delle ecchimosi iniziano:",
+          "opzioni": [
+            "Costantemente al centro",
+            "Alla periferia (e progrediscono verso il centro) (rosso-viola-verde-giallo)",
+            "Al centro dell'ecchimosi solo in quelle situate negli arti inferiori",
+            "Contemporaneamente su tutta la zona ecchimotica"
+          ],
+          "risposta_corretta": "Alla periferia (e progrediscono verso il centro) (rosso-viola-verde-giallo)"
+        },
+        {
+          "testo": "La proscrizione dell'accanimento terapeutico è contenuta:",
+          "opzioni": [
+            "Nel codice penale",
+            "Nelle norme che regolano l'attività dei medici del SSN",
+            "Nel Codice di Deontologia Medica",
+            "Nella normativa che regola il TSO"
+          ],
+          "risposta_corretta": "Nel Codice di Deontologia Medica"
+        },
+        {
+          "testo": "L'imputabilità va provata:",
+          "opzioni": [
+            "Se il soggetto è minore di 14 anni",
+            "Se il soggetto ha compiuto 14 anni ma è minore di anni 18",
+            "Se il soggetto ha compiuto 18 anni ma è minore di anni 21",
+            "Se il soggetto ha uno sviluppo corporeo inadeguato alla sua età"
+          ],
+          "risposta_corretta": "Se il soggetto ha compiuto 14 anni ma è minore di anni 18"
+        },
+        {
+          "testo": "Una lesione personale è perseguibile d'ufficio:",
+          "opzioni": [
+            "Solo se è lievissima",
+            "Se è grave o gravissima",
+            "Solo in caso di lesioni da arma da fuoco",
+            "Solo se ha causato invalidità permanente"
+          ],
+          "risposta_corretta": "Se è grave o gravissima"
+        },
+        {
+          "testo": "È imputabile:",
+          "opzioni": [
+            "Chi è responsabile",
+            "Chi ha commesso un reato",
+            "Chi è capace di intendere e di volere",
+            "Chi è incapace di intendere o di volere"
+          ],
+          "risposta_corretta": "Chi è capace di intendere e di volere"
+        },
+        {
+          "testo": "Gli stati emotivi e passionali:",
+          "opzioni": [
+            "Escludono l'imputabilità",
+            "Non escludono l'imputabilità (né la diminuiscono)",
+            "Diminuiscono l'imputabilità",
+            "Modificano il titolo di reato"
+          ],
+          "risposta_corretta": "Non escludono l'imputabilità (né la diminuiscono)"
+        },
+        {
+          "testo": "La Bioetica è:",
+          "opzioni": [
+            "Un complesso di norme giuridiche inerenti la scienza",
+            "Una scienza diretta al controllo della ricerca in ambito sanitario",
+            "Un sapere deontologico diretto a disciplinare la scienza biomedica",
+            "Una disciplina rivolta alla riflessione critica del rapporto tra etica e scienza"
+          ],
+          "risposta_corretta": "Una disciplina rivolta alla riflessione critica del rapporto tra etica e scienza"
+        },
+        {
+          "testo": "Cosa viene principalmente perseguito in forza del principio di autonomia del paziente?",
+          "opzioni": [
+            "La terapia che il medico reputa più adeguata",
+            "Una diagnosi più precoce e accurata",
+            "Il bene oggettivo e ineludibile del paziente",
+            "L'acquisizione da parte del malato della consapevolezza di scegliere e/o rifiutare liberamente la terapia proposta dal medico"
+          ],
+          "risposta_corretta": "L'acquisizione da parte del malato della consapevolezza di scegliere e/o rifiutare liberamente la terapia proposta dal medico"
+        },
+        {
+          "testo": "Chi può disporre i Trattamenti Sanitari Obbligatori?",
+          "opzioni": [
+            "Il Sindaco, nella sua qualità di autorità sanitaria",
+            "Gli ascendenti, i discendenti o il coniuge non legalmente separato",
+            "L'Autorità Giudiziaria",
+            "Il medico operante presso una struttura pubblica"
+          ],
+          "risposta_corretta": "Il Sindaco, nella sua qualità di autorità sanitaria"
+        },
+        {
+          "testo": "Il provvedimento di interdizione:",
+          "opzioni": [
+            "Deve essere preso in caso di malattia mentale grave",
+            "Deve essere preso in caso di infermità mentale abituale",
+            "Può essere preso in caso di incapacità di provvedere ai propri interessi per infermità mentale abituale",
+            "Deve essere preso in caso di sperpero del patrimonio familiare"
+          ],
+          "risposta_corretta": "Può essere preso in caso di incapacità di provvedere ai propri interessi per infermità mentale abituale"
+        },
+        {
+          "testo": "L'impotenza coeundi può essere causa di invalidità del matrimonio:",
+          "opzioni": [
+            "Sì, sempre",
+            "No, mai",
+            "Sì, soltanto se ignorata dall'altro coniuge",
+            "Ogni caso andrà valutato singolarmente"
+          ],
+          "risposta_corretta": "Sì, soltanto se ignorata dall'altro coniuge"
+        },
+        {
+          "testo": "L'incapacità naturale è:",
+          "opzioni": [
+            "L'inabilitazione",
+            "L'interdizione",
+            "L'incapacità di intendere e di volere, dovuta a qualsiasi causa anche transitoria",
+            "L'emancipazione"
+          ],
+          "risposta_corretta": "L'incapacità di intendere e di volere, dovuta a qualsiasi causa anche transitoria"
+        },
+        {
+          "testo": "Cos'è il danno emergente?",
+          "opzioni": [
+            "Alterazioni psico-fisiche che si manifestano immediatamente dopo l'evento lesivo",
+            "Il danno che conseguirà negli anni successivi all'evento lesivo",
+            "La riduzione di un bene già appartenente alla persona",
+            "Il danno apprezzabile anche ad un esame sommario"
+          ],
+          "risposta_corretta": "La riduzione di un bene già appartenente alla persona"
+        },
+        {
+          "testo": "Ai sensi della legge 30 Marzo 1971, n. 118 si considerano invalidi civili:",
+          "opzioni": [
+            "I soggetti affetti da minorazioni acquisite per causa di servizio che abbiano subito una riduzione superiore a 2/3",
+            "I soggetti che abbiano una riduzione della capacità lavorativa specifica non inferiore a 2/3",
+            "I soggetti invalidi per cause di guerra, di lavoro o di servizio",
+            "I soggetti che abbiano subito una riduzione permanente della capacità lavorativa non inferiore ad 1/3 o, se minori di 18 anni, che abbiano difficoltà persistenti a svolgere i compiti propri della loro età"
+          ],
+          "risposta_corretta": "I soggetti che abbiano subito una riduzione permanente della capacità lavorativa non inferiore ad 1/3 o, se minori di 18 anni, che abbiano difficoltà persistenti a svolgere i compiti propri della loro età"
+        },
+        {
+          "testo": "L'assicurazione privata contro le malattie:",
+          "opzioni": [
+            "Non copre le spese mediche, indennizza solamente le invalidità permanenti",
+            "Copre le spese mediche solo se l'assicurato dimostra di avere un reddito sotto i limiti del contratto",
+            "Considera come malattia ogni alterazione dello stato di salute non dipendente da infortunio",
+            "Copre tutte le spese mediche comprese quelle di carattere estetico"
+          ],
+          "risposta_corretta": "Considera come malattia ogni alterazione dello stato di salute non dipendente da infortunio"
+        },
+        {
+          "testo": "I 3 principi etici fondamentali sono:",
+          "opzioni": [
+            "Autonomia, consenso, riservatezza",
+            "Diritto all'autodeterminazione e protocolli scientifici efficaci",
+            "Autonomia, beneficialità, giustizia",
+            "Segreto professionale, privacy, consenso"
+          ],
+          "risposta_corretta": "Autonomia, beneficialità, giustizia"
+        },
+        {
+          "testo": "In caso di rifiuto al trattamento sanitario salvavita da parte di un paziente competente, il medico dovrà:",
+          "opzioni": [
+            "Approntare il trattamento sanitario obbligatorio",
+            "Imporre il trattamento che corrisponde al bene oggettivo del paziente",
+            "Interrompere ogni rapporto con il paziente",
+            "Cercare l'adesione del paziente competente nel proseguire il trattamento migliore rispettando comunque la sua volontà"
+          ],
+          "risposta_corretta": "Cercare l'adesione del paziente competente nel proseguire il trattamento migliore rispettando comunque la sua volontà"
+        },
+        {
+          "testo": "Con riferimento all'embrione umano, l'ordinamento giuridico italiano:",
+          "opzioni": [
+            "Tutela l'embrione in subordine alla salute psico-fisica della madre",
+            "Tutela l'embrione solo dopo 90 giorni dal suo sviluppo",
+            "Tutela l'embrione solo dopo 14 giorni dal suo sviluppo",
+            "Riconosce l'embrione come persona giuridica"
+          ],
+          "risposta_corretta": "Tutela l'embrione solo dopo 90 giorni dal suo sviluppo"
+        },
+        {
+          "testo": "Le assicurazioni private:",
+          "opzioni": [
+            "Sono obbligatorie",
+            "Implicano l'intervento di due soli soggetti (assicuratore e assicurato)",
+            "Garantiscono, al verificarsi dell'evento dannoso, il versamento di un indennizzo, di un capitale, di una rendita o l'erogazione di una prestazione",
+            "Coprono unicamente il rischio generico"
+          ],
+          "risposta_corretta": "Garantiscono, al verificarsi dell'evento dannoso, il versamento di un indennizzo, di un capitale, di una rendita o l'erogazione di una prestazione"
+        },
+        {
+          "testo": "Come può definirsi, genericamente, il principio di sussidiarietà?",
+          "opzioni": [
+            "Come il principio per cui un soggetto superiore deve sempre intervenire nell'attività del soggetto inferiore",
+            "Come il principio per cui un soggetto interviene soltanto quando e se il soggetto cui spetta istituzionalmente di intervenire non riesce a raggiungere lo scopo",
+            "Come il principio per cui ogni soggetto ha piena autonomia gestionale",
+            "È il principio che esclude qualunque autonomia gestionale dei soggetti operatori"
+          ],
+          "risposta_corretta": "Come il principio per cui un soggetto interviene soltanto quando e se il soggetto cui spetta istituzionalmente di intervenire non riesce a raggiungere lo scopo"
+        },
+        {
+          "testo": "I diritti umani:",
+          "opzioni": [
+            "Sono riconosciuti unicamente a coloro che prestano attività lavorativa",
+            "Non possono essere ceduti",
+            "Sono riconosciuti al compimento del 18° anno d'età",
+            "Possono essere divisi"
+          ],
+          "risposta_corretta": "Non possono essere ceduti"
+        },
+        {
+          "testo": "Le cause di giustificazione nella rivelazione di segreto professionale possono essere:",
+          "opzioni": [
+            "Solo imperative",
+            "Solo sociali",
+            "Solo permissive",
+            "Imperative, sociali e permissive"
+          ],
+          "risposta_corretta": "Imperative, sociali e permissive"
+        },
+        {
+          "testo": "Rientrano tra le lesioni personali gravi tutte le seguenti condizioni TRANNE:",
+          "opzioni": [
+            "Indebolimento permanente di senso o di organo",
+            "Malattia di durata superiore ai 40 giorni",
+            "Pericolo di vita",
+            "Perdita di un arto (lesione gravissima)"
+          ],
+          "risposta_corretta": "Perdita di un arto (lesione gravissima)"
+        }
+      ]
+    },
+    {
+      "argomento": "Epidemiologia e Prevenzione",
+      "domande": [
+        {
+          "testo": "L'Epidemiologia ha tra le sue finalità:",
+          "opzioni": [
+            "L'analisi socioeconomica della società",
+            "Lo studio e l'individuazione dei fattori di rischio delle malattie",
+            "La diagnosi delle malattie metaboliche",
+            "Lo studio della struttura degli agenti infettivi"
+          ],
+          "risposta_corretta": "Lo studio e l'individuazione dei fattori di rischio delle malattie"
+        },
+        {
+          "testo": "L'Igiene è:",
+          "opzioni": [
+            "La disciplina medica che si occupa della prevenzione delle malattie e della promozione della salute",
+            "La disciplina medica che si occupa della terapia delle malattie cardiovascolari",
+            "L'insieme delle procedure che riguardano la pulizia degli ambienti",
+            "La disciplina medica che si occupa della diagnosi delle malattie infettive"
+          ],
+          "risposta_corretta": "La disciplina medica che si occupa della prevenzione delle malattie e della promozione della salute"
+        },
+        {
+          "testo": "Il tasso di natalità è:",
+          "opzioni": [
+            "Il rapporto tra il n° di nati vivi ed il n° di morti in un anno",
+            "Il n° totale di nati vivi e nati morti in un anno",
+            "Il numero medio di figli per donna",
+            "Il rapporto tra il n° di nati vivi in un anno ed il totale della popolazione"
+          ],
+          "risposta_corretta": "Il rapporto tra il n° di nati vivi in un anno ed il totale della popolazione"
+        },
+        {
+          "testo": "Nella popolazione italiana, nel corso degli ultimi 50 anni, è:",
+          "opzioni": [
+            "Aumentato sensibilmente il numero di ultrasessantacinquenni",
+            "Diminuito sensibilmente il numero di ultrasessantacinquenni",
+            "Raddoppiato il numero di morti entro i primi cinque anni di vita",
+            "Aumentato sensibilmente il numero di nuovi nati"
+          ],
+          "risposta_corretta": "Aumentato sensibilmente il numero di ultrasessantacinquenni"
+        },
+        {
+          "testo": "Tra i Paesi più popolosi del mondo figurano:",
+          "opzioni": [
+            "L'Italia, la Germania e la Francia",
+            "Prevalentemente Paesi in via di sviluppo",
+            "Prevalentemente Paesi europei",
+            "Esclusivamente Paesi africani"
+          ],
+          "risposta_corretta": "Prevalentemente Paesi in via di sviluppo"
+        },
+        {
+          "testo": "Le malattie infettive e trasmissibili:",
+          "opzioni": [
+            "Sono in costante aumento in Europa",
+            "Sono aumentate in America nel corso dell'ultimo secolo",
+            "Figurano tra le prime dieci cause di morte nel mondo",
+            "Non figurano tra le prime dieci cause di morte nel mondo"
+          ],
+          "risposta_corretta": "Figurano tra le prime dieci cause di morte nel mondo"
+        },
+        {
+          "testo": "Si definisce opportunismo di un microrganismo:",
+          "opzioni": [
+            "L'impossibilità di essere trasmesso da un individuo all'altro",
+            "La capacità di proteggere il sistema immunitario dell'ospite",
+            "La capacità di resistere agli agenti chimici",
+            "La capacità di provocare malattia solo in determinate condizioni sfavorevoli dell'ospite"
+          ],
+          "risposta_corretta": "La capacità di provocare malattia solo in determinate condizioni sfavorevoli dell'ospite"
+        },
+        {
+          "testo": "L'introduzione su larga scala della terapia antibiotica:",
+          "opzioni": [
+            "Ha contribuito a ridurre significativamente la mortalità per malattie infettive",
+            "Ha determinato un aumento dell'incidenza delle malattie infettive",
+            "Ha ridotto significativamente la morbosità delle malattie cronico-degenerative",
+            "Non ha avuto alcun effetto pratico sull'epidemiologia delle malattie infettive"
+          ],
+          "risposta_corretta": "Ha contribuito a ridurre significativamente la mortalità per malattie infettive"
+        },
+        {
+          "testo": "Tra i fattori in grado di determinare l'insorgenza di una malattia infettiva vi sono:",
+          "opzioni": [
+            "L'aumento della speranza di vita",
+            "Le terapie antibiotiche",
+            "Il clima e lo stato nutrizionale dell'ospite",
+            "Il saprofitismo"
+          ],
+          "risposta_corretta": "Il clima e lo stato nutrizionale dell'ospite"
+        },
+        {
+          "testo": "La difterite è una malattia infettiva:",
+          "opzioni": [
+            "Per la quale è prevista la vaccinazione obbligatoria in Italia",
+            "Causata da un virus molto resistente all'ambiente",
+            "Trasmessa attraverso gli alimenti contaminati",
+            "Che si localizza esclusivamente a livello polmonare"
+          ],
+          "risposta_corretta": "Per la quale è prevista la vaccinazione obbligatoria in Italia"
+        },
+        {
+          "testo": "Le malattie infettive a trasmissione parenterale sono:",
+          "opzioni": [
+            "Malattie poco frequenti nei Paesi industrializzati",
+            "Malattie che si localizzano esclusivamente nel SNC",
+            "Malattie trasmesse attraverso l'ingestione di alimenti contaminati",
+            "Malattie trasmesse per via orizzontale e verticale"
+          ],
+          "risposta_corretta": "Malattie trasmesse per via orizzontale e verticale"
+        },
+        {
+          "testo": "La febbre tifoide è una malattia infettiva:",
+          "opzioni": [
+            "Presente esclusivamente nei Paesi in via di sviluppo",
+            "Più frequente in Europa che nel resto del mondo",
+            "Totalmente eradicata nel mondo",
+            "Estremamente diffusa in tutto il mondo"
+          ],
+          "risposta_corretta": "Estremamente diffusa in tutto il mondo"
+        },
+        {
+          "testo": "Il fumo di tabacco è un fattore di rischio delle BPCO:",
+          "opzioni": [
+            "Solo negli ambienti lavorativi insalubri",
+            "Solo se associato all'inquinamento atmosferico",
+            "Solo se concomitante ad infezioni respiratorie",
+            "Indipendentemente dalla presenza di altri fattori di rischio"
+          ],
+          "risposta_corretta": "Indipendentemente dalla presenza di altri fattori di rischio"
+        },
+        {
+          "testo": "Tra i caratteri comuni delle Broncopneumopatie Croniche Ostruttive (BPCO) troviamo:",
+          "opzioni": [
+            "Dolori agli arti inferiori",
+            "Diarrea e vomito",
+            "Tosse cronica, ipersecrezione mucosa e dispnea",
+            "Aumento del peso corporeo ed iperglicemia"
+          ],
+          "risposta_corretta": "Tosse cronica, ipersecrezione mucosa e dispnea"
+        },
+        {
+          "testo": "La prevenzione primaria delle BPCO prevede:",
+          "opzioni": [
+            "Terapia antibiotica mirata",
+            "Identificazione ed allontanamento dei fattori di rischio",
+            "Adeguata terapia antiflogistica",
+            "Allontanamento degli animali domestici"
+          ],
+          "risposta_corretta": "Identificazione ed allontanamento dei fattori di rischio"
+        },
+        {
+          "testo": "Tra le principali complicanze del diabete troviamo:",
+          "opzioni": [
+            "Retinopatia e nefropatia",
+            "Diminuzione dell'appetito",
+            "Demenza senile",
+            "Aumento della suscettibilità alle infezioni gastroenteriche"
+          ],
+          "risposta_corretta": "Retinopatia e nefropatia"
+        },
+        {
+          "testo": "In Italia la percentuale di adulti sovrappeso e obesi è:",
+          "opzioni": [
+            "In costante diminuzione",
+            "Maggiore nelle aree rurali",
+            "Identica nei due sessi",
+            "Maggiore nel sesso maschile"
+          ],
+          "risposta_corretta": "Maggiore nel sesso maschile"
+        },
+        {
+          "testo": "Tra le malattie cardiovascolari la causa principale di morte è rappresentata da:",
+          "opzioni": [
+            "Arteriopatie periferiche",
+            "Cardiopatia reumatica",
+            "Setticemia",
+            "Cardiopatia ischemica e accidenti cerebrovascolari"
+          ],
+          "risposta_corretta": "Cardiopatia ischemica e accidenti cerebrovascolari"
+        },
+        {
+          "testo": "Tra le possibili cause del declino della mortalità per malattie cardiovascolari rientrano:",
+          "opzioni": [
+            "La diminuzione delle nascite",
+            "L'introduzione della chemioterapia antibiotica",
+            "La dieta vegetariana",
+            "I progressi nella terapia chirurgica e farmacologica delle cardiopatie"
+          ],
+          "risposta_corretta": "I progressi nella terapia chirurgica e farmacologica delle cardiopatie"
+        },
+        {
+          "testo": "La prevenzione primaria delle malattie cardiovascolari comprende:",
+          "opzioni": [
+            "L'attività fisica e la riduzione dell'apporto calorico con la dieta",
+            "L'utilizzo di farmaci antiipertensivi",
+            "Il cambio di residenza geografica",
+            "La vita sedentaria"
+          ],
+          "risposta_corretta": "L'attività fisica e la riduzione dell'apporto calorico con la dieta"
+        },
+        {
+          "testo": "I valori ottimali della pressione arteriosa nell'adulto sono:",
+          "opzioni": [
+            "Inferiori a 120 mmHg per la sistolica e a 80 mmHg per la diastolica",
+            "Variabili nel corso dell'anno",
+            "Uguali per la sistolica e la diastolica",
+            "Superiori a 100 mmHg per la diastolica"
+          ],
+          "risposta_corretta": "Inferiori a 120 mmHg per la sistolica e a 80 mmHg per la diastolica"
+        },
+        {
+          "testo": "L'aumento del colesterolo LDL si associa con:",
+          "opzioni": [
+            "La dieta iperproteica",
+            "Un aumento del rischio di aterosclerosi",
+            "Un'aumentata suscettibilità alle infezioni",
+            "Una diminuzione del rischio di infarto miocardico"
+          ],
+          "risposta_corretta": "Un aumento del rischio di aterosclerosi"
+        },
+        {
+          "testo": "Le infezioni da virus epatitici di tipo B e C possono aumentare il rischio di sviluppare:",
+          "opzioni": [
+            "Tumori metastatici del fegato",
+            "Tumori primitivi del fegato",
+            "Leucemie",
+            "Tumori del polmone"
+          ],
+          "risposta_corretta": "Tumori primitivi del fegato"
+        },
+        {
+          "testo": "Le malattie neoplastiche rappresentano attualmente:",
+          "opzioni": [
+            "Una causa di morte trascurabile nei Paesi in via di sviluppo",
+            "La prima causa di morte negli U.S.A. e la seconda nel mondo",
+            "La seconda causa di morte in Italia",
+            "La prima causa di morte in Europa"
+          ],
+          "risposta_corretta": "La seconda causa di morte in Italia"
+        },
+        {
+          "testo": "Tra i tumori più frequentemente diagnosticati in Italia troviamo:",
+          "opzioni": [
+            "I tumori vescicali nell'uomo e uterini nella donna",
+            "Le leucemie ed i linfomi",
+            "I tumori del colon-retto in entrambi i sessi",
+            "I tumori di origine batterica"
+          ],
+          "risposta_corretta": "I tumori del colon-retto in entrambi i sessi"
+        },
+        {
+          "testo": "L'elevato apporto di frutta e verdura con la dieta si può considerare:",
+          "opzioni": [
+            "Una misura di prevenzione dei soli tumori dell'apparato digerente",
+            "Una misura di prevenzione primaria di tutti i tipi di tumori",
+            "Una misura di prevenzione secondaria delle infezioni gastroenteriche",
+            "Un fattore di rischio per il cancro dello stomaco"
+          ],
+          "risposta_corretta": "Una misura di prevenzione primaria di tutti i tipi di tumori"
+        },
+        {
+          "testo": "Tra i tumori attualmente diagnosticabili in fase precoce rientrano:",
+          "opzioni": [
+            "I tumori del pancreas",
+            "I tumori del polmone e della pleura",
+            "I tumori della mammella e del colon-retto",
+            "I tumori encefalici"
+          ],
+          "risposta_corretta": "I tumori della mammella e del colon-retto"
+        },
+        {
+          "testo": "La riabilitazione oncologica rientra fra gli interventi di:",
+          "opzioni": [
+            "Prevenzione terziaria dei tumori",
+            "Prevenzione primaria dei tumori",
+            "Terapia delle malattie infettive",
+            "Prevenzione secondaria delle malattie cardiovascolari"
+          ],
+          "risposta_corretta": "Prevenzione terziaria dei tumori"
+        },
+        {
+          "testo": "Il numero di morti per incidenti stradali in Italia:",
+          "opzioni": [
+            "È in costante diminuzione negli ultimi venti anni",
+            "È superiore a quello degli altri Paesi europei",
+            "È in rapido aumento negli ultimi anni",
+            "È superiore ad un milione ogni anno"
+          ],
+          "risposta_corretta": "È in costante diminuzione negli ultimi venti anni"
+        },
+        {
+          "testo": "Statisticamente, gli incidenti domestici sono:",
+          "opzioni": [
+            "Uniformemente distribuiti nei giorni della settimana",
+            "Più frequenti nelle ore notturne",
+            "Più frequenti nei mesi estivi",
+            "Più frequenti nei fine settimana"
+          ],
+          "risposta_corretta": "Uniformemente distribuiti nei giorni della settimana"
+        },
+        {
+          "testo": "Gli incidenti stradali statisticamente sono più frequenti:",
+          "opzioni": [
+            "Nei percorsi fuoristrada",
+            "Nelle strade a senso unico",
+            "Nelle strade urbane",
+            "Nelle autostrade"
+          ],
+          "risposta_corretta": "Nelle strade urbane"
+        },
+        {
+          "testo": "Gli obiettivi della promozione della salute sono:",
+          "opzioni": [
+            "Migliorare l'organizzazione dei servizi sociali",
+            "Promuovere corretti stili di vita",
+            "Curare le malattie",
+            "Aumentare il numero di ospedali"
+          ],
+          "risposta_corretta": "Promuovere corretti stili di vita"
+        },
+        {
+          "testo": "La promozione della salute è:",
+          "opzioni": [
+            "Un intervento di prevenzione terziaria",
+            "Un intervento di prevenzione secondaria",
+            "Non un'attività di prevenzione",
+            "Un intervento di prevenzione primaria"
+          ],
+          "risposta_corretta": "Un intervento di prevenzione primaria"
+        },
+        {
+          "testo": "Lo stato di salute di un individuo è condizionato da:",
+          "opzioni": [
+            "Solo fattori ambientali",
+            "Solo fattori genetici",
+            "Solo fattori comportamentali",
+            "Fattori ambientali, genetici e comportamentali"
+          ],
+          "risposta_corretta": "Fattori ambientali, genetici e comportamentali"
+        },
+        {
+          "testo": "Nei paesi in via di sviluppo, gli interventi di maggiore efficacia sulla salute:",
+          "opzioni": [
+            "Sono necessariamente legati alla costruzione di ospedali",
+            "Non dipendono dall'assistenza primaria",
+            "Non sono legati al governo dei determinanti ambientali (acqua, fognature)",
+            "Non sono necessariamente legati alla costruzione di ospedali, dipendono da un'efficace assistenza primaria e dal governo dei determinanti non sanitari"
+          ],
+          "risposta_corretta": "Non sono necessariamente legati alla costruzione di ospedali, dipendono da un'efficace assistenza primaria e dal governo dei determinanti non sanitari"
+        },
+        {
+          "testo": "Le attività di prevenzione:",
+          "opzioni": [
+            "Hanno esiti facilmente misurabili nel breve periodo",
+            "Non richiedono valutazione di costo-beneficio",
+            "Non comprendono meccanismi di diagnosi precoce",
+            "Hanno esiti difficilmente misurabili nel breve periodo, comportano valutazione di costo-beneficio e comprendono diagnosi precoce e promozione di corretti stili di vita"
+          ],
+          "risposta_corretta": "Hanno esiti difficilmente misurabili nel breve periodo, comportano valutazione di costo-beneficio e comprendono diagnosi precoce e promozione di corretti stili di vita"
+        },
+        {
+          "testo": "Il tasso di mortalità infantile indica:",
+          "opzioni": [
+            "Quanti bambini di età inferiore a 6 anni muoiono in un anno ogni mille nati vivi",
+            "Quanti bambini di età inferiore a 10 anni muoiono in un anno ogni mille nati vivi",
+            "Quanti bambini di età inferiore a 3 anni muoiono in un anno ogni mille nati vivi",
+            "Nessuna delle precedenti opzioni è corretta (la definizione standard indica i bambini sotto l'anno di vita ogni mille nati vivi)"
+          ],
+          "risposta_corretta": "Nessuna delle precedenti opzioni è corretta (la definizione standard indica i bambini sotto l'anno di vita ogni mille nati vivi)"
+        },
+        {
+          "testo": "Il Piano Nazionale della Prevenzione 2014-2018 identifica come principali criticità nel ridurre la frequenza di infezioni e malattie infettive prioritarie:",
+          "opzioni": [
+            "Solo la bassa compliance degli operatori sanitari",
+            "Solo la vulnerabilità del sistema di risposta alle emergenze infettive",
+            "Solo i comportamenti degli operatori sanitari nelle pratiche assistenziali",
+            "Comportamenti degli operatori, vulnerabilità del sistema di risposta alle emergenze e bassa compliance nella sorveglianza"
+          ],
+          "risposta_corretta": "Comportamenti degli operatori, vulnerabilità del sistema di risposta alle emergenze e bassa compliance nella sorveglianza"
+        }
+      ]
+    },
+    {
+      "argomento": "Management Sanitario",
+      "domande": [
+        {
+          "testo": "L'attività direzionale è:",
+          "opzioni": [
+            "L'arte del lasciar correre",
+            "Astratta e fortemente statica",
+            "Non necessita né di comunicazione né di disciplina",
+            "Dirigere, influenzare, motivare"
+          ],
+          "risposta_corretta": "Dirigere, influenzare, motivare"
+        },
+        {
+          "testo": "I ruoli decisionali implicano:",
+          "opzioni": [
+            "Innescare controversie e conflitti",
+            "Nessuna capacità negoziale",
+            "Capacità di negoziare solo all'esterno dell'organizzazione",
+            "Capacità di sviluppare e concretizzare nuove idee gestendo le naturali resistenze al cambiamento"
+          ],
+          "risposta_corretta": "Capacità di sviluppare e concretizzare nuove idee gestendo le naturali resistenze al cambiamento"
+        },
+        {
+          "testo": "Il Budget è:",
+          "opzioni": [
+            "Solo uno strumento di risparmio",
+            "Solo un documento contabile",
+            "Solo un rendiconto storico",
+            "Uno strumento di elevata responsabilizzazione e di incentivazione dei dipendenti, di controllo di gestione, che riguarda un orizzonte temporale futuro"
+          ],
+          "risposta_corretta": "Uno strumento di elevata responsabilizzazione e di incentivazione dei dipendenti, di controllo di gestione, che riguarda un orizzonte temporale futuro"
+        },
+        {
+          "testo": "Il dipartimento deve:",
+          "opzioni": [
+            "Solo adeguare e potenziare il coordinamento e controllo",
+            "Solo favorire l'interscambio e la condivisione",
+            "Solo produrre una forte integrazione",
+            "Produrre una forte integrazione, favorire l'interscambio e la condivisione e adeguare e potenziare il coordinamento e controllo"
+          ],
+          "risposta_corretta": "Produrre una forte integrazione, favorire l'interscambio e la condivisione e adeguare e potenziare il coordinamento e controllo"
+        },
+        {
+          "testo": "Il dipartimento è un centro di responsabilità:",
+          "opzioni": [
+            "Di prima linea",
+            "Apicale",
+            "Intermedio",
+            "Periferico"
+          ],
+          "risposta_corretta": "Intermedio"
+        },
+        {
+          "testo": "Sono organi del dipartimento:",
+          "opzioni": [
+            "Solo l'ufficio esecutivo",
+            "Solo l'assemblea",
+            "Solo il Comitato di dipartimento",
+            "L'ufficio esecutivo, l'assemblea e il Comitato di dipartimento"
+          ],
+          "risposta_corretta": "L'ufficio esecutivo, l'assemblea e il Comitato di dipartimento"
+        },
+        {
+          "testo": "Il dipartimento verticale NON è:",
+          "opzioni": [
+            "Centro di responsabilità e budget",
+            "L'alta dirigenza",
+            "Una struttura organizzativa permanente",
+            "La struttura con autorità sovraordinata delle UUOO che lo compongono"
+          ],
+          "risposta_corretta": "L'alta dirigenza"
+        },
+        {
+          "testo": "Il dipartimento orizzontale o per obiettivi:",
+          "opzioni": [
+            "È costituito solo da UUOO appartenenti allo stesso dipartimento verticale",
+            "Non ha funzioni di coordinamento",
+            "Non ha obiettivi di integrazione",
+            "È costituito da UUOO appartenenti a diversi dipartimenti verticali, ha funzioni di coordinamento e obiettivi di integrazione"
+          ],
+          "risposta_corretta": "È costituito da UUOO appartenenti a diversi dipartimenti verticali, ha funzioni di coordinamento e obiettivi di integrazione"
+        },
+        {
+          "testo": "L'aggregazione del dipartimento può avvenire:",
+          "opzioni": [
+            "Solo in base all'età degli assistiti",
+            "Solo per attività funzionale omogenea",
+            "Solo in base al momento dell'intervento",
+            "In base all'età degli assistiti, per attività funzionale omogenea e in base al momento dell'intervento"
+          ],
+          "risposta_corretta": "In base all'età degli assistiti, per attività funzionale omogenea e in base al momento dell'intervento"
+        },
+        {
+          "testo": "I principali strumenti manageriali del public management sono:",
+          "opzioni": [
+            "Solo la comunicazione e i sistemi informativi",
+            "Solo i sistemi di classificazione del prodotto sanitario",
+            "Solo il potenziamento della leva formativa",
+            "Comunicazione e sistemi informativi, sistemi di classificazione del prodotto sanitario e potenziamento della leva formativa"
+          ],
+          "risposta_corretta": "Comunicazione e sistemi informativi, sistemi di classificazione del prodotto sanitario e potenziamento della leva formativa"
+        },
+        {
+          "testo": "Il prodotto sanitario si misura:",
+          "opzioni": [
+            "Considerando solo l'output",
+            "Considerando solo l'outcome",
+            "Considerando l'output e l'outcome",
+            "In base al numero di prestazioni erogate"
+          ],
+          "risposta_corretta": "Considerando l'output e l'outcome"
+        },
+        {
+          "testo": "L'operatore sanitario oggi deve avere:",
+          "opzioni": [
+            "Solo conoscenze tecnico-scientifiche",
+            "Solo capacità organizzative e gestionali",
+            "Solo competenze ed abilità programmatorie",
+            "Competenze ed abilità programmatorie, conoscenze tecnico-scientifiche e capacità organizzative e gestionali"
+          ],
+          "risposta_corretta": "Competenze ed abilità programmatorie, conoscenze tecnico-scientifiche e capacità organizzative e gestionali"
+        },
+        {
+          "testo": "Qual è la prima tappa del midwifery management?",
+          "opzioni": [
+            "La pianificazione degli interventi",
+            "L'identificazione dei problemi/bisogni (accertamento e diagnosi)",
+            "La valutazione dei risultati",
+            "L'attuazione degli interventi"
+          ],
+          "risposta_corretta": "L'identificazione dei problemi/bisogni (accertamento e diagnosi)"
+        },
+        {
+          "testo": "Il problem solving in ambito sanitario:",
+          "opzioni": [
+            "È solo la definizione del problema",
+            "È solo la raccolta delle informazioni",
+            "Si esegue attraverso un processo scientifico: definizione del problema, raccolta delle info, definizione delle cause, attuazione degli interventi e verifica dei risultati",
+            "Non richiede verifica dei risultati"
+          ],
+          "risposta_corretta": "Si esegue attraverso un processo scientifico: definizione del problema, raccolta delle info, definizione delle cause, attuazione degli interventi e verifica dei risultati"
+        },
+        {
+          "testo": "Quale è la caratteristica che conferisce a un professionista il potere disciplinare?",
+          "opzioni": [
+            "L'anzianità di servizio",
+            "Il titolo accademico",
+            "La competenza professionale",
+            "Il contratto di lavoro"
+          ],
+          "risposta_corretta": "La competenza professionale"
+        },
+        {
+          "testo": "La prevenzione secondaria:",
+          "opzioni": [
+            "Comprende la promozione della salute",
+            "Attua la diagnosi precoce di specifiche malattie",
+            "Comprende la riabilitazione",
+            "Riguarda solo la prevenzione degli infortuni"
+          ],
+          "risposta_corretta": "Attua la diagnosi precoce di specifiche malattie"
+        },
+        {
+          "testo": "Il numero medio di esami diagnostici per vita salvata è un indicatore di:",
+          "opzioni": [
+            "Efficienza allocativa",
+            "Attività",
+            "Risorse disponibili",
+            "Efficacia"
+          ],
+          "risposta_corretta": "Efficacia"
+        },
+        {
+          "testo": "Se la produzione di prestazioni sanitarie è efficiente dal punto di vista produttivo:",
+          "opzioni": [
+            "Significa che minimizza i costi di produzione",
+            "È automaticamente efficiente dal punto di vista allocativo",
+            "È sicuramente appropriata",
+            "Assicura anche una equa distribuzione dei vantaggi"
+          ],
+          "risposta_corretta": "Significa che minimizza i costi di produzione"
+        },
+        {
+          "testo": "Una vaccinazione deve essere obbligatoria:",
+          "opzioni": [
+            "Sempre, perché ci sono benefici esterni per tutta la popolazione",
+            "Quando genera rilevanti esternalità",
+            "Non obbligatoria se è troppo costosa per la collettività",
+            "Obbligatoria tutte le volte che è anche meritoria"
+          ],
+          "risposta_corretta": "Quando genera rilevanti esternalità"
+        },
+        {
+          "testo": "Il numero di ricevute per assistibile è un indicatore di:",
+          "opzioni": [
+            "Efficienza",
+            "Domanda di attività",
+            "Appropriatezza",
+            "Accessibilità"
+          ],
+          "risposta_corretta": "Domanda di attività"
+        },
+        {
+          "testo": "Cos'è l'indice di complessità assistenziale?",
+          "opzioni": [
+            "Il numero di diagnosi per paziente",
+            "La complessità quali-quantitativa degli interventi assistenziali",
+            "Il costo medio per ricovero",
+            "Il rapporto tra personale e pazienti"
+          ],
+          "risposta_corretta": "La complessità quali-quantitativa degli interventi assistenziali"
+        }
+      ]
+    }
+  ]
+}
