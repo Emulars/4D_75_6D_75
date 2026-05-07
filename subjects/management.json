@@ -1,5 +1,5 @@
 {
-  "materia": "Management",
+  "materia": "Medicina Generale",
   "argomenti": [
     {
       "argomento": "Economia Sanitaria",
@@ -903,6 +903,446 @@
             "Efficienza produttiva"
           ],
           "risposta_corretta": "Efficienza produttiva"
+        },
+        {
+          "testo": "Il concetto di equità serve per rispondere alla domanda:",
+          "opzioni": [
+            "A quanto produrre",
+            "A quando produrre",
+            "A dove produrre",
+            "Nessuna delle opzioni precedenti (non riguarda quanto, quando, perché né dove produrre)"
+          ],
+          "risposta_corretta": "Nessuna delle opzioni precedenti (non riguarda quanto, quando, perché né dove produrre)"
+        },
+        {
+          "testo": "Quale affermazione è vera nella distinzione tra beni pubblici e beni privati?",
+          "opzioni": [
+            "I beni pubblici sono sempre gratuiti per i cittadini",
+            "I beni privati non possono essere offerti dal settore pubblico",
+            "I beni pubblici sono rivali nel consumo",
+            "Nessuna delle affermazioni proposte è corretta"
+          ],
+          "risposta_corretta": "Nessuna delle affermazioni proposte è corretta"
+        },
+        {
+          "testo": "Quale definizione è corretta in riferimento alla quota capitaria?",
+          "opzioni": [
+            "È calcolata esclusivamente in base al reddito del cittadino",
+            "È il rimborso a piè di lista delle prestazioni erogate",
+            "È fissa e uguale per tutti i cittadini senza alcuna ponderazione",
+            "Nessuna delle definizioni proposte è completamente corretta"
+          ],
+          "risposta_corretta": "Nessuna delle definizioni proposte è completamente corretta"
+        },
+        {
+          "testo": "Quale definizione è giusta riguardo all'intervento statale in sanità?",
+          "opzioni": [
+            "Lo stato non può mai intervenire nel mercato sanitario",
+            "Lo stato può intervenire solo per motivi di efficienza",
+            "Lo stato può intervenire per motivi di equità",
+            "Lo stato interviene solo per regolare la concorrenza"
+          ],
+          "risposta_corretta": "Lo stato può intervenire per motivi di equità"
+        },
+        {
+          "testo": "I seguenti strumenti NON sono utilizzati nei sistemi di controllo di gestione:",
+          "opzioni": [
+            "La contabilità analitica",
+            "Il sistema di indici e indicatori",
+            "I centri di responsabilità e centri di costo",
+            "Nessuna delle opzioni è corretta (tutti questi strumenti sono effettivamente utilizzati)"
+          ],
+          "risposta_corretta": "Nessuna delle opzioni è corretta (tutti questi strumenti sono effettivamente utilizzati)"
+        },
+        {
+          "testo": "Il finanziamento degli ospedali:",
+          "opzioni": [
+            "È attualmente basato sui costi standard",
+            "È basato sul bacino di popolazione di riferimento",
+            "Tiene conto dell'età media della popolazione di riferimento",
+            "Nessuna delle opzioni è corretta da sola (tutte contribuiscono)"
+          ],
+          "risposta_corretta": "Nessuna delle opzioni è corretta da sola (tutte contribuiscono)"
+        },
+        {
+          "testo": "In Italia negli ultimi dieci anni il Fondo Sanitario Nazionale:",
+          "opzioni": [
+            "È costantemente diminuito",
+            "È minimamente aumentato (meno del tasso di inflazione)",
+            "È aumentato in maniera consistente, ben oltre il tasso di inflazione",
+            "È aumentato, ma meno rispetto agli altri comparti di spesa pubblica"
+          ],
+          "risposta_corretta": "È aumentato in maniera consistente, ben oltre il tasso di inflazione"
+        },
+        {
+          "testo": "I paesi che finanziano la sanità attraverso la tassazione generale impegnano in termini % di PIL:",
+          "opzioni": [
+            "Più risorse rispetto ai sistemi basati sulla mutualità",
+            "Più risorse rispetto ai sistemi basati sulle assicurazioni private",
+            "Meno risorse rispetto sia ai sistemi basati sulle assicurazioni private sia a quelli basati sulle mutualità professionali",
+            "La stessa quota di PIL indipendentemente dal sistema di finanziamento"
+          ],
+          "risposta_corretta": "Meno risorse rispetto sia ai sistemi basati sulle assicurazioni private sia a quelli basati sulle mutualità professionali"
+        },
+        {
+          "testo": "I costi fissi (affermazione corretta):",
+          "opzioni": [
+            "Sono sempre inferiori ai costi variabili",
+            "Sono di norma superiori ai costi variabili",
+            "Sono di norma pari a una frazione dei costi variabili",
+            "Nessuna delle affermazioni è corretta"
+          ],
+          "risposta_corretta": "Nessuna delle affermazioni è corretta"
+        },
+        {
+          "testo": "In sanità la partecipazione del cliente/paziente al processo produttivo:",
+          "opzioni": [
+            "Riduce sempre i costi di produzione",
+            "Non è mai condizione per l'efficacia dei trattamenti",
+            "Semplifica le procedure assistenziali",
+            "Aumenta i costi, è condizione per l'efficacia, rende più complesse le procedure e si realizza meglio con coinvolgimento empatico"
+          ],
+          "risposta_corretta": "Aumenta i costi, è condizione per l'efficacia, rende più complesse le procedure e si realizza meglio con coinvolgimento empatico"
+        },
+        {
+          "testo": "Il piano sanitario nazionale (quale tra le seguenti affermazioni è corretta):",
+          "opzioni": [
+            "È emanato secondo le direttive dell'Unione Europea",
+            "Viene notificato all'OMS per entrare in vigore",
+            "È adottato senza tener conto del parere delle regioni",
+            "Nessuna delle affermazioni è corretta"
+          ],
+          "risposta_corretta": "Nessuna delle affermazioni è corretta"
+        },
+        {
+          "testo": "Le attività di prevenzione:",
+          "opzioni": [
+            "Hanno esiti facilmente misurabili nel breve periodo",
+            "Non richiedono valutazione costo-beneficio",
+            "Non comprendono meccanismi di diagnosi precoce",
+            "Hanno esiti difficilmente misurabili nel breve periodo, richiedono valutazione costo-beneficio e comprendono diagnosi precoce e promozione di corretti stili di vita"
+          ],
+          "risposta_corretta": "Hanno esiti difficilmente misurabili nel breve periodo, richiedono valutazione costo-beneficio e comprendono diagnosi precoce e promozione di corretti stili di vita"
+        },
+        {
+          "testo": "In un sistema a risorse limitate:",
+          "opzioni": [
+            "Non è necessario scegliere tra impieghi alternativi",
+            "Si possono sempre contrarre mutui senza problemi",
+            "Non si devono mai rinunciare a servizi",
+            "È necessario scegliere come ripartire le risorse tra impieghi alternativi, eventualmente contraendo mutui e rinunciando a parte dei servizi"
+          ],
+          "risposta_corretta": "È necessario scegliere come ripartire le risorse tra impieghi alternativi, eventualmente contraendo mutui e rinunciando a parte dei servizi"
+        },
+        {
+          "testo": "La legge dei 'rendimenti marginali decrescenti' (quale affermazione è corretta):",
+          "opzioni": [
+            "Non può avere applicazione generalizzata",
+            "Si riferisce esclusivamente agli investimenti finanziari",
+            "Non è applicabile ai servizi sanitari",
+            "Nessuna delle affermazioni è corretta (la legge ha applicazione generalizzata)"
+          ],
+          "risposta_corretta": "Nessuna delle affermazioni è corretta (la legge ha applicazione generalizzata)"
+        },
+        {
+          "testo": "La remunerazione per DRG riguarda:",
+          "opzioni": [
+            "Gli ambulatori pubblici",
+            "Gli accessi di pronto soccorso",
+            "Esclusivamente i day hospital",
+            "Nessuna delle opzioni è corretta (non riguarda solo questi ambiti)"
+          ],
+          "risposta_corretta": "Nessuna delle opzioni è corretta (non riguarda solo questi ambiti)"
+        },
+        {
+          "testo": "Il meccanismo del prezzo di mercato (quale affermazione è corretta):",
+          "opzioni": [
+            "Non allinea mai le quantità domandate a quelle offerte",
+            "Non remunera mai con un utile la produzione",
+            "Non è uno strumento di autoregolazione",
+            "Allinea le quantità domandate a quelle offerte, remunera con un utile la produzione e costituisce uno strumento di autoregolazione degli scambi"
+          ],
+          "risposta_corretta": "Allinea le quantità domandate a quelle offerte, remunera con un utile la produzione e costituisce uno strumento di autoregolazione degli scambi"
+        },
+        {
+          "testo": "Nel settore sanitario il meccanismo del prezzo di equilibrio, come sistema di allocazione delle risorse:",
+          "opzioni": [
+            "È pienamente funzionante nei mercati dei beni pubblici",
+            "Garantisce sempre efficienza",
+            "È sempre equo",
+            "Nessuna delle affermazioni è corretta"
+          ],
+          "risposta_corretta": "Nessuna delle affermazioni è corretta"
+        },
+        {
+          "testo": "Il sistema sanitario privato significa che:",
+          "opzioni": [
+            "Lo Stato finanzia interamente le prestazioni private",
+            "I cittadini devono provvedere in proprio ad assicurarsi contro il rischio di malattia",
+            "Le strutture private sono gratuite per i cittadini",
+            "Il sistema privato offre le stesse tutele di quello pubblico"
+          ],
+          "risposta_corretta": "I cittadini devono provvedere in proprio ad assicurarsi contro il rischio di malattia"
+        },
+        {
+          "testo": "Il sistema solidaristico prevede che:",
+          "opzioni": [
+            "Ciascuno riceva le prestazioni in base al proprio bisogno",
+            "Ciascuno paghi una quota fissa indipendentemente dal reddito",
+            "Ognuno paghi a seconda della sua capacità contributiva",
+            "Lo Stato finanzia solo le cure per i più poveri"
+          ],
+          "risposta_corretta": "Ognuno paghi a seconda della sua capacità contributiva"
+        },
+        {
+          "testo": "Cosa significa rendimenti marginali decrescenti in ambito ospedaliero?",
+          "opzioni": [
+            "Ogni somma in più destinata agli ospedali permette di salvare un numero crescente di vite",
+            "Il rendimento degli ospedali è sempre costante",
+            "Ogni somma in più destinata agli ospedali permette di salvare un numero di vite sempre minore",
+            "I costi ospedalieri aumentano proporzionalmente alla produzione"
+          ],
+          "risposta_corretta": "Ogni somma in più destinata agli ospedali permette di salvare un numero di vite sempre minore"
+        },
+        {
+          "testo": "La riforma Amato degli anni '90 del SSN italiano è dettata dall'obiettivo di:",
+          "opzioni": [
+            "Introdurre un pagamento basato sulla spesa storica (rimborso a piè di lista)",
+            "Abolire la politica dei ticket",
+            "Contenere la spesa e incentivare la qualità delle prestazioni offerte",
+            "Abolire le mutue assicuratrici"
+          ],
+          "risposta_corretta": "Contenere la spesa e incentivare la qualità delle prestazioni offerte"
+        },
+        {
+          "testo": "In caso di mobilità sanitaria (cittadini di una regione che si curano in altra regione), il rimborso che riceve la regione di destinazione è:",
+          "opzioni": [
+            "Pari alla tariffa determinata dalla regione di origine",
+            "Pari a una tariffa unica convenzionale per regolare i saldi di mobilità interregionale",
+            "Pari alla media delle tariffe di regione di origine e di destinazione",
+            "Pari alla tariffa determinata dalla regione di destinazione"
+          ],
+          "risposta_corretta": "Pari alla tariffa determinata dalla regione di destinazione"
+        },
+        {
+          "testo": "Il concetto di 'efficacia' in sanità si riferisce a:",
+          "opzioni": [
+            "Alla massimizzazione del risultato indipendentemente dai costi",
+            "Alla capacità di ottenere un determinato risultato al minimo costo",
+            "Alla capacità di ottenere il risultato desiderato",
+            "Al rapporto qualità/costi per i servizi sanitari offerti"
+          ],
+          "risposta_corretta": "Alla capacità di ottenere il risultato desiderato"
+        },
+        {
+          "testo": "Un rimborso forfettario (block grant o block contract):",
+          "opzioni": [
+            "Incentiva la qualità a discapito dell'efficienza",
+            "Incentiva l'efficienza ma non la qualità",
+            "Incentiva sia la qualità sia l'efficienza",
+            "Non incentiva né la qualità né l'efficienza"
+          ],
+          "risposta_corretta": "Incentiva l'efficienza ma non la qualità"
+        },
+        {
+          "testo": "Con la riforma del SSN italiano degli anni '90:",
+          "opzioni": [
+            "Si passa dal rimborso retrospettivo al rimborso prospettico (basato su tariffe predeterminate)",
+            "La sanità privata è sostituita da quella pubblica",
+            "Si passa dal rimborso prospettico al rimborso retrospettivo",
+            "La sanità pubblica è sostituita da quella privata"
+          ],
+          "risposta_corretta": "Si passa dal rimborso retrospettivo al rimborso prospettico (basato su tariffe predeterminate)"
+        },
+        {
+          "testo": "Ad ogni DRG è associato un valore soglia che rappresenta:",
+          "opzioni": [
+            "Il numero massimo di giorni di ricovero oltre il quale il paziente deve essere dimesso",
+            "Il numero massimo di pazienti curati per uno stesso DRG",
+            "Il numero massimo di giorni di ricovero oltre il quale subentra una componente addizionale di rimborso per l'ospedale",
+            "Il costo massimo di un paziente con un determinato DRG"
+          ],
+          "risposta_corretta": "Il numero massimo di giorni di ricovero oltre il quale subentra una componente addizionale di rimborso per l'ospedale"
+        },
+        {
+          "testo": "Con la riforma Amato degli anni '90, i cittadini sono liberi di scegliere:",
+          "opzioni": [
+            "Solo tra strutture pubbliche nell'ambito della propria ASL",
+            "Solo tra strutture pubbliche nella propria regione",
+            "Tra tutte le strutture pubbliche e quelle private accreditate",
+            "Solo l'ospedale indicato dalla propria ASL"
+          ],
+          "risposta_corretta": "Tra tutte le strutture pubbliche e quelle private accreditate"
+        },
+        {
+          "testo": "La valutazione economica in sanità è:",
+          "opzioni": [
+            "Lo strumento utilizzato per definire i LEA",
+            "L'insieme delle metodologie impiegate per ovviare a una carenza informativa del mercato sull'opportunità di una determinata scelta di allocazione delle risorse",
+            "Lo strumento utilizzato per definire i DRG e i costi standard",
+            "Lo strumento utilizzato per definire i LEP"
+          ],
+          "risposta_corretta": "L'insieme delle metodologie impiegate per ovviare a una carenza informativa del mercato sull'opportunità di una determinata scelta di allocazione delle risorse"
+        },
+        {
+          "testo": "La mission dell'azienda sanitaria è:",
+          "opzioni": [
+            "Fornire al cittadino tutta l'assistenza possibile e immaginabile",
+            "Fornire assistenza senza necessariamente rispettare i vincoli di bilancio",
+            "Fornire assistenza nei vincoli di bilancio",
+            "Non applicare la cultura gestionale perché la medicina è un'arte"
+          ],
+          "risposta_corretta": "Fornire assistenza nei vincoli di bilancio"
+        },
+        {
+          "testo": "Un pagamento/rimborso prospettico su base DRG potrebbe:",
+          "opzioni": [
+            "Limitare la libertà di scelta dei pazienti per gli alti costi",
+            "Incentivare la qualità e il numero delle prestazioni erogate",
+            "Incentivare la qualità a discapito dell'efficienza",
+            "Indurre al comportamento noto come 'cream skimming' o 'cherry picking'"
+          ],
+          "risposta_corretta": "Indurre al comportamento noto come 'cream skimming' o 'cherry picking'"
+        },
+        {
+          "testo": "Un pagamento prospettico con tariffa predeterminata:",
+          "opzioni": [
+            "Incentiva la qualità a discapito dell'efficienza",
+            "Incentiva l'efficienza ma non la qualità",
+            "Incentiva sia la qualità sia l'efficienza",
+            "Non incentiva né la qualità né l'efficienza"
+          ],
+          "risposta_corretta": "Incentiva l'efficienza ma non la qualità"
+        },
+        {
+          "testo": "Un pagamento retrospettivo (rimborso a piè di lista dei costi sostenuti):",
+          "opzioni": [
+            "Incentiva l'efficienza ma non la qualità",
+            "Incentiva la qualità a discapito dell'efficienza",
+            "Non incentiva né la qualità né l'efficienza",
+            "Incentiva sia la qualità sia l'efficienza"
+          ],
+          "risposta_corretta": "Non incentiva né la qualità né l'efficienza"
+        },
+        {
+          "testo": "Che differenza c'è tra i concetti di 'efficacy' e 'effectiveness' in sanità?",
+          "opzioni": [
+            "Efficacy ed effectiveness sono concetti identici",
+            "L'efficacy è l'efficacia reale ottenuta nella pratica clinica, l'effectiveness è quella ottenuta 'in laboratorio'",
+            "L'effectiveness è l'efficacia reale ottenuta nella realtà quotidiana, mentre l'efficacy è l'efficacia ottenuta 'in laboratorio'",
+            "L'efficacy si riferisce al raggiungimento di un obiettivo al minimo costo"
+          ],
+          "risposta_corretta": "L'effectiveness è l'efficacia reale ottenuta nella realtà quotidiana, mentre l'efficacy è l'efficacia ottenuta 'in laboratorio'"
+        },
+        {
+          "testo": "Che cosa sono i DRG (Diagnostic Related Groups) in termini di finanziamento?",
+          "opzioni": [
+            "Un pagamento retrospettivo del costo sostenuto dall'ospedale",
+            "Il meccanismo per remunerare i medici di medicina generale",
+            "Un raggruppamento omogeneo di diagnosi sulla base del quale è predeterminata la tariffa",
+            "Un sistema per remunerare i pediatri di libera scelta"
+          ],
+          "risposta_corretta": "Un raggruppamento omogeneo di diagnosi sulla base del quale è predeterminata la tariffa"
+        },
+        {
+          "testo": "Il finanziamento basato sul costo standard è stato introdotto per:",
+          "opzioni": [
+            "Incentivare l'efficienza e conseguentemente contenere la spesa",
+            "Evitare il fenomeno del cream skimming",
+            "Incentivare la qualità delle prestazioni sanitarie",
+            "Agevolare gli ospedali privati a discapito di quelli pubblici"
+          ],
+          "risposta_corretta": "Incentivare l'efficienza e conseguentemente contenere la spesa"
+        },
+        {
+          "testo": "Con 'mercato interno' (definito anche quasi-mercato o pseudo-mercato) si intende:",
+          "opzioni": [
+            "La politica dei ticket introdotta con la riforma del SSN degli anni '90",
+            "La contabilità per centro di costo",
+            "La separazione delle funzioni di acquisto da quelle di fornitura delle prestazioni ospedaliere",
+            "Un pagamento prospettico su base DRG"
+          ],
+          "risposta_corretta": "La separazione delle funzioni di acquisto da quelle di fornitura delle prestazioni ospedaliere"
+        },
+        {
+          "testo": "La cultura gestionale è necessaria per:",
+          "opzioni": [
+            "Dare assistenza senza vincoli di bilancio",
+            "Coniugare i risultati sanitari con quelli economici",
+            "Privilegiare le istanze specialistiche",
+            "Fare tagli lineari sulla spesa sanitaria"
+          ],
+          "risposta_corretta": "Coniugare i risultati sanitari con quelli economici"
+        },
+        {
+          "testo": "5 QALY (Quality Adjusted Life Year) significano:",
+          "opzioni": [
+            "Una valutazione qualitativa di 1 anno di vita",
+            "5 anni di vita in più ottenuti con un trattamento",
+            "5 anni di vita equivalenti alla condizione di perfetta salute, tenendo conto sia dell'aspetto quantitativo sia qualitativo",
+            "Il costo per 5 persone salvate in un'analisi costo-efficacia"
+          ],
+          "risposta_corretta": "5 anni di vita equivalenti alla condizione di perfetta salute, tenendo conto sia dell'aspetto quantitativo sia qualitativo"
+        },
+        {
+          "testo": "Secondo il criterio dell'appropriatezza:",
+          "opzioni": [
+            "Le prestazioni efficaci ma non efficienti sono sempre e comunque appropriate",
+            "Le prestazioni sostituibili da altre con un rapporto costo-efficacia più soddisfacente non sono comunque appropriate",
+            "Solo le prestazioni a basso costo sono appropriate",
+            "Le prestazioni sostituibili da altre con un rapporto costo-efficacia più soddisfacente sono comunque appropriate"
+          ],
+          "risposta_corretta": "Le prestazioni sostituibili da altre con un rapporto costo-efficacia più soddisfacente non sono comunque appropriate"
+        },
+        {
+          "testo": "Il principio del fabbisogno prevede un trasferimento perequativo:",
+          "opzioni": [
+            "Per coprire il 100% del fabbisogno standard relativamente alle funzioni fondamentali attribuite alle regioni",
+            "Per rimborsare il 100% della spesa effettivamente sostenuta dalle regioni",
+            "Dalle regioni povere a quelle più ricche",
+            "Dalle regioni ricche a quelle povere"
+          ],
+          "risposta_corretta": "Per coprire il 100% del fabbisogno standard relativamente alle funzioni fondamentali attribuite alle regioni"
+        },
+        {
+          "testo": "DALY (Disability Adjusted Life Years) rappresenta:",
+          "opzioni": [
+            "Il QALY moltiplicato per il numero di persone salvate",
+            "Anni di vita vissuti in stato di disabilità (Years Lost due to Disability)",
+            "La somma degli anni persi per malattia o disabilità con gli anni di vita persi a causa di morte precoce",
+            "Il numero di anni di vita persi per morte prematura (Years of Life Lost)"
+          ],
+          "risposta_corretta": "La somma degli anni persi per malattia o disabilità con gli anni di vita persi a causa di morte precoce"
+        },
+        {
+          "testo": "Con il metodo del QALY (Quality Adjusted Life Year):",
+          "opzioni": [
+            "Si intende minimizzare il costo per persona salvata",
+            "Si considera il costo per caso scoperto o prevenuto",
+            "La qualità della vita è misurata su una scala tra 0 e 1, dove 0 corrisponde a morte e 1 a perfetta salute",
+            "Si considera solo l'aspetto quantitativo (anni di vita salvati)"
+          ],
+          "risposta_corretta": "La qualità della vita è misurata su una scala tra 0 e 1, dove 0 corrisponde a morte e 1 a perfetta salute"
+        },
+        {
+          "testo": "La ripartizione del rischio tra acquirenti e fornitori di prestazioni sanitarie: con block contract il rischio è:",
+          "opzioni": [
+            "Interamente a carico dell'acquirente (principale)",
+            "Interamente a carico del paziente",
+            "Equamente diviso tra acquirente e fornitore",
+            "Interamente a carico del fornitore (agente)"
+          ],
+          "risposta_corretta": "Interamente a carico del fornitore (agente)"
+        },
+        {
+          "testo": "La gestione organizzata delle strutture sanitarie prevede la figura del:",
+          "opzioni": [
+            "Public administrator",
+            "Business manager",
+            "Public manager",
+            "Nessuna risposta esatta"
+          ],
+          "risposta_corretta": "Public manager"
         }
       ]
     },
@@ -1358,6 +1798,36 @@
             "Istituzione delle Aziende Sanitarie Locali"
           ],
           "risposta_corretta": "Istituzione del Servizio Sanitario Nazionale"
+        },
+        {
+          "testo": "Qual è il documento contenente gli obiettivi fondamentali di prevenzione, cura e riabilitazione, le linee generali del SSN e i livelli di assistenza sanitaria da assicurare sul territorio nazionale?",
+          "opzioni": [
+            "Il Piano Sanitario Regionale",
+            "Il Decreto Legislativo 229/99",
+            "Il Piano Sanitario Nazionale",
+            "Il Decreto Ministeriale sui LEA"
+          ],
+          "risposta_corretta": "Il Piano Sanitario Nazionale"
+        },
+        {
+          "testo": "Le Aziende del SSN (ASL) sono aziende aventi personalità giuridica pubblica ed autonomia imprenditoriale. La loro attività è improntata nel rispetto di criteri di:",
+          "opzioni": [
+            "Solo efficacia clinica",
+            "Solo economicità",
+            "Efficacia, efficienza ed economicità con obbligo di rispettare il vincolo di bilancio (equilibrio costi-ricavi)",
+            "Solo efficienza produttiva"
+          ],
+          "risposta_corretta": "Efficacia, efficienza ed economicità con obbligo di rispettare il vincolo di bilancio (equilibrio costi-ricavi)"
+        },
+        {
+          "testo": "Cosa sono le aziende ospedaliere?",
+          "opzioni": [
+            "Tutti gli ospedali pubblici italiani",
+            "Gli ospedali di rilievo nazionale con determinati requisiti per la costituzione in azienda ospedaliera",
+            "Solo gli ospedali universitari",
+            "Le cliniche private accreditate"
+          ],
+          "risposta_corretta": "Gli ospedali di rilievo nazionale con determinati requisiti per la costituzione in azienda ospedaliera"
         }
       ]
     },
@@ -1593,6 +2063,66 @@
             "Un regolamento interno aziendale"
           ],
           "risposta_corretta": "L'accordo tra datore di lavoro e organizzazione dei lavoratori di una determinata categoria"
+        },
+        {
+          "testo": "Il lavoro occasionale è caratterizzato da:",
+          "opzioni": [
+            "Lavoro svolto solo in periodi non continuativi nello stesso arco temporale",
+            "Lavoro svolto solo in alcuni periodi dell'anno",
+            "Carattere meramente occasionale e saltuario con un tetto economico annuale",
+            "Lavoro sempre effettuabile indipendentemente dal corrispettivo economico"
+          ],
+          "risposta_corretta": "Carattere meramente occasionale e saltuario con un tetto economico annuale"
+        },
+        {
+          "testo": "Il datore di lavoro ha:",
+          "opzioni": [
+            "Il solo potere di dirigere l'attività del lavoratore",
+            "Il solo potere di tutelare la privacy del lavoratore",
+            "Il potere direttivo, di vigilanza e controllo e disciplinare",
+            "Il solo potere di sottoporre a controlli sanitari il lavoratore"
+          ],
+          "risposta_corretta": "Il potere direttivo, di vigilanza e controllo e disciplinare"
+        },
+        {
+          "testo": "Il periodo di prova è disciplinato da:",
+          "opzioni": [
+            "Il solo datore di lavoro",
+            "Il contratto collettivo di lavoro",
+            "Il Ministero del Lavoro",
+            "Il Presidente della Repubblica tramite decreto"
+          ],
+          "risposta_corretta": "Il contratto collettivo di lavoro"
+        },
+        {
+          "testo": "Il contratto individuale di lavoro deve contenere:",
+          "opzioni": [
+            "Solo il trattamento economico",
+            "Solo l'inquadramento del lavoratore",
+            "Solo la durata delle ferie spettanti",
+            "Tutte le condizioni economiche e giuridiche applicate al lavoratore"
+          ],
+          "risposta_corretta": "Tutte le condizioni economiche e giuridiche applicate al lavoratore"
+        },
+        {
+          "testo": "Quali tra le seguenti affermazioni descrive meglio il sistema occupazionale sanitario?",
+          "opzioni": [
+            "Assenza di gerarchia tra le professioni e privatizzazione delle logiche di mercato",
+            "Importanza delle professioni, assenza della componente manageriale, assenza di logiche di mercato",
+            "Importanza delle professioni, componente medica che diviene manageriale, assenza di logiche di mercato",
+            "Importanza delle professioni, componente medica che diviene manageriale, privatizzazione e dominanza delle logiche di mercato"
+          ],
+          "risposta_corretta": "Importanza delle professioni, componente medica che diviene manageriale, assenza di logiche di mercato"
+        },
+        {
+          "testo": "Il lavoro straordinario è disciplinato da:",
+          "opzioni": [
+            "Solo dalla legge statale",
+            "Solo dal datore di lavoro",
+            "Dal contratto collettivo di lavoro (CCL)",
+            "Dal lavoratore in accordo con il datore di lavoro"
+          ],
+          "risposta_corretta": "Dal contratto collettivo di lavoro (CCL)"
         }
       ]
     },
@@ -1878,6 +2408,146 @@
             "Le comunicazioni"
           ],
           "risposta_corretta": "Le direttive"
+        },
+        {
+          "testo": "Chi cura la pubblicazione delle leggi?",
+          "opzioni": [
+            "Il Presidente del Consiglio dei Ministri",
+            "Il Ministro di Grazia e Giustizia",
+            "Il Presidente della Repubblica",
+            "Il Presidente del Senato"
+          ],
+          "risposta_corretta": "Il Presidente della Repubblica"
+        },
+        {
+          "testo": "I decreti-legge possono essere adottati da:",
+          "opzioni": [
+            "Il Presidente della Repubblica",
+            "La Corte Costituzionale",
+            "Il Governo",
+            "Non possono essere adottati da nessun organo nella Costituzione italiana"
+          ],
+          "risposta_corretta": "Il Governo"
+        },
+        {
+          "testo": "Chi esercita il controllo di legittimità costituzionale delle leggi?",
+          "opzioni": [
+            "Il Parlamento",
+            "Il Governo",
+            "La Corte di Cassazione",
+            "La Corte Costituzionale"
+          ],
+          "risposta_corretta": "La Corte Costituzionale"
+        },
+        {
+          "testo": "I decreti legislativi sono:",
+          "opzioni": [
+            "Non atti aventi forza di legge",
+            "Meri regolamenti",
+            "Fonti subordinate senza valore di legge",
+            "Atti aventi forza di legge ed a essa equiparati"
+          ],
+          "risposta_corretta": "Atti aventi forza di legge ed a essa equiparati"
+        },
+        {
+          "testo": "In quali casi possono essere adottati i decreti-legge?",
+          "opzioni": [
+            "Possono essere sempre adottati senza limitazioni",
+            "Non possono mai essere adottati",
+            "In casi straordinari di necessità e urgenza",
+            "Solo dopo il giudizio della Corte di Cassazione"
+          ],
+          "risposta_corretta": "In casi straordinari di necessità e urgenza"
+        },
+        {
+          "testo": "Al Consiglio regionale spettano compiti:",
+          "opzioni": [
+            "Esecutivi",
+            "Normativi",
+            "Di rappresentanza",
+            "Giurisdizionali"
+          ],
+          "risposta_corretta": "Normativi"
+        },
+        {
+          "testo": "Il decreto legislativo entra in vigore:",
+          "opzioni": [
+            "Il giorno della sua conversione in legge",
+            "Il giorno della sua promulgazione",
+            "Il 15° giorno successivo alla sua pubblicazione sulla Gazzetta Ufficiale",
+            "Il giorno della sua pubblicazione in Gazzetta Ufficiale"
+          ],
+          "risposta_corretta": "Il 15° giorno successivo alla sua pubblicazione sulla Gazzetta Ufficiale"
+        },
+        {
+          "testo": "L'Art. 38 della Costituzione italiana prevede:",
+          "opzioni": [
+            "Il diritto dei genitori a mantenere, educare e istruire i figli",
+            "Il diritto al mantenimento e all'assistenza sociale",
+            "La tutela del lavoro dei minori",
+            "La tutela della salute come fondamentale diritto dell'individuo"
+          ],
+          "risposta_corretta": "Il diritto al mantenimento e all'assistenza sociale"
+        },
+        {
+          "testo": "Il decreto legislativo (caratteristica fondamentale):",
+          "opzioni": [
+            "Deve essere convertito in legge altrimenti decade",
+            "Produce effetti di legge solo dopo la sua conversione",
+            "È un provvedimento ad effetti limitati nel tempo",
+            "È già un provvedimento legislativo definitivo"
+          ],
+          "risposta_corretta": "È già un provvedimento legislativo definitivo"
+        },
+        {
+          "testo": "Il Governo in Italia svolge la funzione:",
+          "opzioni": [
+            "Giurisdizionale",
+            "Legislativa",
+            "Esecutiva",
+            "Sia legislativa sia esecutiva"
+          ],
+          "risposta_corretta": "Esecutiva"
+        },
+        {
+          "testo": "Il precedente giurisprudenziale è vincolante:",
+          "opzioni": [
+            "In nessun tipo di ordinamento giuridico",
+            "In tutti i tipi di ordinamento giuridico",
+            "Nei Paesi di civil law",
+            "Nei Paesi di common law"
+          ],
+          "risposta_corretta": "Nei Paesi di common law"
+        },
+        {
+          "testo": "Che cosa sono le fonti di cognizione del diritto?",
+          "opzioni": [
+            "Fonti che contengono i principi fondamentali dell'ordinamento giuridico",
+            "Fonti che permettono al giudice di interpretare le norme giuridiche",
+            "Fonti scritte che permettono la conoscenza delle norme giuridiche",
+            "Fonti normative non scritte"
+          ],
+          "risposta_corretta": "Fonti scritte che permettono la conoscenza delle norme giuridiche"
+        },
+        {
+          "testo": "Quali tra le seguenti finalità rientra tra gli scopi dell'ONU?",
+          "opzioni": [
+            "Creare un'entità sovraordinata agli Stati per assicurare la pace",
+            "Assicurare la pace e la giustizia tra le nazioni",
+            "Combattere le associazioni mafiose",
+            "Incarcerare i responsabili di reati contro il patrimonio"
+          ],
+          "risposta_corretta": "Assicurare la pace e la giustizia tra le nazioni"
+        },
+        {
+          "testo": "Il decreto-legge:",
+          "opzioni": [
+            "Non acquista mai efficacia di legge",
+            "Ha la stessa efficacia dei regolamenti",
+            "Ha efficacia di legge sin dalla sua emanazione (se poi convertito in legge)",
+            "Acquista efficacia di legge solo dopo la conversione"
+          ],
+          "risposta_corretta": "Ha efficacia di legge sin dalla sua emanazione (se poi convertito in legge)"
         }
       ]
     },
@@ -2223,6 +2893,76 @@
             "Solo le infezioni trasmissibili per via aerea"
           ],
           "risposta_corretta": "Tutte le infezioni pericolose sia per il paziente sia per l'operatore sanitario"
+        },
+        {
+          "testo": "Il debito pubblico italiano è pari a circa:",
+          "opzioni": [
+            "Circa 500 miliardi di €",
+            "Circa 2.100 miliardi di €",
+            "Inferiore a 100 miliardi di €",
+            "Circa 3.500 miliardi di €"
+          ],
+          "risposta_corretta": "Circa 2.100 miliardi di €"
+        },
+        {
+          "testo": "Cosa si intende per disinfezione?",
+          "opzioni": [
+            "Un processo fisico per eliminare ogni microrganismo",
+            "L'eliminazione totale di tutti i microrganismi comprese le spore",
+            "Una misura atta a ridurre tramite uccisione, inattivazione o allontanamento/diluzione la maggior quantità di microrganismi che causano malattie, mediante sostanze chimiche ad azione germicida",
+            "Qualsiasi processo chimico o fisico che porti all'eliminazione di ogni microrganismo vivente"
+          ],
+          "risposta_corretta": "Una misura atta a ridurre tramite uccisione, inattivazione o allontanamento/diluzione la maggior quantità di microrganismi che causano malattie, mediante sostanze chimiche ad azione germicida"
+        },
+        {
+          "testo": "La prevenzione terziaria si identifica con:",
+          "opzioni": [
+            "La prevenzione delle malattie presenti solo in età senile",
+            "La corretta terapia farmacologica delle malattie degenerative",
+            "La prevenzione delle complicanze",
+            "La diagnosi strumentale e di laboratorio delle malattie"
+          ],
+          "risposta_corretta": "La prevenzione delle complicanze"
+        },
+        {
+          "testo": "La promozione della salute:",
+          "opzioni": [
+            "Incentiva i comportamenti negativi già acquisiti",
+            "Non può essere applicata in condizioni di malattia/disabilità",
+            "Prevede un'effettiva partecipazione dei singoli e della collettività",
+            "Non è applicabile alla salute mentale"
+          ],
+          "risposta_corretta": "Prevede un'effettiva partecipazione dei singoli e della collettività"
+        },
+        {
+          "testo": "L'organizzazione dipartimentale in ambito sanitario deve:",
+          "opzioni": [
+            "Bloccare l'interscambio di risorse tra unità operative",
+            "Tutelare la figura del primario favorendo autonomia",
+            "Produrre una forte integrazione dei processi assistenziali",
+            "Favorire una gestione parcellizzata ed autonoma delle divisioni"
+          ],
+          "risposta_corretta": "Produrre una forte integrazione dei processi assistenziali"
+        },
+        {
+          "testo": "Le complicanze cardiovascolari del diabete insorgono:",
+          "opzioni": [
+            "Esclusivamente nei cardiopatici",
+            "Con notevole frequenza in tutti i soggetti malati",
+            "Solo nel sesso femminile",
+            "Solo nei soggetti affetti da diabete di tipo 1"
+          ],
+          "risposta_corretta": "Con notevole frequenza in tutti i soggetti malati"
+        },
+        {
+          "testo": "Gli operatori sanitari e le nozioni di farmacoeconomia:",
+          "opzioni": [
+            "Devono essere profondi conoscitori della scienza dell'economia",
+            "Non devono conoscere le nozioni base perché fare la salute è un'arte",
+            "Devono conoscere le nozioni fondamentali di farmacoeconomia",
+            "Non hanno bisogno di conoscenze economiche per la loro attività"
+          ],
+          "risposta_corretta": "Devono conoscere le nozioni fondamentali di farmacoeconomia"
         }
       ]
     },
@@ -2478,6 +3218,106 @@
             "L'ispezione periodica degli ambienti di lavoro"
           ],
           "risposta_corretta": "L'insieme degli atti medici, finalizzati alla tutela dello stato di salute e sicurezza dei lavoratori in relazione all'ambiente di lavoro (art. 2, D.Lgs. 81/08)"
+        },
+        {
+          "testo": "Il PERICOLO è:",
+          "opzioni": [
+            "La probabilità che un danno possa verificarsi in condizioni di normale utilizzo",
+            "Assimilabile al rischio",
+            "La proprietà potenzialmente causa di danno posseduta da una determinata entità",
+            "Un fattore percentuale che decresce con l'applicazione di norme di sicurezza"
+          ],
+          "risposta_corretta": "La proprietà potenzialmente causa di danno posseduta da una determinata entità"
+        },
+        {
+          "testo": "Le polveri sottili in ambito di medicina del lavoro:",
+          "opzioni": [
+            "Si accumulano senza interagire con il sistema immunocompetente",
+            "Uccidono i macrofagi e determinano una sensibilizzazione di tipo ritardato",
+            "Non risentono dell'effetto delle temperature",
+            "Attivano i macrofagi"
+          ],
+          "risposta_corretta": "Attivano i macrofagi"
+        },
+        {
+          "testo": "Gli obblighi del medico competente sono definiti da quale articolo del Testo Unico 81/2008?",
+          "opzioni": [
+            "Art. 20",
+            "Art. 41",
+            "Art. 25",
+            "Art. 38"
+          ],
+          "risposta_corretta": "Art. 25"
+        },
+        {
+          "testo": "La nascita della figura del medico competente in Italia risale a:",
+          "opzioni": [
+            "D.Lgs 626/94",
+            "D.Lgs 277/1991",
+            "RD 530/1927",
+            "D.Lgs 81/2008"
+          ],
+          "risposta_corretta": "RD 530/1927"
+        },
+        {
+          "testo": "Per elemento monoatomico, biatomico, triatomico o composto chimico disperso in un mezzo (aria ambiente) si intende:",
+          "opzioni": [
+            "Vapore",
+            "Gas",
+            "Fumo",
+            "Nebbia"
+          ],
+          "risposta_corretta": "Gas"
+        },
+        {
+          "testo": "Gli indicatori di dose sono espressione:",
+          "opzioni": [
+            "Di un effetto biologico sull'organismo",
+            "Dell'entità dell'assorbimento di un agente nocivo",
+            "Della quantità aerodispersa di materiale",
+            "Di un danno d'organo"
+          ],
+          "risposta_corretta": "Dell'entità dell'assorbimento di un agente nocivo"
+        },
+        {
+          "testo": "In una revisione sistematica sulla prevenzione degli infortuni occupazionali trasmissibili con sangue e liquidi biologici, la percentuale evitabile tramite corretto utilizzo delle precauzioni universali è pari a circa:",
+          "opzioni": [
+            "10-20%",
+            "35-50%",
+            "5-10%",
+            "70-90%"
+          ],
+          "risposta_corretta": "70-90%"
+        },
+        {
+          "testo": "Un ordine atomico con rispetto delle distanze e configurazione, più comune in natura e più biologicamente attivo, è definito:",
+          "opzioni": [
+            "Struttura amorfa",
+            "Struttura mista",
+            "Struttura cristallina",
+            "Struttura polimerica"
+          ],
+          "risposta_corretta": "Struttura cristallina"
+        },
+        {
+          "testo": "La sicurezza sul lavoro è disciplinata da:",
+          "opzioni": [
+            "Solo dalla Costituzione",
+            "Solo dalle leggi speciali nazionali",
+            "Solo dalle leggi regionali",
+            "Da Costituzione, leggi speciali e leggi regionali"
+          ],
+          "risposta_corretta": "Da Costituzione, leggi speciali e leggi regionali"
+        },
+        {
+          "testo": "La 'polizza' assicurativa è:",
+          "opzioni": [
+            "Un documento rilasciato dall'INAIL al lavoratore infortunato",
+            "Un contratto tra la società assicurativa e il contraente",
+            "Un documento sanitario che certifica l'inabilità al lavoro",
+            "Un decreto ministeriale che regola i premi assicurativi"
+          ],
+          "risposta_corretta": "Un contratto tra la società assicurativa e il contraente"
         }
       ]
     },
@@ -3453,6 +4293,326 @@
             "Perdita di un arto (lesione gravissima)"
           ],
           "risposta_corretta": "Perdita di un arto (lesione gravissima)"
+        },
+        {
+          "testo": "Quale di queste affermazioni NON è corretta sul delitto di percosse?",
+          "opzioni": [
+            "Non implica necessariamente contatto fisico diretto",
+            "Non è procedibile d'ufficio",
+            "Cagiona uno stato di malattia nel corpo e nella mente",
+            "È punibile solo a querela della persona offesa"
+          ],
+          "risposta_corretta": "Cagiona uno stato di malattia nel corpo e nella mente"
+        },
+        {
+          "testo": "L'ISPESL (Istituto Superiore per la Prevenzione e la Sicurezza sul Lavoro) è:",
+          "opzioni": [
+            "Un ente previdenziale per i lavoratori",
+            "Un organo tecnico-scientifico di cui si avvalgono il Ministero della Salute, le Regioni, le ASL e le aziende ospedaliere",
+            "Un organo giudiziario",
+            "Un istituto di ricerca privato"
+          ],
+          "risposta_corretta": "Un organo tecnico-scientifico di cui si avvalgono il Ministero della Salute, le Regioni, le ASL e le aziende ospedaliere"
+        },
+        {
+          "testo": "Con riferimento alla tutela dell'embrione, l'intervento della Corte Costituzionale che ha consentito la normativa sull'IVG ha stabilito:",
+          "opzioni": [
+            "Che l'embrione è una persona giuridica a tutti gli effetti",
+            "Che l'embrione non ha alcuna tutela giuridica",
+            "Una tutela a favore del concepito subordinata alla salute psicofisica della madre",
+            "Che l'embrione è tutelato solo dopo il terzo mese"
+          ],
+          "risposta_corretta": "Una tutela a favore del concepito subordinata alla salute psicofisica della madre"
+        },
+        {
+          "testo": "Rientrano tra le lesioni personali gravissime tutte le seguenti condizioni TRANNE:",
+          "opzioni": [
+            "Lo sfregio permanente del viso",
+            "La perdita di un arto",
+            "Pericolo di vita",
+            "La perdita della capacità di procreare"
+          ],
+          "risposta_corretta": "Pericolo di vita"
+        },
+        {
+          "testo": "La valutazione del nesso causale tiene conto dei seguenti criteri:",
+          "opzioni": [
+            "Solo del criterio temporale",
+            "Solo del criterio quantitativo",
+            "Solo del criterio topografico",
+            "Di tutti i criteri disponibili (temporale, topografico, qualitativo, quantitativo, ecc.)"
+          ],
+          "risposta_corretta": "Di tutti i criteri disponibili (temporale, topografico, qualitativo, quantitativo, ecc.)"
+        },
+        {
+          "testo": "La denuncia all'autorità giudiziaria prevede esimenti (cause di esonero)?",
+          "opzioni": [
+            "Sì, se il reato è procedibile a querela",
+            "Sì, se il paziente esprime il diniego",
+            "Sì, se si tratta di lesioni lievissime",
+            "No, non prevede esimenti"
+          ],
+          "risposta_corretta": "No, non prevede esimenti"
+        },
+        {
+          "testo": "In tema di lesioni personali, per perdita della capacità di procreare nella donna si intende:",
+          "opzioni": [
+            "Solo impossibilità a generare",
+            "Solo impossibilità al coito",
+            "Solo impossibilità di portare a termine una gravidanza",
+            "Tutte le precedenti (impossibilità a generare, al coito e di portare a termine una gravidanza)"
+          ],
+          "risposta_corretta": "Tutte le precedenti (impossibilità a generare, al coito e di portare a termine una gravidanza)"
+        },
+        {
+          "testo": "Una lesione personale colposa derivante da inosservanza delle leggi inerenti la prevenzione degli infortuni lavorativi è procedibile d'ufficio:",
+          "opzioni": [
+            "Sempre, indipendentemente dalla gravità",
+            "Mai, è sempre procedibile a querela",
+            "Solo se ha causato inabilità permanente",
+            "Solo se grave o gravissima"
+          ],
+          "risposta_corretta": "Solo se grave o gravissima"
+        },
+        {
+          "testo": "Quali delle seguenti lesioni personali è perseguibile a querela?",
+          "opzioni": [
+            "Le lesioni personali gravi",
+            "Le lesioni personali gravissime",
+            "Le lesioni colpose lievissime derivanti da violazione delle norme per la prevenzione degli infortuni sul lavoro",
+            "Tutte le lesioni personali sono procedibili d'ufficio"
+          ],
+          "risposta_corretta": "Le lesioni colpose lievissime derivanti da violazione delle norme per la prevenzione degli infortuni sul lavoro"
+        },
+        {
+          "testo": "Quali sono gli stadi della putrefazione?",
+          "opzioni": [
+            "Stadio iniziale, intermedio, finale",
+            "Stadio della mummificazione e della macerazione",
+            "Stadio della macerazione e della saponificazione",
+            "Stadio cromatico, enfisematoso, colliquativo e della scheletrizzazione"
+          ],
+          "risposta_corretta": "Stadio cromatico, enfisematoso, colliquativo e della scheletrizzazione"
+        },
+        {
+          "testo": "L'obiezione di coscienza da parte del professionista sanitario nell'IVG:",
+          "opzioni": [
+            "Esonera il professionista dal seguire qualsiasi paziente che potrebbe richiedere l'IVG",
+            "Deve essere dichiarata caso per caso",
+            "Esonera il professionista dal compimento delle attività specificatamente e necessariamente dirette a determinare l'interruzione della gravidanza",
+            "Esonera il professionista dall'assistere la donna in caso di pericolo di vita"
+          ],
+          "risposta_corretta": "Esonera il professionista dal compimento delle attività specificatamente e necessariamente dirette a determinare l'interruzione della gravidanza"
+        },
+        {
+          "testo": "Le ipostasi di replezione fino a quando sono valutabili?",
+          "opzioni": [
+            "Dopo le 15 ore dalla morte",
+            "Fino a circa 8-10 ore dalla morte",
+            "Fino a una settimana dalla morte",
+            "Fino a mezz'ora dopo la morte"
+          ],
+          "risposta_corretta": "Fino a circa 8-10 ore dalla morte"
+        },
+        {
+          "testo": "In quale regione corporea inizia la macchia putrefattiva?",
+          "opzioni": [
+            "Agli arti inferiori",
+            "Agli arti superiori",
+            "Nella regione addominale",
+            "Nella regione toracica"
+          ],
+          "risposta_corretta": "Nella regione addominale"
+        },
+        {
+          "testo": "Chi richiede il TSO (Trattamento Sanitario Obbligatorio) sul malato di mente?",
+          "opzioni": [
+            "Soltanto un medico psichiatra",
+            "Qualsiasi medico curante che ravveda gli estremi di legge",
+            "Soltanto il medico di medicina generale",
+            "Qualsiasi professionista sanitario anche non medico"
+          ],
+          "risposta_corretta": "Qualsiasi medico curante che ravveda gli estremi di legge"
+        },
+        {
+          "testo": "Da chi deve essere ratificato il TSO?",
+          "opzioni": [
+            "Esclusivamente dal giudice",
+            "Dal sindaco e poi dal giudice tutelare",
+            "Dallo psichiatra",
+            "Dall'infermiere"
+          ],
+          "risposta_corretta": "Dal sindaco e poi dal giudice tutelare"
+        },
+        {
+          "testo": "La legge 194/1978 ha lo scopo di:",
+          "opzioni": [
+            "Promuovere l'interruzione di gravidanza come mezzo per la limitazione delle nascite",
+            "Tutelare la maternità e normare l'interruzione volontaria di gravidanza",
+            "Interessare solo le donne maggiorenni",
+            "Vietare il coinvolgimento dei consultori familiari nell'assistenza della donna"
+          ],
+          "risposta_corretta": "Tutelare la maternità e normare l'interruzione volontaria di gravidanza"
+        },
+        {
+          "testo": "Entro quale periodo si completa il rigor mortis?",
+          "opzioni": [
+            "Dopo una settimana dalla morte",
+            "Dopo 2-3 ore dalla morte",
+            "Dopo un mese dalla morte",
+            "Dopo 12-24 ore dalla morte"
+          ],
+          "risposta_corretta": "Dopo 12-24 ore dalla morte"
+        },
+        {
+          "testo": "Quali sono i fenomeni cadaverici?",
+          "opzioni": [
+            "Putrefattivi e macerativi",
+            "Abiotici e trasformativi",
+            "Astratti e concreti",
+            "Putrefattivi e colliquativi"
+          ],
+          "risposta_corretta": "Abiotici e trasformativi"
+        },
+        {
+          "testo": "Se sussiste la possibilità di vita autonoma del feto, l'interruzione di gravidanza:",
+          "opzioni": [
+            "Può essere praticata solo per gravi malformazioni fetali",
+            "Non può essere praticata",
+            "Può essere praticata purché non venga rianimato il feto",
+            "Può essere praticata solo per grave pericolo di vita della donna"
+          ],
+          "risposta_corretta": "Può essere praticata solo per grave pericolo di vita della donna"
+        },
+        {
+          "testo": "Per la salute secondo l'OMS si intende:",
+          "opzioni": [
+            "La semplice assenza di malattia",
+            "Lo stato di benessere fisico e assenza di infermità",
+            "Lo stato di benessere psicofisico e sociale",
+            "La capacità di svolgere le normali attività quotidiane"
+          ],
+          "risposta_corretta": "Lo stato di benessere psicofisico e sociale"
+        },
+        {
+          "testo": "Cos'è la previdenza sociale?",
+          "opzioni": [
+            "Un sistema sanitario universalistico",
+            "Gli aiuti rivolti a tutti i cittadini in difficoltà economica",
+            "Gli aiuti, per lo più rivolti ai soggetti lavoratori, attuati per far fronte alla previsione di bisogni futuri",
+            "Il sistema di assistenza per i soli anziani"
+          ],
+          "risposta_corretta": "Gli aiuti, per lo più rivolti ai soggetti lavoratori, attuati per far fronte alla previsione di bisogni futuri"
+        },
+        {
+          "testo": "Quando il medico può sollevare obiezione di coscienza nell'IVG?",
+          "opzioni": [
+            "In qualsiasi momento del percorso assistenziale della donna",
+            "Solo per le procedure chirurgiche",
+            "Soltanto per il compimento delle procedure specificatamente e necessariamente dirette a determinare l'IVG",
+            "Mai, in quanto contrario ai doveri professionali"
+          ],
+          "risposta_corretta": "Soltanto per il compimento delle procedure specificatamente e necessariamente dirette a determinare l'IVG"
+        },
+        {
+          "testo": "Che cosa contraddistingue l'inseminazione artificiale omologa?",
+          "opzioni": [
+            "Può essere effettuata solo per donne celibi",
+            "È vietata in Italia",
+            "Può essere effettuata per impotenza coeundi maritale",
+            "Richiede il consenso del Tribunale dei Minori"
+          ],
+          "risposta_corretta": "Può essere effettuata per impotenza coeundi maritale"
+        },
+        {
+          "testo": "Si hanno tre tipi di filiazione per procreazione:",
+          "opzioni": [
+            "Legittima, adottiva, surrogata",
+            "Naturale, artificiale, surrogata",
+            "Legittima rispetto a un genitore, adottiva e naturale",
+            "Biologica, giuridica e adottiva"
+          ],
+          "risposta_corretta": "Legittima rispetto a un genitore, adottiva e naturale"
+        },
+        {
+          "testo": "Il figlio nato non prima dei 180 giorni dalla celebrazione del matrimonio e non dopo i 300 giorni dallo scioglimento è:",
+          "opzioni": [
+            "Figlio naturale",
+            "Figlio adottivo",
+            "Figlio legittimo",
+            "Figlio non riconoscibile"
+          ],
+          "risposta_corretta": "Figlio legittimo"
+        },
+        {
+          "testo": "L'inabilitato può contrarre matrimonio?",
+          "opzioni": [
+            "No, non può compiere alcun atto giuridico",
+            "No, può solo fare testamento",
+            "Sì, e può anche riconoscere un figlio naturale, fare testamento e compiere atti di ordinaria amministrazione",
+            "Sì, ma non può fare testamento"
+          ],
+          "risposta_corretta": "Sì, e può anche riconoscere un figlio naturale, fare testamento e compiere atti di ordinaria amministrazione"
+        },
+        {
+          "testo": "I diritti umani nell'ordinamento italiano sono sanciti da:",
+          "opzioni": [
+            "Il Codice Civile",
+            "Il Codice Penale",
+            "La Costituzione",
+            "Il Decreto Legislativo 502/92"
+          ],
+          "risposta_corretta": "La Costituzione"
+        },
+        {
+          "testo": "In tema di responsabilità civile del medico che dipende dal SSN:",
+          "opzioni": [
+            "La responsabilità professionale è sempre extracontrattuale",
+            "La responsabilità professionale è sempre di tipo contrattuale",
+            "Non esiste responsabilità civile per il medico dipendente dal SSN",
+            "La responsabilità è sempre solidale con l'azienda sanitaria"
+          ],
+          "risposta_corretta": "La responsabilità professionale è sempre di tipo contrattuale"
+        },
+        {
+          "testo": "Nelle attività svolte in equipe, per la ricerca della colpa valgono i seguenti criteri:",
+          "opzioni": [
+            "Solo il soggetto apicale risponde per tutti",
+            "Nessun componente dell'equipe risponde individualmente",
+            "Il soggetto apicale ha sempre il dovere di controllo e ogni componente deve segnalare comportamenti non consoni degli altri",
+            "La responsabilità è sempre collettiva e non individuale"
+          ],
+          "risposta_corretta": "Il soggetto apicale ha sempre il dovere di controllo e ogni componente deve segnalare comportamenti non consoni degli altri"
+        },
+        {
+          "testo": "Nel caso di prognosi infausta il medico deve fornire informazioni:",
+          "opzioni": [
+            "Solo ai familiari stretti",
+            "Esclusivamente al paziente competente",
+            "A chiunque lo richieda",
+            "Al tutore legale del paziente"
+          ],
+          "risposta_corretta": "Esclusivamente al paziente competente"
+        },
+        {
+          "testo": "Quale di queste condizioni NON è un requisito indispensabile per la validità del consenso?",
+          "opzioni": [
+            "Deve essere libero",
+            "Deve essere informato",
+            "La presenza di testimoni",
+            "Deve essere personale"
+          ],
+          "risposta_corretta": "La presenza di testimoni"
+        },
+        {
+          "testo": "La responsabilità penale dolosa è:",
+          "opzioni": [
+            "Sempre colposa",
+            "Personale, volontaria e cosciente",
+            "Oggettiva e non richiede volontà",
+            "Non applicabile ai professionisti sanitari"
+          ],
+          "risposta_corretta": "Personale, volontaria e cosciente"
         }
       ]
     },
@@ -4053,6 +5213,101 @@
             "Il rapporto tra personale e pazienti"
           ],
           "risposta_corretta": "La complessità quali-quantitativa degli interventi assistenziali"
+        }
+      ]
+    },
+    {
+      "argomento": "Sociologia e Organizzazione del Lavoro",
+      "domande": [
+        {
+          "testo": "La disoccupazione ciclica:",
+          "opzioni": [
+            "Equivale al tasso naturale di disoccupazione",
+            "Dipende da fattori strutturali",
+            "Si riferisce solo ai momenti intermedi dell'anno",
+            "Dipende dal ciclo del sistema economico"
+          ],
+          "risposta_corretta": "Dipende dal ciclo del sistema economico"
+        },
+        {
+          "testo": "La segregazione orizzontale prevede che:",
+          "opzioni": [
+            "Donne e uomini abbiano diverse chance di carriera all'interno dello stesso settore",
+            "Donne e uomini si concentrino in settori e occupazioni differenti",
+            "La concentrazione di donne nello stesso settore sia influenzata dall'età",
+            "La concentrazione di uomini nello stesso settore sia influenzata dall'età"
+          ],
+          "risposta_corretta": "Donne e uomini si concentrino in settori e occupazioni differenti"
+        },
+        {
+          "testo": "Con incongruenza di status si intende il fatto che:",
+          "opzioni": [
+            "Non ci sia necessariamente corrispondenza tra prestigio, genere e ricchezza rispetto alla propria posizione lavorativa",
+            "Non ci sia necessariamente corrispondenza tra prestigio, potere e ricchezza rispetto alla propria posizione lavorativa",
+            "Non ci sia necessariamente corrispondenza tra prestigio, età e ricchezza rispetto alla propria posizione lavorativa",
+            "Non ci sia necessariamente corrispondenza tra prestigio, orientamento sessuale e posizione lavorativa"
+          ],
+          "risposta_corretta": "Non ci sia necessariamente corrispondenza tra prestigio, potere e ricchezza rispetto alla propria posizione lavorativa"
+        },
+        {
+          "testo": "Il PNRR è:",
+          "opzioni": [
+            "Il progetto nazionale di ripresa e risparmio",
+            "Il piano nazionale di risparmio e resilienza",
+            "Il piano nazionale di remunerazione e risparmio",
+            "Il piano nazionale di ripresa e resilienza"
+          ],
+          "risposta_corretta": "Il piano nazionale di ripresa e resilienza"
+        },
+        {
+          "testo": "In che anno una fabbrica italiana ha assicurato i propri operai per la prima volta?",
+          "opzioni": [
+            "1429",
+            "1881",
+            "1920",
+            "1935"
+          ],
+          "risposta_corretta": "1881"
+        },
+        {
+          "testo": "NEET è l'acronimo inglese di:",
+          "opzioni": [
+            "Not in education, exercise or training",
+            "Not in education, employment or trade",
+            "Not in entertainment, employment or training",
+            "Not in education, employment or training"
+          ],
+          "risposta_corretta": "Not in education, employment or training"
+        },
+        {
+          "testo": "Il concetto di 'body work' si riferisce a:",
+          "opzioni": [
+            "Lavori che non prevedono alcun tipo di contatto intimo o prossimo con il corpo altrui",
+            "Lavori che non richiedono una specifica tipologia corporea per essere eseguiti",
+            "Nello specifico al settore occupazionale delle arti e dello spettacolo",
+            "Lavori che prevedono forme di contatto intime o fortemente prossime con altri corpi o i suoi fluidi"
+          ],
+          "risposta_corretta": "Lavori che prevedono forme di contatto intime o fortemente prossime con altri corpi o i suoi fluidi"
+        },
+        {
+          "testo": "Secondo la definizione ISTAT le 'persone inattive' comprendono:",
+          "opzioni": [
+            "Le persone classificate come occupate",
+            "Le persone che non fanno parte delle forze di lavoro (non occupate e non in cerca di occupazione)",
+            "Le persone che inizieranno un lavoro entro tre mesi dalla settimana di riferimento",
+            "Le persone classificate come in cerca di occupazione"
+          ],
+          "risposta_corretta": "Le persone che non fanno parte delle forze di lavoro (non occupate e non in cerca di occupazione)"
+        },
+        {
+          "testo": "Con 'Gig Economy' ci si riferisce a:",
+          "opzioni": [
+            "Occupazioni che prima erano principali e diventano 'lavoretti' organizzati tramite piattaforme digitali con profili scarsamente tutelati",
+            "Occupazioni prima considerate 'lavoretti' che diventano principali e vengono organizzate tramite agenzie interinali",
+            "Occupazioni prima considerate 'lavoretti' che diventano principali organizzate tramite piattaforme digitali con profili tutelati",
+            "Occupazioni prima considerate 'lavoretti' che diventano principali organizzate tramite piattaforme digitali con profili scarsamente tutelati"
+          ],
+          "risposta_corretta": "Occupazioni che prima erano principali e diventano 'lavoretti' organizzati tramite piattaforme digitali con profili scarsamente tutelati"
         }
       ]
     }
