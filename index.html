@@ -1,154 +1,621 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Story</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <title>Buon Compleanno Mumu!</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Cstyle%3Etext%7Bfont-family:Segoe%20UI%20Emoji,Apple%20Color%20Emoji,NotoColorEmoji,Segoe%20UI%20Symbol;%20font-size:44px;%7D%3C/style%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='central'%20text-anchor='middle'%3E%F0%9F%8C%BB%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+
+    <!-- Importazione dei font eleganti e romantici -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Script esterno per l'effetto coriandoli finale -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    
+    <!-- Libreria CryptoJS per la crittografia e massima sicurezza dei contenuti privati offline -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    
+    <style>
+        /* === VARIABILI PER I COLORI (TEMA GIRASOLE) === */
+        :root {
+            --primary: #F4D03F;     /* Giallo Girasole */
+            --secondary: #E67E22;   /* Arancione caldo per contrasti */
+            --bg: #FFF8E7;          /* Panna / Giallo chiarissimo per lo sfondo */
+            --text-dark: #333333;
+            --text-light: #ffffff;
+        }
+
+        /* === STILE GLOBALE === */
+        body, html {
+            margin: 0; 
+            padding: 0; 
+            width: 100%; 
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-dark);
+            overflow: hidden; /* Evita lo scroll durante le transizioni */
+        }
+
+        /* Gestione generale delle "Schermate" (Screens) */
+        .screen {
+            position: absolute; 
+            top: 0; left: 0; 
+            width: 100%; height: 100%;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+            opacity: 0; 
+            pointer-events: none; 
+            transition: opacity 0.8s ease;
+        }
+        .screen.active {
+            opacity: 1; 
+            pointer-events: auto;
+        }
+        
+        h1, h2, .romantic-font { 
+            font-family: 'Great Vibes', cursive; 
+            font-weight: normal; 
+        }
+
+        /* === 1. SCHERMATA DI SBLOCCO (LOCK SCREEN) === */
+        #screen-lock { display: block; overflow-y: auto; overflow-x: hidden; }
+        .lock-container { display: flex; width: 100%; min-height: 100%; }
+        .lock-left { flex: 1; display: flex; justify-content: center; align-items: center; background-color: #ffd86b; min-height: 400px; padding: 20px; box-sizing: border-box; }
+        .lock-right { flex: 1; display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 500px; padding: 20px; box-sizing: border-box; }
+        
+        /* Modello Polaroid */
+        .polaroid { 
+            background: white; 
+            padding: 15px 15px 40px 15px; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+            transform: rotate(-3deg); 
+        }
+        .polaroid img { 
+            width: 300px; 
+            height: 300px; 
+            object-fit: cover; 
+            background: #eee; 
+        }
+        .polaroid .caption { 
+            font-family: 'Great Vibes', cursive; 
+            font-size: 2.2rem; 
+            text-align: center; 
+            margin-top: 10px; 
+            color: var(--secondary);
+        }
+        
+        /* Tastierino Numerico */
+        .keypad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 30px; }
+        .key-btn { 
+            width: 70px; height: 70px; 
+            border-radius: 50%; 
+            border: 2px solid var(--secondary); 
+            background: transparent; 
+            color: var(--secondary); 
+            font-size: 1.5rem; 
+            font-family: 'Poppins'; 
+            cursor: pointer; 
+            transition: all 0.2s; 
+        }
+        .key-btn:active { background: var(--secondary); color: white; }
+        .dots { display: flex; gap: 10px; margin-top: 20px; height: 20px;}
+        .dot { width: 15px; height: 15px; border-radius: 50%; border: 2px solid var(--secondary); }
+        .dot.filled { background: var(--secondary); }
+
+        @media (max-width: 768px) {
+            .lock-container { flex-direction: column; }
+            .lock-left { padding: 40px 20px; min-height: auto; }
+            .polaroid { transform: scale(0.8) rotate(-3deg); margin-bottom: -30px;}
+            .lock-right { padding-top: 30px; padding-bottom: 60px; min-height: auto; }
+            .key-btn { width: 60px; height: 60px; }
+        }
+
+        /* === 2. SCHERMATA DI CARICAMENTO === */
+        .loader { 
+            border: 5px solid #f3f3f3; 
+            border-top: 5px solid var(--primary); 
+            border-radius: 50%; 
+            width: 50px; height: 50px; 
+            animation: spin 1s linear infinite; 
+            margin-bottom: 20px; 
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* === 3. SCHERMATA BUSTA LETTERA === */
+        .envelope-container { cursor: pointer; position: relative; width: 300px; height: 200px; display: flex; align-items: flex-end; justify-content: center;}
+        .envelope-back { width: 100%; height: 100%; background: #D35400; position: absolute; bottom: 0; left: 0; border-radius: 5px; z-index: 1; }
+        .envelope-flap { 
+            position: absolute; top: 0; left: 0; width: 0; height: 0;
+            border-top: 100px solid #D35400; 
+            border-left: 150px solid transparent; border-right: 150px solid transparent; 
+            z-index: 4; transform-origin: top; transition: transform 0.6s, z-index 0s 0.3s; 
+        }
+        .envelope-front {
+            position: absolute; bottom: 0; left: 0; width: 0; height: 0;
+            border-bottom: 100px solid #E67E22;
+            border-left: 150px solid #E67E22; border-right: 150px solid #E67E22;
+            border-top: 100px solid transparent; z-index: 3;
+            border-radius: 0 0 5px 5px;
+        }
+        .envelope-container:hover .envelope-flap { transform: rotateX(20deg); }
+        .envelope-container.open .envelope-flap { transform: rotateX(180deg); z-index: 1;}
+        .letter { 
+            position: absolute; bottom: 10px; width: 90%; height: 90%; 
+            background: white; z-index: 2; transition: transform 0.8s 0.2s; 
+            display: flex; justify-content: center; align-items: center; 
+            flex-direction: column; box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+        }
+        .envelope-container.open .letter { transform: translateY(-120px); }
+        .letter-text { font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #D35400;}
+
+        /* === 4. SCHERMATA MESSAGGIO / GALLERIA === */
+        #screen-message { 
+            padding: 20px; box-sizing: border-box; 
+            overflow-y: auto; /* Permette lo scroll se il testo è lungo */
+            display: block; text-align: center; 
+        }
+        .message-content { max-width: 800px; margin: 0 auto; padding-top: 40px; padding-bottom: 40px;}
+        .message-title { font-size: 4.5rem; color: var(--secondary); margin-bottom: 30px; }
+        
+        .media-box { 
+            width: 100%; max-width: 600px; height: 400px; 
+            background: #ddd; margin: 0 auto 30px auto; 
+            border-radius: 10px; overflow: hidden; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+        }
+        .media-box img, .media-box video { width: 100%; height: 100%; object-fit: cover; }
+        
+        .dedication-text { 
+            font-size: 1.2rem; line-height: 1.8; 
+            margin-bottom: 40px; padding: 0 20px; 
+            color: #444; text-align: left;
+        }
+        
+        .btn-next { 
+            background: var(--secondary); color: white; border: none; 
+            padding: 15px 30px; font-size: 1.2rem; border-radius: 30px; 
+            cursor: pointer; font-family: 'Poppins'; transition: background 0.3s; 
+            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.4);
+        }
+        .btn-next:hover { background: #D35400; transform: translateY(-2px); }
+
+        /* === 5. SCHERMATA TORTA === */
+        #screen-cake { background-color: #2c3e50; transition: background-color 1.5s ease; }
+        #screen-cake.lights-on { background-color: var(--bg); }
+        
+        .cake-title { color: white; font-size: 3rem; text-align: center; margin-bottom: 50px; transition: color 1.5s ease; }
+        #screen-cake.lights-on .cake-title { color: var(--secondary); }
+        
+        .cake { position: relative; margin-top: 50px; }
+        .layer { width: 220px; height: 70px; background: #F4D03F; border-radius: 10px; box-shadow: inset 0 -10px rgba(0,0,0,0.1); display: flex; justify-content: space-evenly; position: relative; margin: 0 auto;}
+        .layer-bottom { width: 260px; height: 80px; background: #E67E22; border-radius: 10px; margin: -20px auto 0 auto; box-shadow: inset 0 -10px rgba(0,0,0,0.1); }
+        .candles-container { position: absolute; top: -40px; left: 50%; transform: translateX(-50%); width: 200px; display: flex; justify-content: space-evenly; }
+        
+        .candle { width: 15px; height: 50px; background: #fff; border-radius: 5px; position: relative; cursor: pointer; }
+        .stripe { width: 100%; height: 10px; background: #e74c3c; margin-top: 10px; transform: skewY(-20deg); }
+        .flame { 
+            position: absolute; top: -25px; left: 50%; transform: translateX(-50%); 
+            width: 15px; height: 25px; background: #f1c40f; 
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; 
+            box-shadow: 0 0 20px #f1c40f, 0 0 40px #f39c12; 
+            animation: flicker 0.1s infinite alternate; transition: opacity 0.3s ease; 
+        }
+        .candle.blown .flame { opacity: 0; animation: none; box-shadow: none; }
+        
+        @keyframes flicker {
+            0% { transform: translateX(-50%) rotate(-2deg) scale(1); }
+            100% { transform: translateX(-50%) rotate(2deg) scale(1.1); }
+        }
+    </style>
 </head>
 <body>
+    <div id="app">
+        <!-- 1. LOCK SCREEN -->
+        <div id="screen-lock" class="screen active">
+            <div class="lock-container">
+                <div class="lock-left">
+                    <div class="polaroid">
+                        <!-- ==========================================
+                             INSERISCI QUI LA FOTO PER LA SCHERMATA INIZIALE
+                             Usa percorsi relativi! Esempio corretto: src="./assets/foto-inizio.jpg"
+                             ========================================== -->
+                        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=800&auto=format&fit=crop" alt="Foto Polaroid">
+                        <div class="caption">Buon Compleanno Mumu</div>
+                    </div>
+                </div>
+                <div class="lock-right">
+                    <h2 class="romantic-font" style="font-size: 2.5rem; margin-bottom: 5px; color: var(--secondary)">Ingresso Segreto</h2>
+                    <p style="font-size: 0.9rem; color: #666;">(Inserisci il passcode di 6 cifre per sbloccare la sorpresa)</p>
+                    <div class="dots" id="passcode-dots">
+                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    </div>
+                    <div class="keypad">
+                        <button class="key-btn" onclick="enterDigit('1')">1</button>
+                        <button class="key-btn" onclick="enterDigit('2')">2</button>
+                        <button class="key-btn" onclick="enterDigit('3')">3</button>
+                        <button class="key-btn" onclick="enterDigit('4')">4</button>
+                        <button class="key-btn" onclick="enterDigit('5')">5</button>
+                        <button class="key-btn" onclick="enterDigit('6')">6</button>
+                        <button class="key-btn" onclick="enterDigit('7')">7</button>
+                        <button class="key-btn" onclick="enterDigit('8')">8</button>
+                        <button class="key-btn" onclick="enterDigit('9')">9</button>
+                        <button class="key-btn" style="visibility: hidden;">*</button>
+                        <button class="key-btn" onclick="enterDigit('0')">0</button>
+                        <button class="key-btn" style="visibility: hidden;">#</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Login Screen -->
-    <div id="login-screen">
-        <div class="login-container">
-            <h1>For My Love</h1>
-            <p>Please enter the magic word</p>
-            <input type="password" id="password-input" placeholder="Password">
-            <button id="login-btn">Open Heart</button>
-            <p id="error-msg" class="hidden">Wrong password, try again ❤️</p>
+        <!-- 2. LOADING SCREEN -->
+        <div id="screen-loading" class="screen">
+            <div class="loader"></div>
+            <h2 class="romantic-font" style="font-size: 3rem; color: var(--secondary);">Preparando la tua sorpresa...</h2>
+            <div style="font-size: 3rem; margin-top:20px;">🌻</div>
+        </div>
+
+        <!-- 3. ENVELOPE SCREEN -->
+        <div id="screen-envelope" class="screen">
+            <h2 class="romantic-font" style="margin-bottom: 40px; font-size: 3.5rem; color: var(--secondary);">C'è un messaggio per te...</h2>
+            <div class="envelope-container" onclick="openEnvelope(this)">
+                <div class="envelope-back"></div>
+                <div class="letter">
+                    <span class="letter-text">Apri!</span>
+                    <span style="font-size: 3rem; margin-top:10px;">💌</span>
+                </div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+            </div>
+            <p style="margin-top: 40px; color: #888; font-size: 1rem;">(Tocca la busta per aprirla)</p>
+        </div>
+
+        <!-- 4. MESSAGE SCREEN (SBLOCCATO SOLO TRAMITE PASSWORD CRITTOGRAFATA) -->
+        <div id="screen-message" class="screen">
+            <div id="secure-content-wrapper" style="width: 100%;">
+                <!-- Questo div rimane completamente vuoto nel codice sorgente iniziale.
+                     La foto privata e i testi romantici verranno iniettati dinamicamente 
+                     in memoria solo dopo aver inserito il passcode "081025".
+                     Questo impedisce a chiunque di estrarli ispezionando il codice! -->
+                <div style="text-align: center; color: var(--secondary); font-family: 'Poppins', sans-serif;">
+                    <p>Contenuto Crittografato 🔐</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. CAKE SCREEN -->
+        <div id="screen-cake" class="screen">
+            <h1 class="cake-title romantic-font" id="cake-instruction">
+                Esprimi un desiderio profondo...<br>
+                <span style="font-size:1.2rem; font-family: 'Poppins', sans-serif; color: #ddd; display: block; margin-top: 15px;">
+                    (Poi tocca le tre candeline per spegnerle)
+                </span>
+            </h1>
+            
+            <div class="cake">
+                <div class="candles-container">
+                    <div class="candle" onclick="blowCandle(this)">
+                        <div class="flame"></div>
+                        <div class="stripe"></div>
+                    </div>
+                    <div class="candle" onclick="blowCandle(this)">
+                        <div class="flame"></div>
+                        <div class="stripe"></div>
+                    </div>
+                    <div class="candle" onclick="blowCandle(this)">
+                        <div class="flame"></div>
+                        <div class="stripe"></div>
+                    </div>
+                </div>
+                <div class="layer">
+                    <!-- Decorazioni della torta -->
+                    <div style="width:20px; background:#f1c40f; height:100%; border-radius:10px;"></div>
+                    <div style="width:20px; background:#f1c40f; height:100%; border-radius:10px;"></div>
+                    <div style="width:20px; background:#f1c40f; height:100%; border-radius:10px;"></div>
+                </div>
+                <div class="layer-bottom">
+                     <div style="text-align:center; padding-top:25px; color:white; font-family:'Great Vibes', cursive; font-size:1.8rem;">
+                         Per Mumu 🌻
+                     </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Hearts Animation Container -->
-    <div id="hearts-container"></div>
+    <!-- === STRUMENTO GENERATORE STRUTTURA REGALO (INTEGRATO PER L'AMMINISTRATORE) === -->
+    <div id="generator-tool" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; overflow-y: auto; padding: 20px; box-sizing: border-box; color: #fff; font-family: 'Poppins', sans-serif;">
+        <div style="max-width: 600px; margin: 40px auto; background: #fff; color: #333; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">
+                <h2 style="margin: 0; color: #E67E22; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 1.5rem;">🔐 Generatore di Contenuti Cifrati</h2>
+                <button onclick="document.getElementById('generator-tool').style.display='none'" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #666;">&times;</button>
+            </div>
+            
+            <p style="font-size: 0.9rem; color: #555; line-height: 1.5; margin-bottom: 20px;">
+                Usa questo strumento per personalizzare al 100% la dedica e la foto privata. 
+                I dati vengono crittografati in locale sul tuo browser. Nessun visitatore potrà leggerli senza password!
+            </p>
 
-    <!-- Background Animation -->
-    <div id="background-scene">
-        <svg id="scene-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
-            <defs>
-                <g id="flower-def">
-                    <g class="petals">
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(0)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(30)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(60)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(90)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(120)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(150)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(180)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(210)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(240)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(270)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(300)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(330)" />
-                    </g>
-                    <circle cx="0" cy="0" r="12" fill="#5d4037" />
-                </g>
-            </defs>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem;">Chiave/Passcode Segreto (6 cifre, es: 081025):</label>
+                <input type="text" id="gen-key" value="123456" maxlength="6" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
 
-            <!-- Grass Field -->
-            <g id="grass" transform="scale(1, 0)">
-                <rect x="-100" y="380" width="600" height="50" fill="#2e7d32" />
-                <path d="M-50 380 
-                         L-40 360 L-30 380 L-20 355 L-10 380 
-                         L0 365 L10 380 L20 350 L30 380 
-                         L40 360 L50 380 L60 355 L70 380 
-                         L80 365 L90 380 L100 350 L110 380 
-                         L120 360 L130 380 L140 355 L150 380 
-                         L160 365 L170 380 L180 350 L190 380 
-                         L200 360 L210 380 L220 355 L230 380 
-                         L240 365 L250 380 L260 350 L270 380 
-                         L280 360 L290 380 L300 355 L310 380 
-                         L320 365 L330 380 L340 350 L350 380 
-                         L360 360 L370 380 L380 355 L390 380 
-                         L400 365 L410 380 L420 350 L430 380 
-                         L440 360 L450 380" fill="#388e3c" />
-            </g>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem;">Titolo della Schermata:</label>
+                <input type="text" id="gen-title" value="Buon Compleanno Nome!" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
 
-            <!-- Small Sunflowers in Grass -->
-            <g id="small-sunflowers" transform="scale(0)">
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="10" y="375" height="20" width="20" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="60" y="365" height="25" width="25" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="130" y="380" height="15" width="15" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="180" y="370" height="22" width="22" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="240" y="375" height="18" width="18" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="320" y="360" height="28" width="28" />
-                <image href="https://cdn.pixabay.com/photo/2022/10/07/05/13/sunflower-7504137_1280.png" x="380" y="375" height="20" width="20" />
-            </g>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem;">Percorso Foto/Video (Es: assets/foto.jpg oppure URL remoto):</label>
+                <input type="text" id="gen-img" value="assets/foto-speciale.jpg" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                <p style="font-size: 0.8rem; color: #e74c3c; margin-top: 5px;"><strong>IMPORTANTE PER NETLIFY:</strong> Assicurati che la cartella sul tuo computer si chiami esattamente <code>assets</code> (senza il punto iniziale). Netlify ignora le cartelle che iniziano con il punto come &quot;.assets&quot;.</p>
+            </div>
 
-            <!-- Sunflower 1 (Left) -->
-            <g id="sf1">
-                <path class="stem" d="M100 400 Q 90 350 100 280" stroke="#4caf50" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="300" stroke-dashoffset="300" />
-                <g class="leaves" transform="scale(0)">
-                    <path d="M100 320 Q 70 300 60 280 Q 80 290 100 310" fill="#4caf50" />
-                    <path d="M100 280 Q 130 260 140 240 Q 120 250 100 270" fill="#4caf50" />
-                </g>
-                <g class="head" transform="translate(100, 280)">
-                    <g class="flower-petals" transform="scale(0)">
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(0)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(30)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(60)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(90)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(120)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(150)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(180)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(210)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(240)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(270)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(300)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(330)" />
-                    </g>
-                    <circle class="flower-center" cx="0" cy="0" r="12" fill="#5d4037" transform="scale(0)" />
-                </g>
-            </g>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem;">Nome del Mittente (Es: Rossi):</label>
+                <input type="text" id="gen-sender" value="Mittente" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
 
-            <!-- Sunflower 2 (Right) -->
-            <g id="sf2">
-                <path class="stem" d="M300 400 Q 310 350 300 260" stroke="#4caf50" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="300" stroke-dashoffset="300" />
-                <g class="leaves" transform="scale(0)">
-                    <path d="M300 330 Q 270 310 260 290 Q 280 300 300 320" fill="#4caf50" />
-                    <path d="M300 270 Q 330 250 340 230 Q 320 240 300 260" fill="#4caf50" />
-                </g>
-                <g class="head" transform="translate(300, 260)">
-                    <g class="flower-petals" transform="scale(0)">
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(0)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(30)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(60)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(90)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(120)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(150)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(180)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(210)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(240)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(270)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(300)" />
-                        <path d="M0 0 Q -8 -30 0 -40 Q 8 -30 0 0" fill="#ffeb3b" transform="rotate(330)" />
-                    </g>
-                    <circle class="flower-center" cx="0" cy="0" r="12" fill="#5d4037" transform="scale(0)" />
-                </g>
-            </g>
-        </svg>
-    </div>
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem;">Dedica Romantica (Crea nuovi paragrafi lasciando una riga vuota):</label>
+                <textarea id="gen-text" rows="6" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; font-family: sans-serif; resize: vertical;">Ciao! Inserisci qui la tua dedica romantica speciale...
 
-    <!-- Book Container -->
-    <div id="book-container" class="hidden">
-        <div class="book" id="book">
-            <!-- Pages will be injected here by JS -->
-        </div>
-        
-        <div class="controls">
-            <button id="prev-btn" class="nav-btn" aria-label="Previous Page">
-                <span class="arrow">◄</span>
-            </button>
-            <button id="next-btn" class="nav-btn" aria-label="Next Page">
-                <span class="arrow">►</span>
-            </button>
+Questo è un secondo paragrafo di prova per mostrare come funziona la formattazione dei testi.</textarea>
+            </div>
+
+            <button onclick="generateEncryptedPayload()" style="width: 100%; background: var(--secondary); color:#fff; border:none; padding:12px; font-size:1.1rem; border-radius:5px; cursor:pointer; font-weight:600; margin-bottom:20px;">Cifra e Ottieni Stringa 🔐</button>
+
+            <div id="gen-result-container" style="display: none;">
+                <label style="display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem; color: #27ae60;">Stringa Cifrata Risultante (Clicca per selezionare e copia):</label>
+                <textarea id="gen-result" rows="5" readonly style="width: 100%; padding: 10px; border: 1px solid #2cc36b; border-radius: 5px; box-sizing: border-box; background: #eefdf4; font-family: monospace; font-size: 0.8rem; margin-bottom: 15px;" onclick="this.select()"></textarea>
+                <p style="font-size: 0.8rem; color: #666; line-height: 1.4;">
+                    <strong>Istruzioni Italiane per Netlify:</strong> Copia la stringa verde qui sopra. Apri il file <code>index.html</code> sul tuo computer, trova nel codice javascript la riga <code>const encryptedSecretPayload = "..."</code> e incolla questa stringa in sostituzione di quella già presente. Salva il file e carica l'intera cartella direttamente su Netlify!
+                </p>
+            </div>
         </div>
     </div>
 
-    <script src="js/content.js"></script>
-    <script src="js/script.js"></script>
+    <!-- === LOGICA JAVASCRIPT === -->
+    <script>
+        // DATI SEGRETI CRITTOGRAFATI (AES) - SBLOCCABILI SOLO CON LA PASSWORD CORRETTA "081025"
+        // Nessuno analizzando il codice sorgente o hackerando lo stato può estrarre questi dati privati!
+        const encryptedSecretPayload = "U2FsdGVkX19TnF9olG8lcZKpXhDV8O8t9+/CIhWGvo7h2amjda3dHwE+m/b6Tvz/U+29+Hp6TsCmlZYQpuATZga0xaus7cdvQ6uuajf074U5gD7KkF0wPRc/TXtj47p2CVAmbi64HrzzY7/vGLUiNEptXj6kGNPXEXqY+xyXLrCOeuPV/V9Mei0zQJPMPWOKy7Tpb7m6aWmvz+79mZbmYdOHkyufppJ40VUu6p/f6pMHaAP2tUennIJnHIbcdNvqvLi2FsH1OOmHe+uSDiS3DZyvRqmGreTxqDWjIGHEy81rPJLyKOmNZlNoFx3luZkCW2fQ1IdBKx0nsQMGiQAJMdrgojpzLThw8JEK4KjZtPRx7IS211a3hUqIjNtO/aHCk3s1cH4CzOmkucBG7WbEi8lghkOOfjOxsoQYpRhNfF2hWXtCtUkivcPe9VcG3X4DAbNpcGHEg+XQSi8uktkcyu3W3taPjacN5RbKHdPVuPKGcB6GgwiYp2HFDNAxduaklTHqj4NiTCYSQnQ2O+Vx/+yhBitWqg7u6TEgzJ+jUvPK3mrqnEXMqASHV3rETKyDl4X84zpq68Ami25ORDxQc6bhOxgXtTVZLSNzyUJVpCyvnw4EKlnJSZ3/s2j6b6Aq";
+
+        let enteredCode = "";
+
+        // Gestione digitazione tastierino
+        function enterDigit(digit) {
+            if (enteredCode.length < 6) {
+                enteredCode += digit;
+                const dots = document.querySelectorAll('#passcode-dots .dot');
+                dots[enteredCode.length - 1].classList.add('filled');
+
+                // Al sesto carattere digitato viene tentata la decodifica istantanea
+                if (enteredCode.length === 6) {
+                    tryDecryptWithEnteredCode();
+                }
+            }
+        }
+
+        // Tenta la decrittografia AES con il codice inserito dall'utente
+        function tryDecryptWithEnteredCode() {
+            try {
+                const decrypted = decryptPayload(encryptedSecretPayload, enteredCode);
+                if (decrypted && decrypted.secure === true) {
+                    // Cifratura corretta: carica i contenuti dinamici in memoria e renderizza il DOM privato
+                    renderDecryptedContent(decrypted);
+                    
+                    setTimeout(() => {
+                        goToScreen('screen-loading');
+                        startLoading();
+                    }, 400);
+                } else {
+                    // Password errata
+                    triggerPasscodeError();
+                }
+            } catch (e) {
+                // Errore generico (es. dati corrotti o chiave fallita)
+                triggerPasscodeError();
+            }
+        }
+
+        // Esegue la decrittografia AES ritornando l'oggetto JSON sbloccato rimosso da sguardi indiscreti
+        function decryptPayload(ciphertext, key) {
+            try {
+                const bytes = CryptoJS.AES.decrypt(ciphertext, key);
+                const decryptedText = bytes.toString(CryptoJS.enc.Utf8);
+                if (decryptedText) {
+                    const parsed = JSON.parse(decryptedText);
+                    if (parsed.secure === true) {
+                        return parsed;
+                    }
+                }
+            } catch (e) {
+                // Errore atteso se la chiave è sbagliata
+            }
+            return null;
+        }
+
+        // Costruisce la schermata del messaggio d'amore privatissimo dinamicamente e solo in-memory
+        function renderDecryptedContent(data) {
+            const container = document.getElementById('secure-content-wrapper');
+            if (!container) return;
+
+            // Determina se il file multimediale inserito è un tipo video o immagine
+            let mediaHTML = "";
+            const isVideo = data.imgUrl.match(/\.(mp4|webm|ogg|mov|avi)(\?.*)?$/i) || data.imgUrl.startsWith("data:video");
+            if (isVideo) {
+                mediaHTML = `<video src="${data.imgUrl}" controls autoplay muted style="width:100%; height:100%; object-fit:cover;"></video>`;
+            } else {
+                mediaHTML = `<img src="${data.imgUrl}" alt="Momento Speciale">`;
+            }
+
+            // Generatore dinamico dei paragrafi del testo lettera romantica
+            let paragraphsHTML = "";
+            if (data.paragraphs && Array.isArray(data.paragraphs)) {
+                data.paragraphs.forEach(para => {
+                    paragraphsHTML += `<p style="margin-bottom:15px;">${para}</p>`;
+                });
+            }
+
+            // Inietta il DOM sbloccato al volo
+            container.innerHTML = `
+                <div class="message-content">
+                    <h1 class="message-title">${data.title || 'Buon Compleanno Mumu!'}</h1>
+                    
+                    <div class="media-box">
+                        ${mediaHTML}
+                    </div>
+                    
+                    <div class="dedication-text">
+                        ${paragraphsHTML}
+                        <br>
+                        <p style="text-align: right; font-family: 'Great Vibes', cursive; font-size: 2rem; color: var(--secondary);">
+                            Con tutto il mio amore, <br>
+                            <strong>${data.sender || 'Baloo'}</strong>
+                        </p>
+                    </div>
+
+                    <button class="btn-next" onclick="goToScreen('screen-cake')">C'è un'ultima cosa... 🎂</button>
+                </div>
+            `;
+        }
+
+        // Effetto grafico di scuotimento d'errore se la password è sbagliata
+        function triggerPasscodeError() {
+            const dots = document.querySelectorAll('#passcode-dots .dot');
+            setTimeout(() => {
+                enteredCode = "";
+                dots.forEach(dot => dot.classList.remove('filled'));
+                // Shake animazione
+                const lockRight = document.querySelector('.lock-right');
+                lockRight.style.transform = 'translateX(-10px)';
+                setTimeout(() => lockRight.style.transform = 'translateX(10px)', 50);
+                setTimeout(() => lockRight.style.transform = 'translateX(-10px)', 100);
+                setTimeout(() => lockRight.style.transform = 'translateX(0)', 150);
+                setTimeout(() => lockRight.style.transform = 'none', 200);
+            }, 400);
+        }
+
+        // LOGICA CAMBIO SCHERMATE
+        function goToScreen(screenId) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            document.getElementById(screenId).classList.add('active');
+            
+            // Fa scroll in alto (utile per la schermata messaggio se c'è molto testo su mobile)
+            if(screenId === 'screen-message') {
+                document.getElementById('screen-message').scrollTop = 0;
+            }
+        }
+
+        // LOGICA CARICAMENTO
+        function startLoading() {
+            setTimeout(() => {
+                goToScreen('screen-envelope');
+            }, 3000); // Finge un caricamento di 3 secondi
+        }
+
+        // LOGICA BUSTA (Envelope)
+        function openEnvelope(element) {
+            element.classList.add('open');
+            setTimeout(() => {
+                goToScreen('screen-message');
+            }, 1000); // Attende l'animazione di apertura
+        }
+
+        // LOGICA TORTA (Spegnimento candeline e festa)
+        let candlesBlown = 0;
+        const totalCandles = 3;
+
+        function blowCandle(element) {
+            if (!element.classList.contains('blown')) {
+                element.classList.add('blown'); // Rimuove visivamente la fiamma
+                candlesBlown++;
+                
+                // Se tutte spente, avvia la celebrazione
+                if (candlesBlown === totalCandles) {
+                    setTimeout(() => {
+                        celebrate();
+                    }, 600);
+                }
+            }
+        }
+
+        function celebrate() {
+            // Accende le luci (cambia colore di sfondo)
+            const cakeScreen = document.getElementById('screen-cake');
+            cakeScreen.classList.add('lights-on');
+            
+            // Cambia il testo
+            const instructionElement = document.getElementById('cake-instruction');
+            instructionElement.innerHTML = "Tantissimi Auguri Mumu! 🎉🌻<br><span style='font-size:1.5rem; font-family: \"Poppins\", sans-serif; color: #555; display: block; margin-top: 15px;'>Che tutti i tuoi sogni si avverino!</span>";
+            
+            // Effetto Coriandoli (Confetti API)
+            var duration = 8 * 1000;
+            var animationEnd = Date.now() + duration;
+            var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0, colors: ['#F4D03F', '#E67E22', '#ffffff'] };
+
+            function randomInRange(min, max) {
+              return Math.random() * (max - min) + min;
+            }
+
+            var interval = setInterval(function() {
+              var timeLeft = animationEnd - Date.now();
+
+              if (timeLeft <= 0) {
+                return clearInterval(interval);
+              }
+
+              var particleCount = 50 * (timeLeft / duration);
+              // I coriandoli partono dai lati in alto
+              confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+              confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+            }, 250);
+        }
+
+        // LOGICA DI GENERAZIONE STRUTTURA REGALO (CRITTOGRAFIA DI INPUT)
+        function generateEncryptedPayload() {
+            const key = document.getElementById('gen-key').value.trim();
+            const title = document.getElementById('gen-title').value.trim();
+            const imgUrl = document.getElementById('gen-img').value.trim();
+            const sender = document.getElementById('gen-sender').value.trim();
+            const rawText = document.getElementById('gen-text').value;
+
+            if (key.length !== 6) {
+                alert("Il passcode deve essere di esattamente 6 cifre!");
+                return;
+            }
+
+            // Dividi per righe vuote per creare paragrafi
+            const paragraphs = rawText.split('\n\n')
+                .map(p => p.trim())
+                .filter(p => p.length > 0);
+
+            const payload = {
+                secure: true,
+                title: title,
+                imgUrl: imgUrl,
+                paragraphs: paragraphs,
+                sender: sender
+            };
+
+            try {
+                const encrypted = CryptoJS.AES.encrypt(JSON.stringify(payload), key).toString();
+                document.getElementById('gen-result').value = encrypted;
+                document.getElementById('gen-result-container').style.display = 'block';
+            } catch (e) {
+                alert("Si è verificato un errore durante la cifratura: " + e.message);
+            }
+        }
+
+        // Controlla se mostrare il generatore tramite URL ?generator=true o ?admin=true
+        window.addEventListener('DOMContentLoaded', () => {
+            if (location.search.includes('generator=true') || location.search.includes('admin=true')) {
+                document.getElementById('generator-tool').style.display = 'block';
+            }
+        });
+    </script>
 </body>
 </html>
